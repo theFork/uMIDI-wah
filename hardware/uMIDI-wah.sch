@@ -92,8 +92,8 @@ $Comp
 L LM741 U?
 U 1 1 562BB161
 P 6300 2500
-F 0 "U?" H 6450 2650 60  0000 C CNN
-F 1 "uA741CDR" H 6450 2750 60  0000 C CNN
+F 0 "U?" H 6500 2750 60  0000 C CNN
+F 1 "uA741CDR" H 6500 2650 60  0000 C CNN
 F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 6300 2500 60  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/ua741.pdf" H 6450 2650 60  0001 C CNN
 F 4 "Mouser" H 6450 2650 60  0001 C CNN "Supplier"
@@ -275,8 +275,13 @@ U 1 1 562BB1CE
 P 7650 2900
 F 0 "RV?" H 7650 2800 50  0000 C CNN
 F 1 "10k" H 7650 2900 50  0000 C CNN
-F 2 "" H 7650 2900 60  0000 C CNN
-F 3 "" H 7650 2900 60  0000 C CNN
+F 2 "uMIDI-wah:trimmer-ttelectronics-model23" H 7650 2900 60  0000 C CNN
+F 3 "http://www.bitechnologies.com/pdfs/23.pdf" H 7650 2900 60  0001 C CNN
+F 4 "Mouser" H 7650 2900 60  0001 C CNN "Supplier"
+F 5 "858-23BR10KLFTR " H 7650 2900 60  0001 C CNN "Supplier Part Number"
+F 6 "http://www.mouser.de/Search/ProductDetail.aspx?qs=gQBTb7UQo2KQtf18q%252b3T0Q%3d%3d" H 7650 2900 60  0001 C CNN "Supplier Link"
+F 7 "TT electronics" H 7650 2900 60  0001 C CNN "Manufacturer"
+F 8 "http://www.bitechnologies.com/pdfs/23.pdf" H 7650 2900 60  0001 C CNN "Manufacturer Part Number"
 	1    7650 2900
 	0    1    1    0   
 $EndComp
