@@ -275,7 +275,7 @@ U 1 1 562BB1CE
 P 7650 2900
 F 0 "RV?" H 7650 2800 50  0000 C CNN
 F 1 "10k" H 7650 2900 50  0000 C CNN
-F 2 "uMIDI-wah:trimmer-ttelectronics-model23" H 7650 2900 60  0000 C CNN
+F 2 "uMIDI-wah:trimmer-ttelectronics-model23" H 7650 2900 60  0001 C CNN
 F 3 "http://www.bitechnologies.com/pdfs/23.pdf" H 7650 2900 60  0001 C CNN
 F 4 "Mouser" H 7650 2900 60  0001 C CNN "Supplier"
 F 5 "858-23BR10KLFTR " H 7650 2900 60  0001 C CNN "Supplier Part Number"
