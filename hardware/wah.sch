@@ -508,7 +508,12 @@ P 6550 5050
 F 0 "D2" H 6550 5150 50  0000 C CNN
 F 1 "LED" H 6550 4950 50  0000 C CNN
 F 2 "" H 6550 5050 60  0000 C CNN
-F 3 "" H 6550 5050 60  0000 C CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP7113SRD-D.pdf" H 6550 5150 60  0001 C CNN
+F 4 "Mouser" H 6550 5150 60  0001 C CNN "Supplier"
+F 5 "604-WP7113SRD/D" H 6550 5150 60  0001 C CNN "Supplier Part Number"
+F 6 "http://www.mouser.de/ProductDetail/Kingbright/WP7113SRD-D/?qs=sGAEpiMZZMvHYEB9WUp7ElN5I0Rojjgy18duyl9iYGM%3d" H 6550 5150 60  0001 C CNN "Supplier Link"
+F 7 "Kingbright" H 6550 5150 60  0001 C CNN "Manufacturer"
+F 8 "WP7113SRD/D" H 6550 5150 60  0001 C CNN "Manufacturer Part Number"
 	1    6550 5050
 	0    1    1    0   
 $EndComp
