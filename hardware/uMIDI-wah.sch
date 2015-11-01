@@ -357,9 +357,12 @@ L Photores R8
 U 1 1 562BB252
 P 6350 4300
 F 0 "R8" V 6430 4300 50  0000 C CNN
-F 1 "Photores" V 6560 4300 50  0000 C TNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" H 6280 4300 30  0001 C CNN
-F 3 "" H 6350 4300 30  0000 C CNN
+F 1 "LDR 05" V 6560 4300 50  0000 C TNN
+F 2 "Capacitors_Elko_ThroughHole:Elko_vert_20x10mm_RM7.5" H 6280 4300 30  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/A500/LDR05%23IMP.pdf" H 6430 4300 60  0001 C CNN
+F 4 "Reichelt" H 6430 4300 60  0001 C CNN "Supplier"
+F 5 "LDR 05" H 6430 4300 60  0001 C CNN "Supplier Part Number"
+F 6 "http://www.reichelt.de/LDR-05/3/index.html?&ACTION=3&LA=446&ARTICLE=10207&artnr=LDR+05&SEARCH=ldr05" H 6430 4300 60  0001 C CNN "Supplier Link"
 	1    6350 4300
 	1    0    0    -1  
 $EndComp
