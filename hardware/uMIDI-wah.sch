@@ -278,10 +278,10 @@ F 1 "10k" H 7650 2900 50  0000 C CNN
 F 2 "uMIDI-wah:trimmer-ttelectronics-model23" H 7650 2900 60  0001 C CNN
 F 3 "http://www.bitechnologies.com/pdfs/23.pdf" H 7650 2900 60  0001 C CNN
 F 4 "Mouser" H 7650 2900 60  0001 C CNN "Supplier"
-F 5 "858-23BR10KLFTR " H 7650 2900 60  0001 C CNN "Supplier Part Number"
-F 6 "http://www.mouser.de/Search/ProductDetail.aspx?qs=gQBTb7UQo2KQtf18q%252b3T0Q%3d%3d" H 7650 2900 60  0001 C CNN "Supplier Link"
+F 5 "858-23BR10KLFTR" H 7650 2900 60  0001 C CNN "Supplier Part Number"
+F 6 "http://www.mouser.de/ProductDetail/TT-Electronics/23BR10KLFTR/?qs=%2fha2pyFaduiZ3ynuiECRXesjuD6u2n4EgsENysIu9nE8y5NJs6CTRA%3d%3d" H 7650 2900 60  0001 C CNN "Supplier Link"
 F 7 "TT electronics" H 7650 2900 60  0001 C CNN "Manufacturer"
-F 8 "http://www.bitechnologies.com/pdfs/23.pdf" H 7650 2900 60  0001 C CNN "Manufacturer Part Number"
+F 8 "23BR10KLFTR" H 7650 2900 60  0001 C CNN "Manufacturer Part Number"
 	1    7650 2900
 	0    1    1    0   
 $EndComp
