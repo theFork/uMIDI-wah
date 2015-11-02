@@ -437,17 +437,17 @@ $EndComp
 $Comp
 L R R6
 U 1 1 562BB270
-P 5700 4050
-F 0 "R6" V 5780 4050 50  0000 C CNN
-F 1 "82" V 5707 4051 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 5630 4050 30  0001 C CNN
-F 3 "http://www.vishay.com/docs/20022/dcrcwhe3.pdf" H 5780 4050 60  0001 C CNN
-F 4 "Mouser" H 5780 4050 60  0001 C CNN "Supplier"
-F 5 "71-CRCW0603-82-E3" H 5780 4050 60  0001 C CNN "Supplier Part Number"
-F 6 "http://www.mouser.de/ProductDetail/Vishay-Dale/CRCW060382R0FKEA/?qs=sGAEpiMZZMu61qfTUdNhG3XwnH6YDjgjsOpBFaxMcQ0%3d" H 5780 4050 60  0001 C CNN "Supplier Link"
-F 7 "Vishay/Dale" H 5780 4050 60  0001 C CNN "Manufacturer"
-F 8 "CRCW060382R0FKEA" H 5780 4050 60  0001 C CNN "Manufacturer Part Number"
-	1    5700 4050
+P 5150 4050
+F 0 "R6" V 5230 4050 50  0000 C CNN
+F 1 "39" V 5157 4051 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 5080 4050 30  0001 C CNN
+F 3 "http://www.vishay.com/docs/20022/dcrcwhe3.pdf" H 5230 4050 60  0001 C CNN
+F 4 "Mouser" H 5230 4050 60  0001 C CNN "Supplier"
+F 5 "71-CRCW0603-39-E3" H 5230 4050 60  0001 C CNN "Supplier Part Number"
+F 6 "http://www.mouser.de/ProductDetail/Vishay-Dale/CRCW060339R0FKEA/?qs=sGAEpiMZZMu61qfTUdNhG3XwnH6YDjgj1g%252b%2fh3h2zQ0%3d" H 5230 4050 60  0001 C CNN "Supplier Link"
+F 7 "Vishay/Dale" H 5230 4050 60  0001 C CNN "Manufacturer"
+F 8 "CRCW060339R0FKEA" H 5230 4050 60  0001 C CNN "Manufacturer Part Number"
+	1    5150 4050
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -646,8 +646,6 @@ Wire Wire Line
 Wire Wire Line
 	4300 5150 5600 5150
 Wire Wire Line
-	5950 4050 5850 4050
-Wire Wire Line
 	5950 4050 5950 4100
 Wire Wire Line
 	5500 5850 5600 5850
@@ -761,12 +759,12 @@ Connection ~ 1700 1700
 Wire Wire Line
 	1500 1750 1500 1700
 Connection ~ 1500 1700
-Text Label 5300 4050 0    60   ~ 0
+Text Label 4800 4050 0    60   ~ 0
 PWM
 Text Label 4250 5400 0    60   ~ 0
 Bypass_n
 Wire Wire Line
-	5300 4050 5550 4050
+	4800 4050 5000 4050
 Wire Wire Line
 	4250 5400 5600 5400
 Text Label 1700 4250 0    60   ~ 0
@@ -847,4 +845,56 @@ Wire Wire Line
 	1650 4250 1700 4250
 Wire Wire Line
 	1650 4350 1700 4350
+$Comp
+L R R15
+U 1 1 56376977
+P 5650 4050
+F 0 "R15" V 5730 4050 50  0000 C CNN
+F 1 "39" V 5657 4051 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 5580 4050 30  0001 C CNN
+F 3 "http://www.vishay.com/docs/20022/dcrcwhe3.pdf" H 5730 4050 60  0001 C CNN
+F 4 "Mouser" H 5730 4050 60  0001 C CNN "Supplier"
+F 5 "71-CRCW0603-39-E3" H 5730 4050 60  0001 C CNN "Supplier Part Number"
+F 6 "http://www.mouser.de/ProductDetail/Vishay-Dale/CRCW060339R0FKEA/?qs=sGAEpiMZZMu61qfTUdNhG3XwnH6YDjgj1g%252b%2fh3h2zQ0%3d" H 5730 4050 60  0001 C CNN "Supplier Link"
+F 7 "Vishay/Dale" H 5730 4050 60  0001 C CNN "Manufacturer"
+F 8 "CRCW060339R0FKEA" H 5730 4050 60  0001 C CNN "Manufacturer Part Number"
+	1    5650 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5800 4050 5950 4050
+$Comp
+L GND #PWR020
+U 1 1 563771A2
+P 5400 4500
+F 0 "#PWR020" H 5400 4250 60  0001 C CNN
+F 1 "GND" H 5400 4350 60  0001 C CNN
+F 2 "" H 5400 4500 60  0000 C CNN
+F 3 "" H 5400 4500 60  0000 C CNN
+	1    5400 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 4500 5400 4450
+Wire Wire Line
+	5300 4050 5500 4050
+Wire Wire Line
+	5400 4150 5400 4050
+Connection ~ 5400 4050
+$Comp
+L C C15
+U 1 1 56377C19
+P 5400 4300
+F 0 "C15" H 5300 4200 50  0000 L CNN
+F 1 "10u" H 5250 4400 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 5438 4150 30  0001 C CNN
+F 3 "http://psearch.en.murata.com/capacitor/product/GRM21BR61E106KA73%23.pdf" H 5300 4200 60  0001 C CNN
+F 4 "Mouser" H 5300 4200 60  0001 C CNN "Supplier"
+F 5 "81-GRM21BR61E106KA3L" H 5300 4200 60  0001 C CNN "Supplier Part Number"
+F 6 "http://eu.mouser.com/ProductDetail/Murata-Electronics/GRM21BR61E106KA73L/?qs=sGAEpiMZZMs0AnBnWHyRQEM2qvC6XUvU2imHfdddTY8%3d" H 5300 4200 60  0001 C CNN "Supplier Link"
+F 7 "Murata" H 5300 4200 60  0001 C CNN "Manufacturer"
+F 8 "GRM21BR61E106KA73L" H 5300 4200 60  0001 C CNN "Manufacturer Part Number"
+	1    5400 4300
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
