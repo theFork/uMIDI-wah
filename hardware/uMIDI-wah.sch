@@ -113,14 +113,14 @@ L LM741 U1
 U 1 1 562BB161
 P 6300 2500
 F 0 "U1" H 6500 2750 60  0000 C CNN
-F 1 "uA741CDR" H 6500 2650 60  0000 C CNN
+F 1 "TL071CPSR" H 6500 2650 60  0000 C CNN
 F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 6300 2500 60  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ua741.pdf" H 6450 2650 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 6450 2650 60  0001 C CNN
 F 4 "Mouser" H 6450 2650 60  0001 C CNN "Supplier"
-F 5 "595-UA741CDR " H 6450 2650 60  0001 C CNN "Supplier Part Number"
-F 6 "http://www.mouser.de/ProductDetail/Texas-Instruments/UA741CDR/?qs=sGAEpiMZZMtCHixnSjNA6CASlt253HCj%252b%2f4yIXIFsKc%3d" H 6450 2650 60  0001 C CNN "Supplier Link"
+F 5 "595-TL071CPSR" H 6450 2650 60  0001 C CNN "Supplier Part Number"
+F 6 "http://www.mouser.de/ProductDetail/Texas-Instruments/TL071CPSR/?qs=sGAEpiMZZMtCHixnSjNA6Dh9CQmOfcFcVl60wpC3vp4%3d" H 6450 2650 60  0001 C CNN "Supplier Link"
 F 7 "Texas Instruments" H 6450 2650 60  0001 C CNN "Manufacturer"
-F 8 "UA741CDR" H 6450 2650 60  0001 C CNN "Manufacturer Part Number"
+F 8 "TL071CPSR" H 6450 2650 60  0001 C CNN "Manufacturer Part Number"
 	1    6300 2500
 	1    0    0    -1  
 $EndComp

@@ -1094,7 +1094,7 @@
     (fp_text reference U1 (at 0 -3.5 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value uA741CDR (at 0 3.5 90) (layer F.Fab)
+    (fp_text value TL071CPSR (at 0 3.5 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -3.75 -2.75) (end -3.75 2.75) (layer F.CrtYd) (width 0.05))
