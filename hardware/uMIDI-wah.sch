@@ -289,10 +289,10 @@ F 1 "470k" V 6357 3451 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805" V 6280 3450 30  0001 C CNN
 F 3 "http://www.vishay.com/docs/20022/dcrcwhe3.pdf" H 6250 3450 60  0001 C CNN
 F 4 "Mouser" H 6250 3450 60  0001 C CNN "Supplier"
-F 5 "71-CRCW0805J-10K-E3" H 6250 3450 60  0001 C CNN "Supplier Part Number"
-F 6 "http://www.mouser.de/ProductDetail/Vishay-Dale/CRCW080510K0JNEA/?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3G7HGBoM9TRSM%3d" H 6250 3450 60  0001 C CNN "Supplier Link"
+F 5 "71-CRCW0805470KFKEA" H 6250 3450 60  0001 C CNN "Supplier Part Number"
+F 6 "http://www.mouser.de/ProductDetail/Vishay-Dale/CRCW0805470KFKEA/?qs=sGAEpiMZZMvdGkrng054tygjBeyq%2fOAO0HXtBtjrgKY%3d" H 6250 3450 60  0001 C CNN "Supplier Link"
 F 7 "Vishay/Dale" H 6250 3450 60  0001 C CNN "Manufacturer"
-F 8 "CRCW080510K0JNEA" H 6250 3450 60  0001 C CNN "Manufacturer Part Number"
+F 8 "CRCW0805470KFKEA" H 6250 3450 60  0001 C CNN "Manufacturer Part Number"
 	1    6350 3450
 	0    1    1    0   
 $EndComp
