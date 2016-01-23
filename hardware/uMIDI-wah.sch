@@ -97,14 +97,14 @@ L C C7
 U 1 1 562BB15A
 P 5350 2600
 F 0 "C7" V 5200 2550 50  0000 L CNN
-F 1 "47n" V 5500 2550 50  0000 L CNN
+F 1 "4.7n" V 5500 2550 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 5388 2450 30  0001 C CNN
-F 3 "http://psearch.en.murata.com/capacitor/product/GRM21BR71H473KA01%23.pdf" H 5200 2550 60  0001 C CNN
-F 4 "Mouser" H 5200 2550 60  0001 C CNN "Supplier"
-F 5 "81-GRM40X473K50L" H 5200 2550 60  0001 C CNN "Supplier Part Number"
-F 6 "http://www.mouser.de/ProductDetail/Murata-Electronics/GRM21BR71H473KA01L/?qs=sGAEpiMZZMs0AnBnWHyRQKf3b7LydMIhqNu%252bJe6zVN8%3d" H 5200 2550 60  0001 C CNN "Supplier Link"
-F 7 "Murata" H 5200 2550 60  0001 C CNN "Manufacturer"
-F 8 "GRM21BR71H473KA01L" H 5200 2550 60  0001 C CNN "Manufacturer Part Number"
+F 3 "http://psearch.en.murata.com/capacitor/product/GRM216R71H472JA01%23.pdf" H 5200 2550 60  0001 C CNN
+F 4 "GRM216R71H472JA01D" V 5200 2550 50  0001 L CNN "Manufacturer Part Number"
+F 5 "Mouser" V 5200 2550 50  0001 L CNN "Supplier"
+F 6 "81-GRM40X472J50D" V 5200 2550 50  0001 L CNN "Supplier Part Number"
+F 7 "Murata" V 5200 2550 50  0001 L CNN "Manufacturer"
+F 8 "http://www.mouser.de/ProductDetail/Murata-Electronics/GRM216R71H472JA01D/?qs=sGAEpiMZZMs0AnBnWHyRQK%2fIskrkjrHOHa5Z4V6FfxI%3d" V 5200 2550 50  0001 L CNN "Supplier Link"
 	1    5350 2600
 	0    1    1    0   
 $EndComp
@@ -316,15 +316,15 @@ $Comp
 L C C11
 U 1 1 562BB1C0
 P 6950 3650
-F 0 "C11" H 6850 3550 50  0000 L CNN
-F 1 "2n" H 6850 3750 50  0000 L CNN
+F 0 "C11" H 6800 3550 50  0000 L CNN
+F 1 "2.2n" H 6750 3750 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 6988 3500 30  0001 C CNN
-F 3 "http://www.kemet.com/Lists/ProductCatalog/Attachments/46/KEM_C1003_C0G_SMD.pdf" H 6850 3550 60  0001 C CNN
-F 4 "Mouser" H 6850 3550 60  0001 C CNN "Supplier"
-F 5 "80-C0805C202J3G" H 6850 3550 60  0001 C CNN "Supplier Part Number"
-F 6 "http://www.mouser.de/ProductDetail/Kemet/C0805C202J3GACTU/?qs=sGAEpiMZZMs0AnBnWHyRQCXsKWBJIgVSmQzlfJ9Rsqs%3d" H 6850 3550 60  0001 C CNN "Supplier Link"
-F 7 "Kemet" H 6850 3550 60  0001 C CNN "Manufacturer"
-F 8 "C0805C202J3GACTU" H 6850 3550 60  0001 C CNN "Manufacturer Part Number"
+F 3 "http://psearch.en.murata.com/capacitor/product/GRM216R71H222JA01%23.pdf" H 6850 3550 60  0001 C CNN
+F 4 "GRM216R71H222JA01D" H 6800 3550 50  0001 L CNN "Manufacturer Part Number"
+F 5 "Mouser" H 6800 3550 50  0001 L CNN "Supplier"
+F 6 "81-GRM40X222J50D" H 6800 3550 50  0001 L CNN "Supplier Part Number"
+F 7 "Murata" H 6800 3550 50  0001 L CNN "Manufacturer"
+F 8 "http://www.mouser.de/ProductDetail/Murata-Electronics/GRM216R71H222JA01D/?qs=sGAEpiMZZMs0AnBnWHyRQPmAk23g1ayjWOHDo6KRn7k%3d" H 6800 3550 50  0001 L CNN "Supplier Link"
 	1    6950 3650
 	-1   0    0    1   
 $EndComp
