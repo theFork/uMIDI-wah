@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name uMIDI-wah)(type KiCad)(uri ${KIPRJMOD}/footprints)(options "")(descr "Project specific"))
+  (lib (name uMIDI)(type KiCad)(uri ${KIPRJMOD}/uMIDI.pretty)(options "")(descr ""))
 )
