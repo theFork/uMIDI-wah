@@ -1,0 +1,282 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R2
+U 1 1 5C880FCE
+P 4350 1700
+F 0 "R2" V 4143 1700 50  0000 C CNN
+F 1 "1k" V 4234 1700 50  0000 C CNN
+F 2 "" V 4280 1700 50  0001 C CNN
+F 3 "~" H 4350 1700 50  0001 C CNN
+	1    4350 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5C8813A3
+P 4350 2400
+F 0 "R1" V 4557 2400 50  0000 C CNN
+F 1 "100k" V 4466 2400 50  0000 C CNN
+F 2 "" V 4280 2400 50  0001 C CNN
+F 3 "~" H 4350 2400 50  0001 C CNN
+	1    4350 2400
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5C88142A
+P 4800 2750
+F 0 "R4" H 4870 2796 50  0000 L CNN
+F 1 "1k" H 4870 2705 50  0000 L CNN
+F 2 "" V 4730 2750 50  0001 C CNN
+F 3 "~" H 4800 2750 50  0001 C CNN
+	1    4800 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5C8815C7
+P 7250 3100
+F 0 "R8" V 7457 3100 50  0000 C CNN
+F 1 "100k" V 7366 3100 50  0000 C CNN
+F 2 "" V 7180 3100 50  0001 C CNN
+F 3 "~" H 7250 3100 50  0001 C CNN
+	1    7250 3100
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5C881637
+P 7700 2650
+F 0 "R7" H 7770 2696 50  0000 L CNN
+F 1 "220k" H 7770 2605 50  0000 L CNN
+F 2 "" V 7630 2650 50  0001 C CNN
+F 3 "~" H 7700 2650 50  0001 C CNN
+	1    7700 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 5C8816E9
+P 8600 3100
+F 0 "R9" H 8670 3146 50  0000 L CNN
+F 1 "10k" H 8670 3055 50  0000 L CNN
+F 2 "" V 8530 3100 50  0001 C CNN
+F 3 "~" H 8600 3100 50  0001 C CNN
+	1    8600 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5C88172B
+P 5250 1700
+F 0 "R3" V 5043 1700 50  0000 C CNN
+F 1 "100k" V 5134 1700 50  0000 C CNN
+F 2 "" V 5180 1700 50  0001 C CNN
+F 3 "~" H 5250 1700 50  0001 C CNN
+	1    5250 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 5C881869
+P 8150 2300
+F 0 "C6" V 7898 2300 50  0000 C CNN
+F 1 "2.2u" V 7989 2300 50  0000 C CNN
+F 2 "" H 8188 2150 50  0001 C CNN
+F 3 "~" H 8150 2300 50  0001 C CNN
+	1    8150 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5C881920
+P 5350 3200
+F 0 "C4" V 5098 3200 50  0000 C CNN
+F 1 "33n" V 5189 3200 50  0000 C CNN
+F 2 "" H 5388 3050 50  0001 C CNN
+F 3 "~" H 5350 3200 50  0001 C CNN
+	1    5350 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5C881A04
+P 6350 2600
+F 0 "R6" V 6557 2600 50  0000 C CNN
+F 1 "220k" V 6466 2600 50  0000 C CNN
+F 2 "" V 6280 2600 50  0001 C CNN
+F 3 "~" H 6350 2600 50  0001 C CNN
+	1    6350 2600
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:Opamp_Dual_Generic U1
+U 1 1 5C8821D1
+P 5300 2300
+F 0 "U1" H 5300 1933 50  0000 C CNN
+F 1 "Opamp_Dual_Generic" H 5300 2024 50  0000 C CNN
+F 2 "" H 5300 2300 50  0001 C CNN
+F 3 "~" H 5300 2300 50  0001 C CNN
+	1    5300 2300
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:Opamp_Dual_Generic U1
+U 2 1 5C8824DF
+P 6300 3200
+F 0 "U1" H 6300 2833 50  0000 C CNN
+F 1 "Opamp_Dual_Generic" H 6300 2924 50  0000 C CNN
+F 2 "" H 6300 3200 50  0001 C CNN
+F 3 "~" H 6300 3200 50  0001 C CNN
+	2    6300 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Opamp_Dual_Generic U1
+U 3 1 5C8825E4
+P 1850 2600
+F 0 "U1" H 1808 2646 50  0000 L CNN
+F 1 "Opamp_Dual_Generic" H 1808 2555 50  0000 L CNN
+F 2 "" H 1850 2600 50  0001 C CNN
+F 3 "~" H 1850 2600 50  0001 C CNN
+	3    1850 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L1
+U 1 1 5C88342E
+P 4800 3550
+F 0 "L1" H 4853 3596 50  0000 L CNN
+F 1 "500m" H 4853 3505 50  0000 L CNN
+F 2 "" H 4800 3550 50  0001 C CNN
+F 3 "~" H 4800 3550 50  0001 C CNN
+	1    4800 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 3100 6800 2600
+Wire Wire Line
+	5800 2600 5800 3200
+Connection ~ 5800 3200
+Wire Wire Line
+	7700 3100 7700 2800
+Wire Wire Line
+	5000 2400 4800 2400
+Wire Wire Line
+	4800 2400 4800 2600
+Wire Wire Line
+	4800 2900 4800 3200
+Wire Wire Line
+	4800 3200 5200 3200
+Wire Wire Line
+	4800 3400 4800 3200
+Connection ~ 4800 3200
+Wire Wire Line
+	4800 3200 4600 3200
+Wire Wire Line
+	7400 3100 7700 3100
+Wire Wire Line
+	6800 3100 7100 3100
+Connection ~ 6800 3100
+Wire Wire Line
+	5500 3200 5800 3200
+Wire Wire Line
+	7700 2300 7700 2500
+Wire Wire Line
+	5000 2200 4800 2200
+Wire Wire Line
+	4800 2200 4800 1700
+Wire Wire Line
+	4800 1700 5100 1700
+Wire Wire Line
+	5800 2600 6200 2600
+Wire Wire Line
+	6500 2600 6800 2600
+Wire Wire Line
+	6600 3100 6800 3100
+Wire Wire Line
+	5800 3200 6000 3200
+Wire Wire Line
+	5800 2300 5800 1700
+Connection ~ 5800 2300
+Wire Wire Line
+	5800 2300 7700 2300
+Wire Wire Line
+	5400 1700 5800 1700
+Wire Wire Line
+	5600 2300 5800 2300
+Wire Wire Line
+	4500 1700 4800 1700
+Connection ~ 4800 1700
+Wire Wire Line
+	4500 2400 4800 2400
+Connection ~ 4800 2400
+Wire Wire Line
+	7700 2300 8000 2300
+Connection ~ 7700 2300
+Wire Wire Line
+	8700 2300 8600 2300
+Wire Wire Line
+	8600 3900 8600 3250
+Wire Wire Line
+	6600 3300 6800 3300
+Wire Wire Line
+	6800 3300 6800 3900
+Wire Wire Line
+	4800 3700 4800 3900
+Wire Wire Line
+	4800 3900 6800 3900
+Connection ~ 6800 3900
+Connection ~ 4800 3900
+$Comp
+L power:GND #PWR?
+U 1 1 5C88B808
+P 6800 3900
+F 0 "#PWR?" H 6800 3650 50  0001 C CNN
+F 1 "GND" H 6805 3727 50  0000 C CNN
+F 2 "" H 6800 3900 50  0001 C CNN
+F 3 "" H 6800 3900 50  0001 C CNN
+	1    6800 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 1700 3800 3900
+Wire Wire Line
+	3800 1700 4200 1700
+Text Label 8700 2300 0    50   ~ 0
+out
+Text Label 4000 2400 0    50   ~ 0
+in
+Wire Wire Line
+	4000 2400 4200 2400
+Wire Wire Line
+	3800 3900 4800 3900
+Text Label 4600 3200 0    50   ~ 0
+q
+Wire Wire Line
+	6800 3900 8600 3900
+Text Label 7850 3100 0    50   ~ 0
+wah
+Wire Wire Line
+	7850 3100 7700 3100
+Connection ~ 7700 3100
+Wire Wire Line
+	8600 2950 8600 2300
+Connection ~ 8600 2300
+Wire Wire Line
+	8600 2300 8300 2300
+$EndSCHEMATC
