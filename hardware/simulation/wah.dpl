@@ -1,0 +1,28 @@
+<Qucs Schematic 0.0.19>
+<Properties>
+  <View=-43,70,640,627,3.18631,83,149>
+  <Grid=10,10,0>
+  <DataSet=bandpass.dat>
+  <DataDisplay=bandpass.sch>
+  <OpenDisplay=1>
+  <Script=bandpass.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 90 320 240 160 3 #c0c0c0 1 11 0 20 1 20000 0 0.01 1 10 1 -1 1 1 315 0 225 "f" "" "">
+	<"Pr1.v" #0000ff 0 3 0 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>
