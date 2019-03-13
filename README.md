@@ -1,4 +1,5 @@
-#uMIDI-wah
+# uMIDI-wah
+
 A simple optical guitar wah circuit.
 
 * Uses [uMIDI](https://github.com/theFork/uMIDI) for control, MIDI and USB communication
