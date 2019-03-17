@@ -1,0 +1,214 @@
+EESchema Schematic File Version 4
+LIBS:uMIDI-wah-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Transistor_BJT:BC547 Q?
+U 1 1 5C8EC7F4
+P 4150 3100
+AR Path="/5C8EC687/5C8EC7F4" Ref="Q?"  Part="1" 
+AR Path="/5C8EFAFF/5C8EC7F4" Ref="Q?"  Part="1" 
+F 0 "Q?" H 4341 3146 50  0000 L CNN
+F 1 "BC547" H 4341 3055 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4350 3025 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 4150 3100 50  0001 L CNN
+	1    4150 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C8EC98B
+P 4250 2600
+AR Path="/5C8EC687/5C8EC98B" Ref="D?"  Part="1" 
+AR Path="/5C8EFAFF/5C8EC98B" Ref="D?"  Part="1" 
+F 0 "D?" V 4288 2483 50  0000 R CNN
+F 1 "LED" V 4197 2483 50  0000 R CNN
+F 2 "" H 4250 2600 50  0001 C CNN
+F 3 "~" H 4250 2600 50  0001 C CNN
+	1    4250 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4250 2900 4250 2750
+$Comp
+L power:GND #PWR?
+U 1 1 5C8ECADB
+P 4250 3700
+AR Path="/5C8EC687/5C8ECADB" Ref="#PWR?"  Part="1" 
+AR Path="/5C8EFAFF/5C8ECADB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4250 3450 50  0001 C CNN
+F 1 "GND" H 4255 3527 50  0000 C CNN
+F 2 "" H 4250 3700 50  0001 C CNN
+F 3 "" H 4250 3700 50  0001 C CNN
+	1    4250 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C8ECB18
+P 4250 3500
+AR Path="/5C8EC687/5C8ECB18" Ref="R?"  Part="1" 
+AR Path="/5C8EFAFF/5C8ECB18" Ref="R?"  Part="1" 
+F 0 "R?" H 4320 3546 50  0000 L CNN
+F 1 "0" H 4320 3455 50  0000 L CNN
+F 2 "" V 4180 3500 50  0001 C CNN
+F 3 "~" H 4250 3500 50  0001 C CNN
+	1    4250 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 3350 4250 3300
+Wire Wire Line
+	4250 3700 4250 3650
+$Comp
+L Device:R R?
+U 1 1 5C8ECBDB
+P 3700 3100
+AR Path="/5C8EC687/5C8ECBDB" Ref="R?"  Part="1" 
+AR Path="/5C8EFAFF/5C8ECBDB" Ref="R?"  Part="1" 
+F 0 "R?" V 3493 3100 50  0000 C CNN
+F 1 "10k?!" V 3584 3100 50  0000 C CNN
+F 2 "" V 3630 3100 50  0001 C CNN
+F 3 "~" H 3700 3100 50  0001 C CNN
+	1    3700 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3850 3100 3950 3100
+Text HLabel 4050 2200 0    50   Input ~ 0
+Led_Supply
+Wire Wire Line
+	4050 2200 4250 2200
+Wire Wire Line
+	4250 2200 4250 2450
+$Comp
+L Device:C C?
+U 1 1 5C8ECCDD
+P 4500 2200
+AR Path="/5C8EC687/5C8ECCDD" Ref="C?"  Part="1" 
+AR Path="/5C8EFAFF/5C8ECCDD" Ref="C?"  Part="1" 
+F 0 "C?" V 4248 2200 50  0000 C CNN
+F 1 "100nF" V 4339 2200 50  0000 C CNN
+F 2 "" H 4538 2050 50  0001 C CNN
+F 3 "~" H 4500 2200 50  0001 C CNN
+	1    4500 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4350 2200 4250 2200
+Connection ~ 4250 2200
+$Comp
+L power:GND #PWR?
+U 1 1 5C8ECD89
+P 4750 2300
+AR Path="/5C8EC687/5C8ECD89" Ref="#PWR?"  Part="1" 
+AR Path="/5C8EFAFF/5C8ECD89" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4750 2050 50  0001 C CNN
+F 1 "GND" H 4755 2127 50  0000 C CNN
+F 2 "" H 4750 2300 50  0001 C CNN
+F 3 "" H 4750 2300 50  0001 C CNN
+	1    4750 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 2300 4750 2200
+Wire Wire Line
+	4750 2200 4650 2200
+Text HLabel 2650 3100 0    50   Input ~ 0
+PWM_Input
+$Comp
+L Device:C C?
+U 1 1 5C8ECE43
+P 3400 3400
+AR Path="/5C8EC687/5C8ECE43" Ref="C?"  Part="1" 
+AR Path="/5C8EFAFF/5C8ECE43" Ref="C?"  Part="1" 
+F 0 "C?" H 3285 3354 50  0000 R CNN
+F 1 "10uF" H 3285 3445 50  0000 R CNN
+F 2 "" H 3438 3250 50  0001 C CNN
+F 3 "~" H 3400 3400 50  0001 C CNN
+	1    3400 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5C8ECE9E
+P 2850 3400
+AR Path="/5C8EC687/5C8ECE9E" Ref="C?"  Part="1" 
+AR Path="/5C8EFAFF/5C8ECE9E" Ref="C?"  Part="1" 
+F 0 "C?" H 2735 3354 50  0000 R CNN
+F 1 "10uF" H 2735 3445 50  0000 R CNN
+F 2 "" H 2888 3250 50  0001 C CNN
+F 3 "~" H 2850 3400 50  0001 C CNN
+	1    2850 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 5C8ECEF6
+P 3100 3100
+AR Path="/5C8EC687/5C8ECEF6" Ref="L?"  Part="1" 
+AR Path="/5C8EFAFF/5C8ECEF6" Ref="L?"  Part="1" 
+F 0 "L?" V 3290 3100 50  0000 C CNN
+F 1 "10uH" V 3199 3100 50  0000 C CNN
+F 2 "" H 3100 3100 50  0001 C CNN
+F 3 "~" H 3100 3100 50  0001 C CNN
+	1    3100 3100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2850 3250 2850 3100
+Wire Wire Line
+	3250 3100 3400 3100
+Wire Wire Line
+	3400 3250 3400 3100
+Connection ~ 3400 3100
+Wire Wire Line
+	3400 3100 3550 3100
+$Comp
+L power:GND #PWR?
+U 1 1 5C8ED226
+P 3400 3700
+AR Path="/5C8EC687/5C8ED226" Ref="#PWR?"  Part="1" 
+AR Path="/5C8EFAFF/5C8ED226" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3400 3450 50  0001 C CNN
+F 1 "GND" H 3405 3527 50  0000 C CNN
+F 2 "" H 3400 3700 50  0001 C CNN
+F 3 "" H 3400 3700 50  0001 C CNN
+	1    3400 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C8ED241
+P 2850 3700
+AR Path="/5C8EC687/5C8ED241" Ref="#PWR?"  Part="1" 
+AR Path="/5C8EFAFF/5C8ED241" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2850 3450 50  0001 C CNN
+F 1 "GND" H 2855 3527 50  0000 C CNN
+F 2 "" H 2850 3700 50  0001 C CNN
+F 3 "" H 2850 3700 50  0001 C CNN
+	1    2850 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 3550 3400 3700
+Wire Wire Line
+	2850 3550 2850 3700
+Wire Wire Line
+	2850 3100 2950 3100
+Wire Wire Line
+	2650 3100 2850 3100
+Connection ~ 2850 3100
+$EndSCHEMATC
