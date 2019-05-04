@@ -248,13 +248,8 @@ AR Path="/56223A90/54E9BE9F/54D7AAB4" Ref="C23"  Part="1"
 AR Path="/5CD91DFE/54D7AAB4" Ref="C10"  Part="1" 
 F 0 "C10" H 6650 3350 50  0000 L CNN
 F 1 "100n" H 6650 3150 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 6638 3100 30  0001 C CNN
-F 3 "http://psearch.en.murata.com/capacitor/product/GRM188R71E104KA01%23.pdf" H 6650 3350 60  0001 C CNN
-F 4 "Mouser" H 3650 5050 60  0001 C CNN "Supplier"
-F 5 "81-GRM39X104K25 " H 3650 5050 60  0001 C CNN "Supplier Part Number"
-F 6 "http://eu.mouser.com/ProductDetail/Murata-Electronics/GRM188R71E104KA01D/?qs=sGAEpiMZZMs0AnBnWHyRQNOmsPzkISN0CS9R%252buxD0A8%3d" H 3650 5050 60  0001 C CNN "Supplier Link"
-F 7 "Murata" H 3650 5050 60  0001 C CNN "Manufacturer"
-F 8 "GRM188R71E104KA01D" H 3650 5050 60  0001 C CNN "Manufacturer Part Number"
+F 2 "Capacitors_SMD:C_0805" H 6638 3100 30  0001 C CNN
+F 3 "" H 6650 3350 60  0001 C CNN
 	1    6600 3250
 	1    0    0    -1  
 $EndComp
@@ -389,8 +384,8 @@ AR Path="/56223A90/54E9BE9F/54D7C874" Ref="C24"  Part="1"
 AR Path="/5CD91DFE/54D7C874" Ref="C11"  Part="1" 
 F 0 "C11" H 7350 3350 50  0000 L CNN
 F 1 "100n" H 7350 3150 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 7338 3100 30  0001 C CNN
-F 3 "http://psearch.en.murata.com/capacitor/product/GRM188R71E104KA01%23.pdf" H 7350 3350 60  0001 C CNN
+F 2 "Capacitors_SMD:C_0805" H 7338 3100 30  0001 C CNN
+F 3 "" H 7350 3350 60  0001 C CNN
 F 4 "Mouser" H 3650 5050 60  0001 C CNN "Supplier"
 F 5 "81-GRM39X104K25 " H 3650 5050 60  0001 C CNN "Supplier Part Number"
 F 6 "http://eu.mouser.com/ProductDetail/Murata-Electronics/GRM188R71E104KA01D/?qs=sGAEpiMZZMs0AnBnWHyRQNOmsPzkISN0CS9R%252buxD0A8%3d" H 3650 5050 60  0001 C CNN "Supplier Link"
