@@ -158,14 +158,8 @@ AR Path="/56223A90/54E9BE9F/54D79DA0" Ref="R27"  Part="1"
 AR Path="/5CD91DFE/54D79DA0" Ref="R16"  Part="1" 
 F 0 "R16" V 4100 4150 50  0000 C CNN
 F 1 "100M" V 4200 4150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4130 4150 30  0001 C CNN
-F 3 "http://www.vishay.com/docs/20022/dcrcwhe3.pdf" H 4100 4150 60  0001 C CNN
-F 4 "Mouser" H 4100 4150 60  0001 C CNN "Supplier"
-F 5 "71-CRCW0603100MJPEA" H 4100 4150 60  0001 C CNN "Supplier Part Number"
-F 6 "http://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW0603100MJPEAHR/?qs=sGAEpiMZZMu61qfTUdNhGwALI1ohWcNj4pxTQEkdYlc%3d" H 4100 4150 60  0001 C CNN "Supplier Link"
-F 7 "Vishay/Dale" H 4100 4150 60  0001 C CNN "Manufacturer"
-F 8 "CRCW0603100MJPEAHR" H 4100 4150 60  0001 C CNN "Manufacturer Part Number"
-F 9 "http://www.vishay.com/resistors-fixed/list/product-20011/" H 4100 4150 60  0001 C CNN "Manufacturer Link"
+F 2 "Resistors_SMD:R_0805" V 4130 4150 30  0001 C CNN
+F 3 "" H 4100 4150 60  0001 C CNN
 	1    4200 4150
 	1    0    0    -1  
 $EndComp
@@ -298,8 +292,8 @@ AR Path="/56223A90/54E9BE9F/54D7ADF3" Ref="R31"  Part="1"
 AR Path="/5CD91DFE/54D7ADF3" Ref="R20"  Part="1" 
 F 0 "R20" V 7580 4600 50  0000 C CNN
 F 1 "10k" V 7507 4601 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 7430 4600 30  0001 C CNN
-F 3 "http://www.vishay.com/docs/20022/dcrcwhe3.pdf" H 7580 4600 60  0001 C CNN
+F 2 "Resistors_SMD:R_0805" V 7430 4600 30  0001 C CNN
+F 3 "" H 7580 4600 60  0001 C CNN
 F 4 "Mouser" H 7580 4600 60  0001 C CNN "Supplier"
 F 5 "71-CRCW0603J-10K-E3" H 7580 4600 60  0001 C CNN "Supplier Part Number"
 F 6 "http://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0JNEA/?qs=sGAEpiMZZMu61qfTUdNhG%2fEx4adfNLScijTXbM5aXyk%3d" H 7580 4600 60  0001 C CNN "Supplier Link"
@@ -371,8 +365,8 @@ AR Path="/56223A90/54E9BE9F/54D7C711" Ref="R30"  Part="1"
 AR Path="/5CD91DFE/54D7C711" Ref="R19"  Part="1" 
 F 0 "R19" V 6850 3000 50  0000 C CNN
 F 1 "180" V 6957 3001 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 6880 3000 30  0001 C CNN
-F 3 "http://www.vishay.com/docs/20022/dcrcwhe3.pdf" H 6850 3000 60  0001 C CNN
+F 2 "Resistors_SMD:R_0805" V 6880 3000 30  0001 C CNN
+F 3 "" H 6850 3000 60  0001 C CNN
 F 4 "Mouser" H 6850 3000 60  0001 C CNN "Supplier"
 F 5 "71-CRCW0603J-180-E3 " H 6850 3000 60  0001 C CNN "Supplier Part Number"
 F 6 "http://www.mouser.de/ProductDetail/Vishay-Dale/CRCW0603180RJNEA/?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3GH6igdLd9ZmA%3d" H 6850 3000 60  0001 C CNN "Supplier Link"
@@ -477,8 +471,8 @@ AR Path="/56223A90/54E9BE9F/55F44BB0" Ref="R28"  Part="1"
 AR Path="/5CD91DFE/55F44BB0" Ref="R17"  Part="1" 
 F 0 "R17" V 4350 4150 50  0000 C CNN
 F 1 "100M" V 4450 4150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4380 4150 30  0001 C CNN
-F 3 "http://www.vishay.com/docs/20022/dcrcwhe3.pdf" H 4350 4150 60  0001 C CNN
+F 2 "Resistors_SMD:R_0805" V 4380 4150 30  0001 C CNN
+F 3 "" H 4350 4150 60  0001 C CNN
 F 4 "Mouser" H 4350 4150 60  0001 C CNN "Supplier"
 F 5 "71-CRCW0603100MJPEA" H 4350 4150 60  0001 C CNN "Supplier Part Number"
 F 6 "http://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW0603100MJPEAHR/?qs=sGAEpiMZZMu61qfTUdNhGwALI1ohWcNj4pxTQEkdYlc%3d" H 4350 4150 60  0001 C CNN "Supplier Link"
@@ -501,8 +495,8 @@ AR Path="/56223A90/54E9BE9F/55F44BF3" Ref="R29"  Part="1"
 AR Path="/5CD91DFE/55F44BF3" Ref="R18"  Part="1" 
 F 0 "R18" V 4600 4150 50  0000 C CNN
 F 1 "100M" V 4700 4150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V 4630 4150 30  0001 C CNN
-F 3 "http://www.vishay.com/docs/20022/dcrcwhe3.pdf" H 4600 4150 60  0001 C CNN
+F 2 "Resistors_SMD:R_0805" V 4630 4150 30  0001 C CNN
+F 3 "" H 4600 4150 60  0001 C CNN
 F 4 "Mouser" H 4600 4150 60  0001 C CNN "Supplier"
 F 5 "71-CRCW0603100MJPEA" H 4600 4150 60  0001 C CNN "Supplier Part Number"
 F 6 "http://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW0603100MJPEAHR/?qs=sGAEpiMZZMu61qfTUdNhGwALI1ohWcNj4pxTQEkdYlc%3d" H 4600 4150 60  0001 C CNN "Supplier Link"
