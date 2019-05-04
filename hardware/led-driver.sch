@@ -1,10 +1,11 @@
 EESchema Schematic File Version 4
 LIBS:uMIDI-wah-cache
-EELAYER 26 0
+LIBS:bypass-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 4
 Title ""
 Date ""
 Rev ""
@@ -79,7 +80,7 @@ P 3700 3100
 AR Path="/5C8EC687/5C8ECBDB" Ref="R?"  Part="1" 
 AR Path="/5C8EFAFF/5C8ECBDB" Ref="R?"  Part="1" 
 F 0 "R?" V 3493 3100 50  0000 C CNN
-F 1 "10k?!" V 3584 3100 50  0000 C CNN
+F 1 "1k" V 3584 3100 50  0000 C CNN
 F 2 "" V 3630 3100 50  0001 C CNN
 F 3 "~" H 3700 3100 50  0001 C CNN
 	1    3700 3100
@@ -142,19 +143,6 @@ F 3 "~" H 3400 3400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:C C?
-U 1 1 5C8ECE9E
-P 2850 3400
-AR Path="/5C8EC687/5C8ECE9E" Ref="C?"  Part="1" 
-AR Path="/5C8EFAFF/5C8ECE9E" Ref="C?"  Part="1" 
-F 0 "C?" H 2735 3354 50  0000 R CNN
-F 1 "10uF" H 2735 3445 50  0000 R CNN
-F 2 "" H 2888 3250 50  0001 C CNN
-F 3 "~" H 2850 3400 50  0001 C CNN
-	1    2850 3400
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:L L?
 U 1 1 5C8ECEF6
 P 3100 3100
@@ -167,8 +155,6 @@ F 3 "~" H 3100 3100 50  0001 C CNN
 	1    3100 3100
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2850 3250 2850 3100
 Wire Wire Line
 	3250 3100 3400 3100
 Wire Wire Line
@@ -189,26 +175,8 @@ F 3 "" H 3400 3700 50  0001 C CNN
 	1    3400 3700
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5C8ED241
-P 2850 3700
-AR Path="/5C8EC687/5C8ED241" Ref="#PWR?"  Part="1" 
-AR Path="/5C8EFAFF/5C8ED241" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2850 3450 50  0001 C CNN
-F 1 "GND" H 2855 3527 50  0000 C CNN
-F 2 "" H 2850 3700 50  0001 C CNN
-F 3 "" H 2850 3700 50  0001 C CNN
-	1    2850 3700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3400 3550 3400 3700
 Wire Wire Line
-	2850 3550 2850 3700
-Wire Wire Line
-	2850 3100 2950 3100
-Wire Wire Line
-	2650 3100 2850 3100
-Connection ~ 2850 3100
+	2650 3100 2950 3100
 $EndSCHEMATC
