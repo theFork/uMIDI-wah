@@ -114,24 +114,34 @@ F 3 "" H 5250 3950 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:Opamp_Dual_Generic U1
+L Device:Opamp_Dual_Generic IC1
 U 1 1 5C8821D1
 P 4200 3200
-F 0 "U1" H 4200 2833 50  0000 C CNN
-F 1 "Opamp_Dual_Generic" H 4200 2924 50  0000 C CNN
-F 2 "" H 4200 3200 50  0001 C CNN
-F 3 "~" H 4200 3200 50  0001 C CNN
+F 0 "IC1" H 4200 2833 50  0000 C CNN
+F 1 "TL072" H 4200 2924 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 4200 3200 50  0001 C CNN
+F 3 "https://docs-emea.rs-online.com/webdocs/1644/0900766b81644f9e.pdf" H 4200 3200 50  0001 C CNN
+F 4 "RS" H 4200 2833 50  0001 C CNN "Supplier"
+F 5 "https://de.rs-online.com/web/p/operationsverstarker/0304239/" H 4200 2833 50  0001 C CNN "Supplier Link"
+F 6 "TI" H 4200 2833 50  0001 C CNN "Manufacturer"
+F 7 "TL072CP" H 4200 2833 50  0001 C CNN "Manufacturer Part Number"
+F 8 "304-239" H 4200 2833 50  0001 C CNN "Supplier Part Number"
 	1    4200 3200
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:Opamp_Dual_Generic U1
+L Device:Opamp_Dual_Generic IC1
 U 2 1 5C8824DF
 P 5200 4550
-F 0 "U1" H 5200 4183 50  0000 C CNN
-F 1 "Opamp_Dual_Generic" H 5200 4274 50  0000 C CNN
-F 2 "" H 5200 4550 50  0001 C CNN
-F 3 "~" H 5200 4550 50  0001 C CNN
+F 0 "IC1" H 5200 4183 50  0000 C CNN
+F 1 "TL072" H 5200 4274 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 5200 4550 50  0001 C CNN
+F 3 "https://docs-emea.rs-online.com/webdocs/1644/0900766b81644f9e.pdf" H 5200 4550 50  0001 C CNN
+F 4 "RS" H 5200 4183 50  0001 C CNN "Supplier"
+F 5 "https://de.rs-online.com/web/p/operationsverstarker/0304239/" H 5200 4183 50  0001 C CNN "Supplier Link"
+F 6 "TI" H 5200 4183 50  0001 C CNN "Manufacturer"
+F 7 "TL072CP" H 5200 4183 50  0001 C CNN "Manufacturer Part Number"
+F 8 "304-239" H 5200 4183 50  0001 C CNN "Supplier Part Number"
 	2    5200 4550
 	-1   0    0    1   
 $EndComp
@@ -152,7 +162,7 @@ U 1 1 5C88342E
 P 3750 5200
 F 0 "L1" H 3500 5250 50  0000 L CNN
 F 1 "Fasel Red" H 3350 5150 50  0000 L CNN
-F 2 "Inductor_THT:L_Toroid_Horizontal_D17.3mm_P15.24mm_Bourns_2000" H 3750 5200 50  0001 C CNN
+F 2 "umidi-wah:Fasel" H 3750 5200 50  0001 C CNN
 F 3 "~" H 3750 5200 50  0001 C CNN
 	1    3750 5200
 	1    0    0    -1  
@@ -777,35 +787,35 @@ F 3 "~" H 2050 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_DPDT_x2 SW?
-U 1 1 5CDB9DAE
+L Switch:SW_DPDT_x2 SW1
+U 2 1 5CDB9DAE
 P 3850 5600
-F 0 "SW?" V 3896 5412 50  0000 R CNN
-F 1 "SW_DPDT_x2" V 3805 5412 50  0000 R CNN
-F 2 "" H 3850 5600 50  0001 C CNN
-F 3 "~" H 3850 5600 50  0001 C CNN
+F 0 "SW1" V 3896 5412 50  0000 R CNN
+F 1 "MMP221" V 3805 5412 50  0000 R CNN
+F 2 "umidi-wah:MMP221" H 3850 5600 50  0001 C CNN
+F 3 "https://docs-emea.rs-online.com/webdocs/0e2b/0900766b80e2b976.pdf" H 3850 5600 50  0001 C CNN
 F 4 "RS" V 3896 5412 50  0001 R CNN "Supplier"
 F 5 "745-5820" V 3896 5412 50  0001 R CNN "Supplier Part Number"
 F 6 "https://de.rs-online.com/web/p/schiebeschalter/7455820/" V 3896 5412 50  0001 R CNN "Supplier Link"
 F 7 "TE" V 3896 5412 50  0001 R CNN "Manufacturer"
 F 8 "1825163-1" V 3896 5412 50  0001 R CNN "Manufacturer Part Number"
-	1    3850 5600
+	2    3850 5600
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Switch:SW_DPDT_x2 SW?
-U 2 1 5CDBC60F
+L Switch:SW_DPDT_x2 SW1
+U 1 1 5CDBC60F
 P 3850 4800
-F 0 "SW?" V 3804 4612 50  0000 R CNN
-F 1 "SW_DPDT_x2" V 3895 4612 50  0000 R CNN
-F 2 "" H 3850 4800 50  0001 C CNN
-F 3 "~" H 3850 4800 50  0001 C CNN
+F 0 "SW1" V 3804 4612 50  0000 R CNN
+F 1 "MMP221" V 3895 4612 50  0000 R CNN
+F 2 "umidi-wah:MMP221" H 3850 4800 50  0001 C CNN
+F 3 "https://docs-emea.rs-online.com/webdocs/0e2b/0900766b80e2b976.pdf" H 3850 4800 50  0001 C CNN
 F 4 "RS" V 3804 4612 50  0001 R CNN "Supplier"
 F 5 "745-5820" V 3804 4612 50  0001 R CNN "Supplier Part Number"
 F 6 "https://de.rs-online.com/web/p/schiebeschalter/7455820/" V 3804 4612 50  0001 R CNN "Supplier Link"
 F 7 "TE" V 3804 4612 50  0001 R CNN "Manufacturer"
 F 8 "1825163-1" V 3804 4612 50  0001 R CNN "Manufacturer Part Number"
-	2    3850 4800
+	1    3850 4800
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
@@ -816,7 +826,7 @@ U 1 1 5CDFE763
 P 3950 5200
 F 0 "L2" H 4100 5250 50  0000 L CNN
 F 1 "Fasel Yellow" H 4000 5150 50  0000 L CNN
-F 2 "Inductor_THT:L_Toroid_Horizontal_D17.3mm_P15.24mm_Bourns_2000" H 3950 5200 50  0001 C CNN
+F 2 "umidi-wah:Fasel" H 3950 5200 50  0001 C CNN
 F 3 "~" H 3950 5200 50  0001 C CNN
 	1    3950 5200
 	1    0    0    -1  
