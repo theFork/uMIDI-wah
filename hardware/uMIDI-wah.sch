@@ -374,6 +374,11 @@ F 0 "RV1" V 5550 3850 50  0000 R CNN
 F 1 "470k" V 5500 3850 50  0000 R CNN
 F 2 "" H 5250 3650 50  0001 C CNN
 F 3 "~" H 5250 3650 50  0001 C CNN
+F 4 "RS" V 5550 3850 50  0001 R CNN "Supplier"
+F 5 "374-6844" V 5550 3850 50  0001 R CNN "Supplier Part Number"
+F 6 "https://de.rs-online.com/web/p/abgleichwiderstande/3746844/" V 5550 3850 50  0001 R CNN "Supplier Link"
+F 7 "Vishay" V 5550 3850 50  0001 R CNN "Manufacturer"
+F 8 "T7YA474MT20" V 5550 3850 50  0001 R CNN "Manufacturer Part Number"
 	1    5250 3650
 	0    -1   -1   0   
 $EndComp
@@ -401,9 +406,14 @@ L Device:R_POT_TRIM RV3
 U 1 1 5CCF56CF
 P 7550 3450
 F 0 "RV3" V 7850 3650 50  0000 R CNN
-F 1 "10k" V 7800 3650 50  0000 R CNN
+F 1 "470k" V 7800 3650 50  0000 R CNN
 F 2 "" H 7550 3450 50  0001 C CNN
 F 3 "~" H 7550 3450 50  0001 C CNN
+F 4 "RS" V 7850 3650 50  0001 R CNN "Supplier"
+F 5 "374-6844" V 7850 3650 50  0001 R CNN "Supplier Part Number"
+F 6 "https://de.rs-online.com/web/p/abgleichwiderstande/3746844/" V 7850 3650 50  0001 R CNN "Supplier Link"
+F 7 "Vishay" V 7850 3650 50  0001 R CNN "Manufacturer"
+F 8 "T7YA474MT20" V 7850 3650 50  0001 R CNN "Manufacturer Part Number"
 	1    7550 3450
 	1    0    0    -1  
 $EndComp
@@ -468,6 +478,11 @@ F 0 "RV2" V 6600 3950 50  0000 R CNN
 F 1 "470k" V 6550 3950 50  0000 R CNN
 F 2 "" H 6300 3750 50  0001 C CNN
 F 3 "~" H 6300 3750 50  0001 C CNN
+F 4 "RS" V 6600 3950 50  0001 R CNN "Supplier"
+F 5 "374-6844" V 6600 3950 50  0001 R CNN "Supplier Part Number"
+F 6 "https://de.rs-online.com/web/p/abgleichwiderstande/3746844/" V 6600 3950 50  0001 R CNN "Supplier Link"
+F 7 "Vishay" V 6600 3950 50  0001 R CNN "Manufacturer"
+F 8 "T7YA474MT20" V 6600 3950 50  0001 R CNN "Manufacturer Part Number"
 	1    6300 3750
 	-1   0    0    1   
 $EndComp
@@ -769,6 +784,11 @@ F 0 "SW?" V 3896 5412 50  0000 R CNN
 F 1 "SW_DPDT_x2" V 3805 5412 50  0000 R CNN
 F 2 "" H 3850 5600 50  0001 C CNN
 F 3 "~" H 3850 5600 50  0001 C CNN
+F 4 "RS" V 3896 5412 50  0001 R CNN "Supplier"
+F 5 "745-5820" V 3896 5412 50  0001 R CNN "Supplier Part Number"
+F 6 "https://de.rs-online.com/web/p/schiebeschalter/7455820/" V 3896 5412 50  0001 R CNN "Supplier Link"
+F 7 "TE" V 3896 5412 50  0001 R CNN "Manufacturer"
+F 8 "1825163-1" V 3896 5412 50  0001 R CNN "Manufacturer Part Number"
 	1    3850 5600
 	0    -1   -1   0   
 $EndComp
@@ -780,6 +800,11 @@ F 0 "SW?" V 3804 4612 50  0000 R CNN
 F 1 "SW_DPDT_x2" V 3895 4612 50  0000 R CNN
 F 2 "" H 3850 4800 50  0001 C CNN
 F 3 "~" H 3850 4800 50  0001 C CNN
+F 4 "RS" V 3804 4612 50  0001 R CNN "Supplier"
+F 5 "745-5820" V 3804 4612 50  0001 R CNN "Supplier Part Number"
+F 6 "https://de.rs-online.com/web/p/schiebeschalter/7455820/" V 3804 4612 50  0001 R CNN "Supplier Link"
+F 7 "TE" V 3804 4612 50  0001 R CNN "Manufacturer"
+F 8 "1825163-1" V 3804 4612 50  0001 R CNN "Manufacturer Part Number"
 	2    3850 4800
 	0    -1   1    0   
 $EndComp
