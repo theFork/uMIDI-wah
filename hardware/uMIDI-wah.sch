@@ -242,8 +242,13 @@ U 1 1 5C8C2F92
 P 2800 950
 F 0 "X1" H 2804 1392 50  0000 C CNN
 F 1 "AudioJack3_Switch" H 2804 1301 50  0000 C CNN
-F 2 "" H 2800 950 50  0001 C CNN
-F 3 "~" H 2800 950 50  0001 C CNN
+F 2 "umidi-wah:AudioJack 6.3mm Stereo" H 2800 950 50  0001 C CNN
+F 3 "https://docs-emea.rs-online.com/webdocs/14b5/0900766b814b516f.pdf" H 2800 950 50  0001 C CNN
+F 4 "RS" H 2804 1392 50  0001 C CNN "Supplier"
+F 5 "913-1037" H 2804 1392 50  0001 C CNN "Supplier Part Number"
+F 6 "https://de.rs-online.com/web/p/klinkenstecker/9131037/" H 2804 1392 50  0001 C CNN "Supplier Link"
+F 7 "RS" H 2804 1392 50  0001 C CNN "Manufacturer"
+F 8 "-" H 2804 1392 50  0001 C CNN "Manufacturer Part Number"
 	1    2800 950 
 	1    0    0    -1  
 $EndComp
@@ -293,8 +298,13 @@ U 1 1 5C8CAC4B
 P 6400 950
 F 0 "X3" H 6167 971 50  0000 R CNN
 F 1 "AudioJack3_Switch" H 6167 880 50  0000 R CNN
-F 2 "" H 6400 950 50  0001 C CNN
-F 3 "~" H 6400 950 50  0001 C CNN
+F 2 "umidi-wah:AudioJack 6.3mm Stereo" H 6400 950 50  0001 C CNN
+F 3 "https://docs-emea.rs-online.com/webdocs/14b5/0900766b814b516f.pdf" H 6400 950 50  0001 C CNN
+F 4 "RS" H 6167 971 50  0001 R CNN "Supplier"
+F 5 "913-1037" H 6167 971 50  0001 R CNN "Supplier Part Number"
+F 6 "https://de.rs-online.com/web/p/klinkenstecker/9131037/" H 6167 971 50  0001 R CNN "Supplier Link"
+F 7 "RS" H 6167 971 50  0001 R CNN "Manufacturer"
+F 8 "-" H 6167 971 50  0001 R CNN "Manufacturer Part Number"
 	1    6400 950 
 	-1   0    0    -1  
 $EndComp
@@ -382,8 +392,8 @@ U 1 1 5CCE08C7
 P 5250 3650
 F 0 "RV1" V 5550 3850 50  0000 R CNN
 F 1 "470k" V 5500 3850 50  0000 R CNN
-F 2 "" H 5250 3650 50  0001 C CNN
-F 3 "~" H 5250 3650 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Vishay_T7-YA_Single_Vertical" H 5250 3650 50  0001 C CNN
+F 3 "https://docs-emea.rs-online.com/webdocs/0021/0900766b8002111f.pdf" H 5250 3650 50  0001 C CNN
 F 4 "RS" V 5550 3850 50  0001 R CNN "Supplier"
 F 5 "374-6844" V 5550 3850 50  0001 R CNN "Supplier Part Number"
 F 6 "https://de.rs-online.com/web/p/abgleichwiderstande/3746844/" V 5550 3850 50  0001 R CNN "Supplier Link"
@@ -417,8 +427,8 @@ U 1 1 5CCF56CF
 P 7550 3450
 F 0 "RV3" V 7850 3650 50  0000 R CNN
 F 1 "470k" V 7800 3650 50  0000 R CNN
-F 2 "" H 7550 3450 50  0001 C CNN
-F 3 "~" H 7550 3450 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Vishay_T7-YA_Single_Vertical" H 7550 3450 50  0001 C CNN
+F 3 "https://docs-emea.rs-online.com/webdocs/0021/0900766b8002111f.pdf" H 7550 3450 50  0001 C CNN
 F 4 "RS" V 7850 3650 50  0001 R CNN "Supplier"
 F 5 "374-6844" V 7850 3650 50  0001 R CNN "Supplier Part Number"
 F 6 "https://de.rs-online.com/web/p/abgleichwiderstande/3746844/" V 7850 3650 50  0001 R CNN "Supplier Link"
@@ -486,8 +496,8 @@ U 1 1 5CD094F7
 P 6300 3750
 F 0 "RV2" V 6600 3950 50  0000 R CNN
 F 1 "470k" V 6550 3950 50  0000 R CNN
-F 2 "" H 6300 3750 50  0001 C CNN
-F 3 "~" H 6300 3750 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Vishay_T7-YA_Single_Vertical" H 6300 3750 50  0001 C CNN
+F 3 "https://docs-emea.rs-online.com/webdocs/0021/0900766b8002111f.pdf" H 6300 3750 50  0001 C CNN
 F 4 "RS" V 6600 3950 50  0001 R CNN "Supplier"
 F 5 "374-6844" V 6600 3950 50  0001 R CNN "Supplier Part Number"
 F 6 "https://de.rs-online.com/web/p/abgleichwiderstande/3746844/" V 6600 3950 50  0001 R CNN "Supplier Link"
