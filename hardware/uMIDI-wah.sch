@@ -257,21 +257,31 @@ L Sensor_Optical:LDR07 R5
 U 1 1 5C8C34D2
 P 2900 5200
 F 0 "R5" H 2970 5246 50  0000 L CNN
-F 1 "LDR07" H 2970 5155 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805" V 3075 5200 50  0001 C CNN
-F 3 "" H 2900 5150 50  0001 C CNN
+F 1 "NORPS-12" H 2970 5155 50  0000 L CNN
+F 2 "umidi-wah:LDR reverse mount" V 3075 5200 50  0001 C CNN
+F 3 "https://docs-emea.rs-online.com/webdocs/1566/0900766b8156674b.pdf" H 2900 5150 50  0001 C CNN
+F 4 "RS" H 2970 5246 50  0001 L CNN "Supplier"
+F 5 "914-6714" H 2970 5246 50  0001 L CNN "Supplier Part Number"
+F 6 "https://de.rs-online.com/web/p/fotowiderstande-ldr/9146714/" H 2970 5246 50  0001 L CNN "Supplier Link"
+F 7 "Luna" H 2970 5246 50  0001 L CNN "Manufacturer"
+F 8 "NORPS-12" H 2970 5246 50  0001 L CNN "Manufacturer Part Number"
 	1    2900 5200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Sensor_Optical:LDR07 R9
 U 1 1 5C8C3558
-P 6600 4850
-F 0 "R9" H 6412 4896 50  0000 R CNN
-F 1 "LDR07" H 6412 4805 50  0000 R CNN
-F 2 "Resistors_SMD:R_0805" V 6775 4850 50  0001 C CNN
-F 3 "" H 6600 4800 50  0001 C CNN
-	1    6600 4850
+P 6600 5200
+F 0 "R9" H 6412 5246 50  0000 R CNN
+F 1 "NORPS-12" H 6412 5155 50  0000 R CNN
+F 2 "umidi-wah:LDR reverse mount" V 6775 5200 50  0001 C CNN
+F 3 "https://docs-emea.rs-online.com/webdocs/1566/0900766b8156674b.pdf" H 6600 5150 50  0001 C CNN
+F 4 "RS" H 6412 5246 50  0001 R CNN "Supplier"
+F 5 "914-6714" H 6412 5246 50  0001 R CNN "Supplier Part Number"
+F 6 "https://de.rs-online.com/web/p/fotowiderstande-ldr/9146714/" H 6412 5246 50  0001 R CNN "Supplier Link"
+F 7 "Luna" H 6412 5246 50  0001 R CNN "Manufacturer"
+F 8 "NORPS-12" H 6412 5246 50  0001 R CNN "Manufacturer Part Number"
+	1    6600 5200
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -279,7 +289,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 4550 3700 4550
 Wire Wire Line
-	6600 4700 6600 4450
+	6600 5050 6600 4450
 Connection ~ 6600 4450
 $Comp
 L Device:C C1
@@ -377,12 +387,12 @@ F2 "Led_Supply" I L 1600 4950 50
 F3 "PWM_Input" I L 1600 5300 50 
 $EndSheet
 $Sheet
-S 7050 4500 1000 800 
+S 7050 4800 1000 800 
 U 5C8EFAFF
 F0 "sheet5C8EFAFF" 50
 F1 "led-driver.sch" 50
-F2 "Led_Supply" I R 8050 4700 50 
-F3 "PWM_Input" I R 8050 4950 50 
+F2 "Led_Supply" I R 8050 5000 50 
+F3 "PWM_Input" I R 8050 5250 50 
 $EndSheet
 Wire Wire Line
 	6300 4450 6600 4450
@@ -577,12 +587,12 @@ Wire Wire Line
 Text Label 1000 5300 0    50   ~ 0
 PWM_Q
 Wire Wire Line
-	8050 4950 8600 4950
+	8050 5250 8600 5250
 Wire Wire Line
-	8050 4700 8600 4700
-Text Label 8200 4700 0    50   ~ 0
+	8050 5000 8600 5000
+Text Label 8200 5000 0    50   ~ 0
 LED_Supply
-Text Label 8200 4950 0    50   ~ 0
+Text Label 8200 5250 0    50   ~ 0
 PWM_Wah
 Wire Wire Line
 	2400 6200 1700 6200
@@ -767,7 +777,7 @@ Wire Wire Line
 Text Label 5950 6700 0    50   ~ 0
 Vref
 Wire Wire Line
-	6600 5000 6600 5850
+	6600 5350 6600 5850
 Wire Wire Line
 	2900 5350 2900 5850
 Wire Wire Line
