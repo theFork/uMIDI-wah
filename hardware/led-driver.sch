@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 3 4
 Title ""
 Date ""
 Rev ""
@@ -146,21 +146,6 @@ F 3 "" H 3400 3400 50  0001 C CNN
 	1    3400 3400
 	-1   0    0    1   
 $EndComp
-$Comp
-L Device:L L4
-U 1 1 5C8ECEF6
-P 3100 3100
-AR Path="/5C8EC687/5C8ECEF6" Ref="L4"  Part="1" 
-AR Path="/5C8EFAFF/5C8ECEF6" Ref="L3"  Part="1" 
-F 0 "L3" V 3290 3100 50  0000 C CNN
-F 1 "10uH" V 3199 3100 50  0000 C CNN
-F 2 "" H 3100 3100 50  0001 C CNN
-F 3 "~" H 3100 3100 50  0001 C CNN
-	1    3100 3100
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3250 3100 3400 3100
 Wire Wire Line
 	3400 3250 3400 3100
 Connection ~ 3400 3100
@@ -181,8 +166,6 @@ F 3 "" H 3400 3700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3400 3550 3400 3700
-Wire Wire Line
-	2650 3100 2950 3100
 $Comp
 L Device:LED D5
 U 1 1 5CD989FA
@@ -218,4 +201,6 @@ Wire Wire Line
 	4250 1950 4250 2050
 Wire Wire Line
 	4250 2350 4250 2450
+Wire Wire Line
+	2650 3100 3400 3100
 $EndSCHEMATC
