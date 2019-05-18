@@ -22,7 +22,7 @@ Text HLabel 4200 3150 1    60   Output ~ 0
 FX_Send
 Text HLabel 4700 3150 1    60   Input ~ 0
 FX_Return
-Text HLabel 7200 4300 0    60   Input ~ 0
+Text HLabel 6650 4250 0    60   Input ~ 0
 Ctrl
 $Comp
 L uMIDI-wah-rescue:Relais_DPDT-uMIDI-switcher-rescue REL?
@@ -276,7 +276,7 @@ Connection ~ 6600 3000
 $Comp
 L uMIDI-wah-rescue:R-uMIDI-switcher-rescue R6
 U 1 1 54D7ADF3
-P 7500 4600
+P 7500 4500
 AR Path="/56223A3E/54D7ADF3" Ref="R6"  Part="1" 
 AR Path="/56223A52/54E9BE9F/54D7ADF3" Ref="R11"  Part="1" 
 AR Path="/56223A60/54E9BE9F/54D7ADF3" Ref="R16"  Part="1" 
@@ -284,41 +284,17 @@ AR Path="/56223A6E/54E9BE9F/54D7ADF3" Ref="R21"  Part="1"
 AR Path="/56223A7C/54E9BE9F/54D7ADF3" Ref="R26"  Part="1" 
 AR Path="/56223A90/54E9BE9F/54D7ADF3" Ref="R31"  Part="1" 
 AR Path="/5CD91DFE/54D7ADF3" Ref="R20"  Part="1" 
-F 0 "R20" V 7580 4600 50  0000 C CNN
-F 1 "10k" V 7507 4601 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7430 4600 30  0001 C CNN
-F 3 "" H 7580 4600 60  0001 C CNN
-F 4 "Mouser" H 7580 4600 60  0001 C CNN "Supplier"
-F 5 "71-CRCW0603J-10K-E3" H 7580 4600 60  0001 C CNN "Supplier Part Number"
-F 6 "http://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0JNEA/?qs=sGAEpiMZZMu61qfTUdNhG%2fEx4adfNLScijTXbM5aXyk%3d" H 7580 4600 60  0001 C CNN "Supplier Link"
-F 7 "Vishay/Dale" H 7580 4600 60  0001 C CNN "Manufacturer"
-F 8 "CRCW060310K0JNEA" H 7580 4600 60  0001 C CNN "Manufacturer Part Number"
-F 9 "http://www.vishay.com/resistors-fixed/list/product-20011/" H 7580 4600 60  0001 C CNN "Manufacturer Link"
-	1    7500 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L uMIDI-wah-rescue:BSS138-uMIDI-switcher-rescue Q1
-U 1 1 54D7AECB
-P 7800 4250
-AR Path="/56223A3E/54D7AECB" Ref="Q1"  Part="1" 
-AR Path="/56223A52/54E9BE9F/54D7AECB" Ref="Q2"  Part="1" 
-AR Path="/56223A60/54E9BE9F/54D7AECB" Ref="Q3"  Part="1" 
-AR Path="/56223A6E/54E9BE9F/54D7AECB" Ref="Q4"  Part="1" 
-AR Path="/56223A7C/54E9BE9F/54D7AECB" Ref="Q5"  Part="1" 
-AR Path="/56223A90/54E9BE9F/54D7AECB" Ref="Q6"  Part="1" 
-AR Path="/54D7AECB" Ref="Q1"  Part="1" 
-AR Path="/5CD91DFE/54D7AECB" Ref="Q3"  Part="1" 
-F 0 "Q3" H 7800 4101 40  0000 R CNN
-F 1 "BSS138" H 7800 4400 40  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 7670 4352 29  0001 C CNN
-F 3 "https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf" H 7800 4101 60  0001 C CNN
-F 4 "Mouser" H 3650 5050 60  0001 C CNN "Supplier"
-F 5 "512-BSS138 " H 3650 5050 60  0001 C CNN "Supplier Part Number"
-F 6 "http://eu.mouser.com/ProductDetail/Fairchild-Semiconductor/BSS138/?qs=sGAEpiMZZMshyDBzk1%2fWi1qxDdW%2fXBi2IwQV99jpxW8%3d" H 3650 5050 60  0001 C CNN "Supplier Link"
-F 7 "Fairchild" H 3650 5050 60  0001 C CNN "Manufacturer"
-F 8 "BSS138" H 3650 5050 60  0001 C CNN "Manufacturer Part Number"
-	1    7800 4250
+F 0 "R20" V 7580 4500 50  0000 C CNN
+F 1 "100M" V 7507 4501 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7430 4500 30  0001 C CNN
+F 3 "" H 7580 4500 60  0001 C CNN
+F 4 "Mouser" H 7580 4500 60  0001 C CNN "Supplier"
+F 5 "71-CRCW0603J-10K-E3" H 7580 4500 60  0001 C CNN "Supplier Part Number"
+F 6 "http://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0JNEA/?qs=sGAEpiMZZMu61qfTUdNhG%2fEx4adfNLScijTXbM5aXyk%3d" H 7580 4500 60  0001 C CNN "Supplier Link"
+F 7 "Vishay/Dale" H 7580 4500 60  0001 C CNN "Manufacturer"
+F 8 "CRCW060310K0JNEA" H 7580 4500 60  0001 C CNN "Manufacturer Part Number"
+F 9 "http://www.vishay.com/resistors-fixed/list/product-20011/" H 7580 4500 60  0001 C CNN "Manufacturer Link"
+	1    7500 4500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -326,7 +302,7 @@ Wire Wire Line
 $Comp
 L power:GND #PWR039
 U 1 1 54D7B0C5
-P 7500 4800
+P 7500 4700
 AR Path="/56223A3E/54D7B0C5" Ref="#PWR039"  Part="1" 
 AR Path="/56223A52/54E9BE9F/54D7B0C5" Ref="#PWR046"  Part="1" 
 AR Path="/56223A60/54E9BE9F/54D7B0C5" Ref="#PWR053"  Part="1" 
@@ -334,18 +310,13 @@ AR Path="/56223A6E/54E9BE9F/54D7B0C5" Ref="#PWR060"  Part="1"
 AR Path="/56223A7C/54E9BE9F/54D7B0C5" Ref="#PWR067"  Part="1" 
 AR Path="/56223A90/54E9BE9F/54D7B0C5" Ref="#PWR074"  Part="1" 
 AR Path="/5CD91DFE/54D7B0C5" Ref="#PWR023"  Part="1" 
-F 0 "#PWR023" H 7500 4550 60  0001 C CNN
-F 1 "GND" H 7500 4650 60  0000 C CNN
-F 2 "" H 7500 4800 60  0000 C CNN
-F 3 "" H 7500 4800 60  0000 C CNN
-	1    7500 4800
+F 0 "#PWR023" H 7500 4450 60  0001 C CNN
+F 1 "GND" H 7500 4550 60  0000 C CNN
+F 2 "" H 7500 4700 60  0000 C CNN
+F 3 "" H 7500 4700 60  0000 C CNN
+	1    7500 4700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7200 4300 7500 4300
-Wire Wire Line
-	7500 4300 7500 4450
-Connection ~ 7500 4300
 $Comp
 L uMIDI-wah-rescue:R-uMIDI-switcher-rescue R5
 U 1 1 54D7C711
@@ -507,7 +478,7 @@ Wire Wire Line
 Wire Wire Line
 	7300 3450 7300 3400
 Wire Wire Line
-	7500 4800 7500 4750
+	7500 4700 7500 4650
 Text Label 4300 3900 0    60   ~ 0
 bypass
 Text Label 3150 3800 0    60   ~ 0
@@ -541,7 +512,52 @@ Wire Wire Line
 Wire Wire Line
 	6600 3000 6800 3000
 Wire Wire Line
-	7500 4300 7600 4300
-Wire Wire Line
 	7300 3000 7750 3000
+$Comp
+L Transistor_BJT:BC547 Q?
+U 1 1 5CE6B092
+P 7800 4250
+AR Path="/5C8EC687/5CE6B092" Ref="Q?"  Part="1" 
+AR Path="/5C8EFAFF/5CE6B092" Ref="Q?"  Part="1" 
+AR Path="/5CD91DFE/5CE6B092" Ref="Q3"  Part="1" 
+F 0 "Q3" H 7991 4296 50  0000 L CNN
+F 1 "BC547" H 7991 4205 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8000 4175 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 7800 4250 50  0001 L CNN
+	1    7800 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L uMIDI-wah-rescue:R-uMIDI-switcher-rescue R?
+U 1 1 5CE6C2B1
+P 7250 4250
+AR Path="/56223A3E/5CE6C2B1" Ref="R?"  Part="1" 
+AR Path="/56223A52/54E9BE9F/5CE6C2B1" Ref="R?"  Part="1" 
+AR Path="/56223A60/54E9BE9F/5CE6C2B1" Ref="R?"  Part="1" 
+AR Path="/56223A6E/54E9BE9F/5CE6C2B1" Ref="R?"  Part="1" 
+AR Path="/56223A7C/54E9BE9F/5CE6C2B1" Ref="R?"  Part="1" 
+AR Path="/56223A90/54E9BE9F/5CE6C2B1" Ref="R?"  Part="1" 
+AR Path="/5CD91DFE/5CE6C2B1" Ref="R5"  Part="1" 
+F 0 "R5" V 7330 4250 50  0000 C CNN
+F 1 "1k" V 7257 4251 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7180 4250 30  0001 C CNN
+F 3 "" H 7330 4250 60  0001 C CNN
+F 4 "" H 7330 4250 60  0001 C CNN "Supplier"
+F 5 "" H 7330 4250 60  0001 C CNN "Supplier Part Number"
+F 6 "" H 7330 4250 60  0001 C CNN "Supplier Link"
+F 7 "" H 7330 4250 60  0001 C CNN "Manufacturer"
+F 8 "" H 7330 4250 60  0001 C CNN "Manufacturer Part Number"
+F 9 "" H 7330 4250 60  0001 C CNN "Manufacturer Link"
+	1    7250 4250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7400 4250 7500 4250
+Wire Wire Line
+	7500 4350 7500 4250
+Connection ~ 7500 4250
+Wire Wire Line
+	7500 4250 7600 4250
+Wire Wire Line
+	6650 4250 7100 4250
 $EndSCHEMATC
