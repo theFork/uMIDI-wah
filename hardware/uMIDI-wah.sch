@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -161,17 +161,6 @@ F 8 "304-239" H 4508 6746 50  0001 L CNN "Supplier Part Number"
 	3    4550 6700
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:L L1
-U 1 1 5C88342E
-P 3750 5000
-F 0 "L1" H 3500 5050 50  0000 L CNN
-F 1 "Fasel Red" H 3350 4950 50  0000 L CNN
-F 2 "umidi-wah:Fasel" H 3750 5000 50  0001 C CNN
-F 3 "~" H 3750 5000 50  0001 C CNN
-	1    3750 5000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5700 4250 5700 3750
 Wire Wire Line
@@ -185,8 +174,6 @@ Wire Wire Line
 	3700 3100 3700 3750
 Wire Wire Line
 	3700 4050 3700 4350
-Wire Wire Line
-	3700 4350 3850 4350
 Connection ~ 3700 4350
 Wire Wire Line
 	5700 4250 6000 4250
@@ -608,8 +595,6 @@ PWM_Wah
 Wire Wire Line
 	10000 1900 10000 1650
 Wire Wire Line
-	10000 1250 10150 1250
-Wire Wire Line
 	10150 1650 10000 1650
 Connection ~ 10000 1650
 Text Label 3400 6100 0    50   ~ 0
@@ -638,9 +623,6 @@ Wire Wire Line
 	10150 1350 9450 1350
 Wire Wire Line
 	10150 1450 10000 1450
-Connection ~ 10000 1450
-Wire Wire Line
-	10000 1450 10000 1250
 Text Label 9450 1350 0    50   ~ 0
 bypass_n
 $Sheet
@@ -796,69 +778,6 @@ F 3 "~" H 9800 1550 50  0001 C CNN
 	1    9800 1550
 	1    0    0    -1  
 $EndComp
-$Comp
-L Switch:SW_DPDT_x2 SW1
-U 2 1 5CDB9DAE
-P 3850 5400
-F 0 "SW1" V 3896 5212 50  0000 R CNN
-F 1 "MMP221" V 3805 5212 50  0000 R CNN
-F 2 "umidi-wah:MMP221" H 3850 5400 50  0001 C CNN
-F 3 "https://docs-emea.rs-online.com/webdocs/0e2b/0900766b80e2b976.pdf" H 3850 5400 50  0001 C CNN
-F 4 "RS" V 3896 5212 50  0001 R CNN "Supplier"
-F 5 "745-5820" V 3896 5212 50  0001 R CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/schiebeschalter/7455820/" V 3896 5212 50  0001 R CNN "Supplier Link"
-F 7 "TE" V 3896 5212 50  0001 R CNN "Manufacturer"
-F 8 "1825163-1" V 3896 5212 50  0001 R CNN "Manufacturer Part Number"
-	2    3850 5400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Switch:SW_DPDT_x2 SW1
-U 1 1 5CDBC60F
-P 3850 4600
-F 0 "SW1" V 3804 4412 50  0000 R CNN
-F 1 "MMP221" V 3895 4412 50  0000 R CNN
-F 2 "umidi-wah:MMP221" H 3850 4600 50  0001 C CNN
-F 3 "https://docs-emea.rs-online.com/webdocs/0e2b/0900766b80e2b976.pdf" H 3850 4600 50  0001 C CNN
-F 4 "RS" V 3804 4412 50  0001 R CNN "Supplier"
-F 5 "745-5820" V 3804 4412 50  0001 R CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/schiebeschalter/7455820/" V 3804 4412 50  0001 R CNN "Supplier Link"
-F 7 "TE" V 3804 4412 50  0001 R CNN "Manufacturer"
-F 8 "1825163-1" V 3804 4412 50  0001 R CNN "Manufacturer Part Number"
-	1    3850 4600
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	2900 5650 3850 5650
-$Comp
-L Device:L L2
-U 1 1 5CDFE763
-P 3950 5000
-F 0 "L2" H 4100 5050 50  0000 L CNN
-F 1 "Fasel Yellow" H 4000 4950 50  0000 L CNN
-F 2 "umidi-wah:Fasel" H 3950 5000 50  0001 C CNN
-F 3 "~" H 3950 5000 50  0001 C CNN
-	1    3950 5000
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	3750 4800 3750 4850
-Wire Wire Line
-	3750 5150 3750 5200
-Wire Wire Line
-	3950 5200 3950 5150
-Wire Wire Line
-	3850 4400 3850 4350
-Connection ~ 3850 4350
-Wire Wire Line
-	3850 4350 4100 4350
-Wire Wire Line
-	3850 5600 3850 5650
-Connection ~ 3850 5650
-Wire Wire Line
-	3850 5650 5700 5650
-Wire Wire Line
-	3950 4850 3950 4800
 Wire Wire Line
 	3350 6100 4050 6100
 Connection ~ 4050 6100
@@ -937,10 +856,7 @@ Wire Wire Line
 	10000 2700 10250 2700
 Connection ~ 10000 2700
 Wire Wire Line
-	10000 1250 10000 950 
-Wire Wire Line
 	10000 950  10150 950 
-Connection ~ 10000 1250
 Wire Wire Line
 	9200 2700 9200 1550
 Wire Wire Line
@@ -968,10 +884,44 @@ $EndComp
 Wire Wire Line
 	10150 850  10000 850 
 Wire Wire Line
-	10000 850  10000 950 
-Connection ~ 10000 950 
-Wire Wire Line
 	4000 1500 3650 1500
 Text Label 3650 1500 0    50   ~ 0
 bypass_n
+$Sheet
+S 3700 4700 550  600 
+U 5CE9535C
+F0 "Inductor" 50
+F1 "inductor.sch" 50
+F2 "Hot" I T 3900 4700 50 
+F3 "Cold" I B 3900 5300 50 
+F4 "Ctrl" I T 4050 4700 50 
+$EndSheet
+Wire Wire Line
+	2900 5650 3900 5650
+Wire Wire Line
+	3700 4350 3900 4350
+Wire Wire Line
+	3900 4700 3900 4350
+Connection ~ 3900 4350
+Wire Wire Line
+	3900 4350 4100 4350
+Wire Wire Line
+	3900 5300 3900 5650
+Connection ~ 3900 5650
+Wire Wire Line
+	3900 5650 5700 5650
+Text Label 4050 4600 0    50   ~ 0
+Fasel
+Wire Wire Line
+	4050 4600 4050 4700
+Wire Wire Line
+	10000 850  10000 950 
+Text Label 9450 1250 0    50   ~ 0
+Fasel
+Wire Wire Line
+	9450 1250 10150 1250
+Wire Wire Line
+	10000 1450 10000 950 
+Connection ~ 10000 1450
+Connection ~ 10000 950 
 $EndSCHEMATC
