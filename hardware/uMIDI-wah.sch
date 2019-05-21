@@ -328,7 +328,7 @@ L Device:R R10
 U 1 1 5C8CF6D3
 P 3250 1450
 F 0 "R10" V 3043 1450 50  0000 C CNN
-F 1 "1M" V 3134 1450 50  0000 C CNN
+F 1 "100M" V 3134 1450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3180 1450 50  0001 C CNN
 F 3 "" H 3250 1450 50  0001 C CNN
 	1    3250 1450
@@ -478,7 +478,7 @@ L Device:R R11
 U 1 1 5CD0241C
 P 6350 1600
 F 0 "R11" V 6143 1600 50  0000 C CNN
-F 1 "1M" V 6234 1600 50  0000 C CNN
+F 1 "100M" V 6234 1600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6280 1600 50  0001 C CNN
 F 3 "" H 6350 1600 50  0001 C CNN
 	1    6350 1600
@@ -839,7 +839,7 @@ F 1 "Fasel Yellow" H 4000 4950 50  0000 L CNN
 F 2 "umidi-wah:Fasel" H 3950 5000 50  0001 C CNN
 F 3 "~" H 3950 5000 50  0001 C CNN
 	1    3950 5000
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	3750 4800 3750 4850
@@ -950,10 +950,10 @@ Wire Wire Line
 	8900 1550 9200 1550
 Connection ~ 9200 1550
 $Comp
-L Connector_Generic:Conn_01x10 J1
+L Connector_Generic:Conn_01x10 X4
 U 1 1 5CE0940C
 P 10350 1150
-F 0 "J1" H 10430 1142 50  0000 L CNN
+F 0 "X4" H 10430 1142 50  0000 L CNN
 F 1 "Conn_01x10" H 10430 1051 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 10350 1150 50  0001 C CNN
 F 3 "https://de.rs-online.com/web/p/leiterplatten-header/1216784/" H 10350 1150 50  0001 C CNN
@@ -970,4 +970,8 @@ Wire Wire Line
 Wire Wire Line
 	10000 850  10000 950 
 Connection ~ 10000 950 
+Wire Wire Line
+	4000 1500 3650 1500
+Text Label 3650 1500 0    50   ~ 0
+bypass_n
 $EndSCHEMATC
