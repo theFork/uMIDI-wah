@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:uMIDI-wah-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -52,11 +51,11 @@ F 0 "REL1" H 8050 3500 60  0000 C CNN
 F 1 "Omron G6K-2P-5VCD" H 8050 3600 60  0000 C CNN
 F 2 "umidi-wah:Omron_G6K-2P" H 8050 3300 60  0001 C CNN
 F 3 "https://www.omron.com/ecb/products/pdf/en-g6k.pdf" H 8050 3500 60  0001 C CNN
-F 4 "Mouser" H 8050 3500 60  0001 C CNN "Supplier"
-F 5 "653-G6K-2P-Y-DC5" H 8050 3500 60  0001 C CNN "Supplier Part Number"
-F 6 "http://eu.mouser.com/ProductDetail/Omron-Electronics/G6K-2P-Y-DC5/?qs=sGAEpiMZZMs3UE%252bXNiFaVELplwtkvP6Y68aMqtMDJ8w%3d" H 8050 3500 60  0001 C CNN "Supplier Link"
+F 4 "RS" H 8050 3500 60  0001 C CNN "Supplier"
+F 5 "365-0440" H 8050 3500 60  0001 C CNN "Supplier Part Number"
+F 6 "https://de.rs-online.com/web/p/monostabile-relais/3650440/" H 8050 3500 60  0001 C CNN "Supplier Link"
 F 7 "Omron" H 8050 3500 60  0001 C CNN "Manufacturer"
-F 8 "G6K-2P-Y-DC5" H 8050 3500 60  0001 C CNN "Manufacturer Part Number"
+F 8 "G6K-2P-Y 5DC" H 8050 3500 60  0001 C CNN "Manufacturer Part Number"
 	1    8050 3300
 	0    1    1    0   
 $EndComp
@@ -88,11 +87,11 @@ F 0 "REL1" H 3700 4000 60  0000 C CNN
 F 1 "Omron G6K-2P-5VCD" H 3700 3500 60  0001 C CNN
 F 2 "umidi-wah:Omron_G6K-2P" H 3700 3800 60  0001 C CNN
 F 3 "https://www.omron.com/ecb/products/pdf/en-g6k.pdf" H 3700 4000 60  0001 C CNN
-F 4 "Mouser" H 3700 4000 60  0001 C CNN "Supplier"
-F 5 "653-G6K-2P-Y-DC5" H 3700 4000 60  0001 C CNN "Supplier Part Number"
-F 6 "http://eu.mouser.com/ProductDetail/Omron-Electronics/G6K-2P-Y-DC5/?qs=sGAEpiMZZMs3UE%252bXNiFaVELplwtkvP6Y68aMqtMDJ8w%3d" H 3700 4000 60  0001 C CNN "Supplier Link"
+F 4 "RS" H 3700 4000 60  0001 C CNN "Supplier"
+F 5 "365-0440" H 3700 4000 60  0001 C CNN "Supplier Part Number"
+F 6 "https://de.rs-online.com/web/p/monostabile-relais/3650440/" H 3700 4000 60  0001 C CNN "Supplier Link"
 F 7 "Omron" H 3700 4000 60  0001 C CNN "Manufacturer"
-F 8 "G6K-2P-Y-DC5" H 3700 4000 60  0001 C CNN "Manufacturer Part Number"
+F 8 "G6K-2P-Y 5DC" H 3700 4000 60  0001 C CNN "Manufacturer Part Number"
 	2    3700 3800
 	1    0    0    1   
 $EndComp
@@ -124,11 +123,11 @@ F 0 "REL1" H 5200 4000 60  0000 C CNN
 F 1 "Omron G6K-2P-5VCD" H 4850 4150 60  0001 C CNN
 F 2 "umidi-wah:Omron_G6K-2P" H 5200 3800 60  0001 C CNN
 F 3 "https://www.omron.com/ecb/products/pdf/en-g6k.pdf" H 5200 4000 60  0001 C CNN
-F 4 "Mouser" H 5200 4000 60  0001 C CNN "Supplier"
-F 5 "653-G6K-2P-Y-DC5" H 5200 4000 60  0001 C CNN "Supplier Part Number"
-F 6 "http://eu.mouser.com/ProductDetail/Omron-Electronics/G6K-2P-Y-DC5/?qs=sGAEpiMZZMs3UE%252bXNiFaVELplwtkvP6Y68aMqtMDJ8w%3d" H 5200 4000 60  0001 C CNN "Supplier Link"
+F 4 "RS" H 5200 4000 60  0001 C CNN "Supplier"
+F 5 "365-0440" H 5200 4000 60  0001 C CNN "Supplier Part Number"
+F 6 "https://de.rs-online.com/web/p/monostabile-relais/3650440/" H 5200 4000 60  0001 C CNN "Supplier Link"
 F 7 "Omron" H 5200 4000 60  0001 C CNN "Manufacturer"
-F 8 "G6K-2P-Y-DC5" H 5200 4000 60  0001 C CNN "Manufacturer Part Number"
+F 8 "G6K-2P-Y 5DC" H 5200 4000 60  0001 C CNN "Manufacturer Part Number"
 	3    5200 3800
 	-1   0    0    1   
 $EndComp
@@ -159,6 +158,11 @@ F 0 "R16" V 4100 4150 50  0000 C CNN
 F 1 "100M" V 4200 4150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4130 4150 30  0001 C CNN
 F 3 "" H 4100 4150 60  0001 C CNN
+F 4 "RS" V 4100 4150 50  0001 C CNN "Supplier"
+F 5 "294-5062" V 4100 4150 50  0001 C CNN "Supplier Part Number"
+F 6 "https://de.rs-online.com/web/p/smd-widerstande/2945062/" V 4100 4150 50  0001 C CNN "Supplier Link"
+F 7 "" V 4100 4150 50  0001 C CNN "Manufacturer"
+F 8 "" V 4100 4150 50  0001 C CNN "Manufacturer Part Number"
 	1    4200 4150
 	1    0    0    -1  
 $EndComp
@@ -191,12 +195,12 @@ F 0 "D3" H 7750 3400 50  0000 C CNN
 F 1 "1N4148" H 7750 3200 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-123" H 7750 3300 60  0001 C CNN
 F 3 "http://www.diodes.com/_files/datasheets/ds30086.pdf" H 7750 3400 60  0001 C CNN
-F 4 "Mouser" H 7750 3400 60  0001 C CNN "Supplier"
-F 5 "621-1N4148W-F" H 7750 3400 60  0001 C CNN "Supplier Part Number"
-F 6 "http://eu.mouser.com/ProductDetail/Diodes-Incorporated/1N4148W-7-F/?qs=sGAEpiMZZMtoHjESLttvkiKikX2YhTL0GOrSkzAUFgM%3d" H 7750 3400 60  0001 C CNN "Supplier Link"
-F 7 "Diodes Incorporated" H 7750 3400 60  0001 C CNN "Manufacturer"
-F 8 "1N4148W-7-F" H 7750 3400 60  0001 C CNN "Manufacturer Part Number"
-F 9 "http://www.diodes.com/catalog/Switching_Diodes_5/1N4148W_2800" H 7750 3400 60  0001 C CNN "Manufacturer Link"
+F 4 "RS" H 7750 3400 50  0001 C CNN "Supplier"
+F 5 "738-4728" H 7750 3400 50  0001 C CNN "Supplier Part Number"
+F 6 "https://de.rs-online.com/web/p/schaltdioden/7384728/" H 7750 3400 50  0001 C CNN "Supplier Link"
+F 7 "Diodes Zetex" H 7750 3400 50  0001 C CNN "Manufacturer"
+F 8 "1N4148W-7-F" H 7750 3400 50  0001 C CNN "Manufacturer Part Number"
+F 9 "http://www.diodes.com/catalog/Switching_Diodes_5/1N4148W_2800" H 7750 3400 50  0001 C CNN "Manufacturer Link"
 	1    7750 3300
 	0    1    1    0   
 $EndComp
@@ -249,6 +253,11 @@ F 0 "C10" H 6650 3350 50  0000 L CNN
 F 1 "100n" H 6650 3150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6638 3100 30  0001 C CNN
 F 3 "" H 6650 3350 60  0001 C CNN
+F 4 "RS" H 6650 3350 50  0001 L CNN "Supplier"
+F 5 "170-0041" H 6650 3350 50  0001 L CNN "Supplier Part Number"
+F 6 "https://de.rs-online.com/web/p/keramik-vielschichtkondensatoren/1700041/" H 6650 3350 50  0001 L CNN "Supplier Link"
+F 7 "" H 6650 3350 50  0001 L CNN "Manufacturer"
+F 8 "" H 6650 3350 50  0001 L CNN "Manufacturer Part Number"
 	1    6600 3250
 	1    0    0    -1  
 $EndComp
@@ -288,11 +297,11 @@ F 0 "R20" V 7580 4500 50  0000 C CNN
 F 1 "100M" V 7507 4501 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7430 4500 30  0001 C CNN
 F 3 "" H 7580 4500 60  0001 C CNN
-F 4 "Mouser" H 7580 4500 60  0001 C CNN "Supplier"
-F 5 "71-CRCW0603J-10K-E3" H 7580 4500 60  0001 C CNN "Supplier Part Number"
-F 6 "http://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW060310K0JNEA/?qs=sGAEpiMZZMu61qfTUdNhG%2fEx4adfNLScijTXbM5aXyk%3d" H 7580 4500 60  0001 C CNN "Supplier Link"
-F 7 "Vishay/Dale" H 7580 4500 60  0001 C CNN "Manufacturer"
-F 8 "CRCW060310K0JNEA" H 7580 4500 60  0001 C CNN "Manufacturer Part Number"
+F 4 "RS" H 7580 4500 60  0001 C CNN "Supplier"
+F 5 "294-5062" H 7580 4500 60  0001 C CNN "Supplier Part Number"
+F 6 "https://de.rs-online.com/web/p/smd-widerstande/2945062/" H 7580 4500 60  0001 C CNN "Supplier Link"
+F 7 "" H 7580 4500 60  0001 C CNN "Manufacturer"
+F 8 "" H 7580 4500 60  0001 C CNN "Manufacturer Part Number"
 F 9 "http://www.vishay.com/resistors-fixed/list/product-20011/" H 7580 4500 60  0001 C CNN "Manufacturer Link"
 	1    7500 4500
 	1    0    0    -1  
@@ -332,12 +341,12 @@ F 0 "R19" V 6850 3000 50  0000 C CNN
 F 1 "180" V 6957 3001 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6880 3000 30  0001 C CNN
 F 3 "" H 6850 3000 60  0001 C CNN
-F 4 "Mouser" H 6850 3000 60  0001 C CNN "Supplier"
-F 5 "71-CRCW0603J-180-E3 " H 6850 3000 60  0001 C CNN "Supplier Part Number"
-F 6 "http://www.mouser.de/ProductDetail/Vishay-Dale/CRCW0603180RJNEA/?qs=sGAEpiMZZMu61qfTUdNhG2DpbjADlD3GH6igdLd9ZmA%3d" H 6850 3000 60  0001 C CNN "Supplier Link"
-F 7 "Vishay/Dale" H 6850 3000 60  0001 C CNN "Manufacturer"
-F 8 "CRCW0603180RJNEA" H 6850 3000 60  0001 C CNN "Manufacturer Part Number"
-F 9 "http://www.vishay.com/resistors-fixed/list/product-20011/" H 6850 3000 60  0001 C CNN "Manufacturer Link"
+F 4 "RS" V 6850 3000 50  0001 C CNN "Supplier"
+F 5 "679-0942" V 6850 3000 50  0001 C CNN "Supplier Part Number"
+F 6 "https://de.rs-online.com/web/p/smd-widerstande/6790942/" V 6850 3000 50  0001 C CNN "Supplier Link"
+F 7 "Vishay/Dale" V 6850 3000 50  0001 C CNN "Manufacturer"
+F 8 "CRCW0805180RFKEA" V 6850 3000 50  0001 C CNN "Manufacturer Part Number"
+F 9 "http://www.vishay.com/resistors-fixed/list/product-20011/" V 6850 3000 50  0001 C CNN "Manufacturer Link"
 	1    6950 3000
 	0    1    1    0   
 $EndComp
@@ -356,11 +365,11 @@ F 0 "C11" H 7350 3350 50  0000 L CNN
 F 1 "100n" H 7350 3150 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7338 3100 30  0001 C CNN
 F 3 "" H 7350 3350 60  0001 C CNN
-F 4 "Mouser" H 3650 5050 60  0001 C CNN "Supplier"
-F 5 "81-GRM39X104K25 " H 3650 5050 60  0001 C CNN "Supplier Part Number"
-F 6 "http://eu.mouser.com/ProductDetail/Murata-Electronics/GRM188R71E104KA01D/?qs=sGAEpiMZZMs0AnBnWHyRQNOmsPzkISN0CS9R%252buxD0A8%3d" H 3650 5050 60  0001 C CNN "Supplier Link"
-F 7 "Murata" H 3650 5050 60  0001 C CNN "Manufacturer"
-F 8 "GRM188R71E104KA01D" H 3650 5050 60  0001 C CNN "Manufacturer Part Number"
+F 4 "RS" H 3650 5050 60  0001 C CNN "Supplier"
+F 5 "170-0041" H 3650 5050 60  0001 C CNN "Supplier Part Number"
+F 6 "https://de.rs-online.com/web/p/keramik-vielschichtkondensatoren/1700041/" H 3650 5050 60  0001 C CNN "Supplier Link"
+F 7 "" H 3650 5050 60  0001 C CNN "Manufacturer"
+F 8 "" H 3650 5050 60  0001 C CNN "Manufacturer Part Number"
 	1    7300 3250
 	1    0    0    -1  
 $EndComp
@@ -438,11 +447,11 @@ F 0 "R17" V 4350 4150 50  0000 C CNN
 F 1 "100M" V 4450 4150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4380 4150 30  0001 C CNN
 F 3 "" H 4350 4150 60  0001 C CNN
-F 4 "Mouser" H 4350 4150 60  0001 C CNN "Supplier"
-F 5 "71-CRCW0603100MJPEA" H 4350 4150 60  0001 C CNN "Supplier Part Number"
-F 6 "http://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW0603100MJPEAHR/?qs=sGAEpiMZZMu61qfTUdNhGwALI1ohWcNj4pxTQEkdYlc%3d" H 4350 4150 60  0001 C CNN "Supplier Link"
-F 7 "Vishay/Dale" H 4350 4150 60  0001 C CNN "Manufacturer"
-F 8 "CRCW0603100MJPEAHR" H 4350 4150 60  0001 C CNN "Manufacturer Part Number"
+F 4 "RS" H 4350 4150 60  0001 C CNN "Supplier"
+F 5 "294-5062" H 4350 4150 60  0001 C CNN "Supplier Part Number"
+F 6 "https://de.rs-online.com/web/p/smd-widerstande/2945062/" H 4350 4150 60  0001 C CNN "Supplier Link"
+F 7 "" H 4350 4150 60  0001 C CNN "Manufacturer"
+F 8 "" H 4350 4150 60  0001 C CNN "Manufacturer Part Number"
 F 9 "http://www.vishay.com/resistors-fixed/list/product-20011/" H 4350 4150 60  0001 C CNN "Manufacturer Link"
 	1    4450 4150
 	1    0    0    -1  
@@ -462,11 +471,11 @@ F 0 "R18" V 4600 4150 50  0000 C CNN
 F 1 "100M" V 4700 4150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4630 4150 30  0001 C CNN
 F 3 "" H 4600 4150 60  0001 C CNN
-F 4 "Mouser" H 4600 4150 60  0001 C CNN "Supplier"
-F 5 "71-CRCW0603100MJPEA" H 4600 4150 60  0001 C CNN "Supplier Part Number"
-F 6 "http://eu.mouser.com/ProductDetail/Vishay-Dale/CRCW0603100MJPEAHR/?qs=sGAEpiMZZMu61qfTUdNhGwALI1ohWcNj4pxTQEkdYlc%3d" H 4600 4150 60  0001 C CNN "Supplier Link"
-F 7 "Vishay/Dale" H 4600 4150 60  0001 C CNN "Manufacturer"
-F 8 "CRCW0603100MJPEAHR" H 4600 4150 60  0001 C CNN "Manufacturer Part Number"
+F 4 "RS" H 4600 4150 60  0001 C CNN "Supplier"
+F 5 "294-5062" H 4600 4150 60  0001 C CNN "Supplier Part Number"
+F 6 "https://de.rs-online.com/web/p/smd-widerstande/2945062/" H 4600 4150 60  0001 C CNN "Supplier Link"
+F 7 "" H 4600 4150 60  0001 C CNN "Manufacturer"
+F 8 "" H 4600 4150 60  0001 C CNN "Manufacturer Part Number"
 F 9 "http://www.vishay.com/resistors-fixed/list/product-20011/" H 4600 4150 60  0001 C CNN "Manufacturer Link"
 	1    4700 4150
 	1    0    0    -1  
@@ -524,6 +533,9 @@ F 0 "Q3" H 7991 4296 50  0000 L CNN
 F 1 "BC547" H 7991 4205 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8000 4175 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 7800 4250 50  0001 L CNN
+F 4 "RS" H 7991 4296 50  0001 L CNN "Supplier"
+F 5 "166-2988" H 7991 4296 50  0001 L CNN "Supplier Part Number"
+F 6 "https://de.rs-online.com/web/p/bipolare-transistoren/1662988/" H 7991 4296 50  0001 L CNN "Supplier Link"
 	1    7800 4250
 	1    0    0    -1  
 $EndComp
@@ -542,12 +554,12 @@ F 0 "R5" V 7330 4250 50  0000 C CNN
 F 1 "1k" V 7257 4251 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7180 4250 30  0001 C CNN
 F 3 "" H 7330 4250 60  0001 C CNN
-F 4 "" H 7330 4250 60  0001 C CNN "Supplier"
-F 5 "" H 7330 4250 60  0001 C CNN "Supplier Part Number"
-F 6 "" H 7330 4250 60  0001 C CNN "Supplier Link"
-F 7 "" H 7330 4250 60  0001 C CNN "Manufacturer"
-F 8 "" H 7330 4250 60  0001 C CNN "Manufacturer Part Number"
-F 9 "" H 7330 4250 60  0001 C CNN "Manufacturer Link"
+F 4 "RS" V 7330 4250 50  0001 C CNN "Supplier"
+F 5 "804-6449" V 7330 4250 50  0001 C CNN "Supplier Part Number"
+F 6 "https://de.rs-online.com/web/p/smd-widerstande/8046449/" V 7330 4250 50  0001 C CNN "Supplier Link"
+F 7 "" V 7330 4250 50  0001 C CNN "Manufacturer"
+F 8 "" V 7330 4250 50  0001 C CNN "Manufacturer Part Number"
+F 9 "" V 7330 4250 50  0001 C CNN "Manufacturer Link"
 	1    7250 4250
 	0    1    1    0   
 $EndComp

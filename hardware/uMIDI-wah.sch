@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:uMIDI-wah-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -22,6 +21,9 @@ F 0 "R2" V 3043 2400 50  0000 C CNN
 F 1 "1k" V 3134 2400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3180 2400 50  0001 C CNN
 F 3 "" H 3250 2400 50  0001 C CNN
+F 4 "RS" V 3043 2400 50  0001 C CNN "Supplier"
+F 5 "804-6449" V 3043 2400 50  0001 C CNN "Supplier Part Number"
+F 6 "https://de.rs-online.com/web/p/smd-widerstande/8046449/" V 3043 2400 50  0001 C CNN "Supplier Link"
 	1    3250 2400
 	0    1    1    0   
 $EndComp
@@ -33,6 +35,9 @@ F 0 "R1" V 3457 3100 50  0000 C CNN
 F 1 "100k" V 3366 3100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3180 3100 50  0001 C CNN
 F 3 "" H 3250 3100 50  0001 C CNN
+F 4 "RS" V 3457 3100 50  0001 C CNN "Supplier"
+F 5 "804-6607" V 3457 3100 50  0001 C CNN "Supplier Part Number"
+F 6 "https://de.rs-online.com/web/p/smd-widerstande/8046607/" V 3457 3100 50  0001 C CNN "Supplier Link"
 	1    3250 3100
 	0    1    -1   0   
 $EndComp
@@ -44,6 +49,9 @@ F 0 "R4" H 3770 3946 50  0000 L CNN
 F 1 "1k" H 3770 3855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3630 3900 50  0001 C CNN
 F 3 "" H 3700 3900 50  0001 C CNN
+F 4 "RS" H 3770 3946 50  0001 L CNN "Supplier"
+F 5 "804-6449" H 3770 3946 50  0001 L CNN "Supplier Part Number"
+F 6 "https://de.rs-online.com/web/p/smd-widerstande/8046449/" H 3770 3946 50  0001 L CNN "Supplier Link"
 	1    3700 3900
 	1    0    0    -1  
 $EndComp
@@ -55,6 +63,9 @@ F 0 "R8" V 6357 4250 50  0000 C CNN
 F 1 "100k" V 6266 4250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6080 4250 50  0001 C CNN
 F 3 "" H 6150 4250 50  0001 C CNN
+F 4 "RS" V 6357 4250 50  0001 C CNN "Supplier"
+F 5 "804-6607" V 6357 4250 50  0001 C CNN "Supplier Part Number"
+F 6 "https://de.rs-online.com/web/p/smd-widerstande/8046607/" V 6357 4250 50  0001 C CNN "Supplier Link"
 	1    6150 4250
 	0    1    -1   0   
 $EndComp
@@ -77,6 +88,9 @@ F 0 "R3" V 3943 2400 50  0000 C CNN
 F 1 "100k" V 4034 2400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4080 2400 50  0001 C CNN
 F 3 "" H 4150 2400 50  0001 C CNN
+F 4 "RS" V 3943 2400 50  0001 C CNN "Supplier"
+F 5 "804-6607" V 3943 2400 50  0001 C CNN "Supplier Part Number"
+F 6 "https://de.rs-online.com/web/p/smd-widerstande/8046607/" V 3943 2400 50  0001 C CNN "Supplier Link"
 	1    4150 2400
 	0    1    1    0   
 $EndComp
@@ -88,6 +102,9 @@ F 0 "C6" V 6798 3000 50  0000 C CNN
 F 1 "22u" V 6889 3000 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7088 2850 50  0001 C CNN
 F 3 "" H 7050 3000 50  0001 C CNN
+F 4 "RS" V 6798 3000 50  0001 C CNN "Supplier"
+F 5 "169-2721" V 6798 3000 50  0001 C CNN "Supplier Part Number"
+F 6 "https://de.rs-online.com/web/p/keramik-vielschichtkondensatoren/1692721/" V 6798 3000 50  0001 C CNN "Supplier Link"
 	1    7050 3000
 	0    1    1    0   
 $EndComp
@@ -99,6 +116,9 @@ F 0 "C4" V 3998 4350 50  0000 C CNN
 F 1 "33n" V 4089 4350 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4288 4200 50  0001 C CNN
 F 3 "" H 4250 4350 50  0001 C CNN
+F 4 "RS" V 3998 4350 50  0001 C CNN "Supplier"
+F 5 "169-6231" V 3998 4350 50  0001 C CNN "Supplier Part Number"
+F 6 "https://de.rs-online.com/web/p/keramik-vielschichtkondensatoren/1696231/" V 3998 4350 50  0001 C CNN "Supplier Link"
 	1    4250 4350
 	0    1    1    0   
 $EndComp
@@ -291,6 +311,9 @@ F 0 "C1" V 2498 3100 50  0000 C CNN
 F 1 "22u" V 2589 3100 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2788 2950 50  0001 C CNN
 F 3 "" H 2750 3100 50  0001 C CNN
+F 4 "RS" V 2498 3100 50  0001 C CNN "Supplier"
+F 5 "169-2721" V 2498 3100 50  0001 C CNN "Supplier Part Number"
+F 6 "https://de.rs-online.com/web/p/keramik-vielschichtkondensatoren/1692721/" V 2498 3100 50  0001 C CNN "Supplier Link"
 	1    2750 3100
 	0    1    1    0   
 $EndComp
@@ -318,6 +341,11 @@ F 0 "R10" V 3043 1450 50  0000 C CNN
 F 1 "100M" V 3134 1450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3180 1450 50  0001 C CNN
 F 3 "" H 3250 1450 50  0001 C CNN
+F 4 "RS" V 3043 1450 50  0001 C CNN "Supplier"
+F 5 "294-5062" V 3043 1450 50  0001 C CNN "Supplier Part Number"
+F 6 "https://de.rs-online.com/web/p/smd-widerstande/2945062/" V 3043 1450 50  0001 C CNN "Supplier Link"
+F 7 "" V 3043 1450 50  0001 C CNN "Manufacturer"
+F 8 "" V 3043 1450 50  0001 C CNN "Manufacturer Part Number"
 	1    3250 1450
 	0    1    1    0   
 $EndComp
@@ -468,6 +496,11 @@ F 0 "R11" V 6143 1600 50  0000 C CNN
 F 1 "100M" V 6234 1600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6280 1600 50  0001 C CNN
 F 3 "" H 6350 1600 50  0001 C CNN
+F 4 "RS" V 6143 1600 50  0001 C CNN "Supplier"
+F 5 "294-5062" V 6143 1600 50  0001 C CNN "Supplier Part Number"
+F 6 "https://de.rs-online.com/web/p/smd-widerstande/2945062/" V 6143 1600 50  0001 C CNN "Supplier Link"
+F 7 "" V 6143 1600 50  0001 C CNN "Manufacturer"
+F 8 "" V 6143 1600 50  0001 C CNN "Manufacturer Part Number"
 	1    6350 1600
 	0    1    1    0   
 $EndComp
@@ -537,6 +570,11 @@ F 0 "C3" V 3798 6750 50  0000 C CNN
 F 1 "100n" V 3889 6750 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4088 6600 50  0001 C CNN
 F 3 "" H 4050 6750 50  0001 C CNN
+F 4 "RS" V 3798 6750 50  0001 C CNN "Supplier"
+F 5 "170-0041" V 3798 6750 50  0001 C CNN "Supplier Part Number"
+F 6 "https://de.rs-online.com/web/p/keramik-vielschichtkondensatoren/1700041/" V 3798 6750 50  0001 C CNN "Supplier Link"
+F 7 "" V 3798 6750 50  0001 C CNN "Manufacturer"
+F 8 "" V 3798 6750 50  0001 C CNN "Manufacturer Part Number"
 	1    4050 6750
 	-1   0    0    1   
 $EndComp
@@ -686,6 +724,9 @@ F 0 "R21" V 5657 6400 50  0000 C CNN
 F 1 "100k" V 5566 6400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5380 6400 50  0001 C CNN
 F 3 "" H 5450 6400 50  0001 C CNN
+F 4 "RS" V 5657 6400 50  0001 C CNN "Supplier"
+F 5 "804-6607" V 5657 6400 50  0001 C CNN "Supplier Part Number"
+F 6 "https://de.rs-online.com/web/p/smd-widerstande/8046607/" V 5657 6400 50  0001 C CNN "Supplier Link"
 	1    5450 6400
 	1    0    0    1   
 $EndComp
@@ -697,6 +738,9 @@ F 0 "R22" V 5657 7100 50  0000 C CNN
 F 1 "100k" V 5566 7100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5380 7100 50  0001 C CNN
 F 3 "" H 5450 7100 50  0001 C CNN
+F 4 "RS" V 5657 7100 50  0001 C CNN "Supplier"
+F 5 "804-6607" V 5657 7100 50  0001 C CNN "Supplier Part Number"
+F 6 "https://de.rs-online.com/web/p/smd-widerstande/8046607/" V 5657 7100 50  0001 C CNN "Supplier Link"
 	1    5450 7100
 	1    0    0    1   
 $EndComp
@@ -710,6 +754,7 @@ F 2 "Capacitor_SMD:CP_Elec_6.3x9.9" H 3388 6600 50  0001 C CNN
 F 3 "https://docs-emea.rs-online.com/webdocs/0f49/0900766b80f4973e.pdf" H 3350 6750 50  0001 C CNN
 F 4 "RS" H 3350 6750 50  0001 C CNN "Supplier"
 F 5 " 729-6309" H 3350 6750 50  0001 C CNN "Supplier Part Number"
+F 6 "https://de.rs-online.com/web/p/aluminium-elektrolytkondensatoren/7296309/" H 3350 6750 50  0000 C CNN "Supplier Link"
 	1    3350 6750
 	1    0    0    -1  
 $EndComp
@@ -721,6 +766,9 @@ F 0 "C12" V 5648 7100 50  0000 C CNN
 F 1 "22u" V 5739 7100 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5938 6950 50  0001 C CNN
 F 3 "" H 5900 7100 50  0001 C CNN
+F 4 "RS" V 5648 7100 50  0001 C CNN "Supplier"
+F 5 "169-2721" V 5648 7100 50  0001 C CNN "Supplier Part Number"
+F 6 "https://de.rs-online.com/web/p/keramik-vielschichtkondensatoren/1692721/" V 5648 7100 50  0001 C CNN "Supplier Link"
 	1    5900 7100
 	-1   0    0    1   
 $EndComp
@@ -805,6 +853,11 @@ F 0 "C14" V 9748 2950 50  0000 C CNN
 F 1 "100n" V 9839 2950 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10038 2800 50  0001 C CNN
 F 3 "" H 10000 2950 50  0001 C CNN
+F 4 "RS" V 9748 2950 50  0001 C CNN "Supplier"
+F 5 "170-0041" V 9748 2950 50  0001 C CNN "Supplier Part Number"
+F 6 "https://de.rs-online.com/web/p/keramik-vielschichtkondensatoren/1700041/" V 9748 2950 50  0001 C CNN "Supplier Link"
+F 7 "" V 9748 2950 50  0001 C CNN "Manufacturer"
+F 8 "" V 9748 2950 50  0001 C CNN "Manufacturer Part Number"
 	1    10000 2950
 	-1   0    0    1   
 $EndComp
@@ -816,6 +869,11 @@ F 0 "C13" V 8948 2950 50  0000 C CNN
 F 1 "100n" V 9039 2950 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9238 2800 50  0001 C CNN
 F 3 "" H 9200 2950 50  0001 C CNN
+F 4 "RS" V 8948 2950 50  0001 C CNN "Supplier"
+F 5 "170-0041" V 8948 2950 50  0001 C CNN "Supplier Part Number"
+F 6 "https://de.rs-online.com/web/p/keramik-vielschichtkondensatoren/1700041/" V 8948 2950 50  0001 C CNN "Supplier Link"
+F 7 "" V 8948 2950 50  0001 C CNN "Manufacturer"
+F 8 "" V 8948 2950 50  0001 C CNN "Manufacturer Part Number"
 	1    9200 2950
 	-1   0    0    1   
 $EndComp
