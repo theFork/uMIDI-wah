@@ -21,6 +21,7 @@ fp-info-cache
 *.ses
 
 # Exported BOM files
+uMIDI-wah
 *.xml
 *.csv
 
