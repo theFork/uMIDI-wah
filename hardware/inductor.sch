@@ -75,8 +75,8 @@ F 1 "Omron G6K-2P-5VCD" H 7200 3400 60  0000 C CNN
 F 2 "umidi-wah:Omron_G6K-2P" H 7200 3100 60  0001 C CNN
 F 3 "https://www.omron.com/ecb/products/pdf/en-g6k.pdf" H 7200 3300 60  0001 C CNN
 F 4 "RS" H 7200 3300 60  0001 C CNN "Supplier"
-F 5 "365-0440" H 7200 3300 60  0001 C CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/monostabile-relais/3650440/" H 7200 3300 60  0001 C CNN "Supplier Link"
+F 5 "3650440" H 7200 3300 60  0001 C CNN "Supplier Part Number"
+F 6 "https://www.rsonline-privat.de/Products/ProductDetail/Omron-G6K-Monostabiles-Relais-5V-dc-Spule-2-poliger-Wechsler-3650440" H 7200 3300 60  0001 C CNN "Supplier Link"
 F 7 "Omron" H 7200 3300 60  0001 C CNN "Manufacturer"
 F 8 "G6K-2P-Y 5DC" H 7200 3300 60  0001 C CNN "Manufacturer Part Number"
 	1    7200 3100
@@ -112,8 +112,8 @@ F 1 "Omron G6K-2P-5VCD" H 4350 2900 60  0001 C CNN
 F 2 "umidi-wah:Omron_G6K-2P" H 4350 3200 60  0001 C CNN
 F 3 "https://www.omron.com/ecb/products/pdf/en-g6k.pdf" H 4350 3400 60  0001 C CNN
 F 4 "RS" H 4350 3400 60  0001 C CNN "Supplier"
-F 5 "365-0440" H 4350 3400 60  0001 C CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/monostabile-relais/3650440/" H 4350 3400 60  0001 C CNN "Supplier Link"
+F 5 "3650440" H 4350 3400 60  0001 C CNN "Supplier Part Number"
+F 6 "https://www.rsonline-privat.de/Products/ProductDetail/Omron-G6K-Monostabiles-Relais-5V-dc-Spule-2-poliger-Wechsler-3650440" H 4350 3400 60  0001 C CNN "Supplier Link"
 F 7 "Omron" H 4350 3400 60  0001 C CNN "Manufacturer"
 F 8 "G6K-2P-Y 5DC" H 4350 3400 60  0001 C CNN "Manufacturer Part Number"
 	2    4350 3200
@@ -149,8 +149,8 @@ F 1 "Omron G6K-2P-5VCD" H 4000 4650 60  0001 C CNN
 F 2 "umidi-wah:Omron_G6K-2P" H 4350 4300 60  0001 C CNN
 F 3 "https://www.omron.com/ecb/products/pdf/en-g6k.pdf" H 4350 4500 60  0001 C CNN
 F 4 "RS" H 4350 4500 60  0001 C CNN "Supplier"
-F 5 "365-0440" H 4350 4500 60  0001 C CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/monostabile-relais/3650440/" H 4350 4500 60  0001 C CNN "Supplier Link"
+F 5 "3650440" H 4350 4500 60  0001 C CNN "Supplier Part Number"
+F 6 "https://www.rsonline-privat.de/Products/ProductDetail/Omron-G6K-Monostabiles-Relais-5V-dc-Spule-2-poliger-Wechsler-3650440" H 4350 4500 60  0001 C CNN "Supplier Link"
 F 7 "Omron" H 4350 4500 60  0001 C CNN "Manufacturer"
 F 8 "G6K-2P-Y 5DC" H 4350 4500 60  0001 C CNN "Manufacturer Part Number"
 	3    4350 4300
@@ -175,13 +175,12 @@ AR Path="/5CE9535C/5CEC8A8F" Ref="D7"  Part="1"
 F 0 "D7" H 6900 3200 50  0000 C CNN
 F 1 "1N4148" H 6900 3000 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-123" H 6900 3100 60  0001 C CNN
-F 3 "http://www.diodes.com/_files/datasheets/ds30086.pdf" H 6900 3200 60  0001 C CNN
-F 4 "RS" H 6900 3200 50  0001 C CNN "Supplier"
-F 5 "738-4728" H 6900 3200 50  0001 C CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/schaltdioden/7384728/" H 6900 3200 50  0001 C CNN "Supplier Link"
-F 7 "Diodes Zetex" H 6900 3200 50  0001 C CNN "Manufacturer"
+F 3 "https://docs-emea.rs-online.com/webdocs/0df8/0900766b80df8fd1.pdf" H 6900 3200 60  0001 C CNN
+F 4 "Reichelt" H 6900 3200 50  0001 C CNN "Supplier"
+F 5 "1N 4148W7F DII" H 6900 3200 50  0001 C CNN "Supplier Part Number"
+F 6 "https://www.reichelt.de/schalt-diode-100-v-150-ma-sod-123-1n-4148w7f-dii-p219381.html?&trstct=pos_0&nbc=1" H 6900 3200 50  0001 C CNN "Supplier Link"
+F 7 "DIODES INCORPORATED" H 6900 3200 50  0001 C CNN "Manufacturer"
 F 8 "1N4148W-7-F" H 6900 3200 50  0001 C CNN "Manufacturer Part Number"
-F 9 "http://www.diodes.com/catalog/Switching_Diodes_5/1N4148W_2800" H 6900 3200 50  0001 C CNN "Manufacturer Link"
 	1    6900 3100
 	0    1    1    0   
 $EndComp
@@ -235,12 +234,12 @@ AR Path="/5CE9535C/5CEC8AA4" Ref="C15"  Part="1"
 F 0 "C15" H 5800 3150 50  0000 L CNN
 F 1 "100n" H 5800 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5788 2900 30  0001 C CNN
-F 3 "" H 5800 3150 60  0001 C CNN
-F 4 "RS" H 5800 3150 50  0001 L CNN "Supplier"
-F 5 "170-0041" H 5800 3150 50  0001 L CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/keramik-vielschichtkondensatoren/1700041/" H 5800 3150 50  0001 L CNN "Supplier Link"
-F 7 "" H 5800 3150 50  0001 L CNN "Manufacturer"
-F 8 "" H 5800 3150 50  0001 L CNN "Manufacturer Part Number"
+F 3 "https://docs-emea.rs-online.com/webdocs/0eb3/0900766b80eb3145.pdf" H 5800 3150 60  0001 C CNN
+F 4 "Reichelt" H 5800 3150 50  0001 L CNN "Supplier"
+F 5 "X7R-G0805 100N" H 5800 3150 50  0001 L CNN "Supplier Part Number"
+F 6 "https://www.reichelt.de/smd-vielschicht-keramikkondensator-100n-10-x7r-g0805-100n-p31879.html?&trstct=pol_1&nbc=1" H 5800 3150 50  0001 L CNN "Supplier Link"
+F 7 "YAGEO" H 5800 3150 50  0001 L CNN "Manufacturer"
+F 8 "CC0805KRX7R9BB104" H 5800 3150 50  0001 L CNN "Manufacturer Part Number"
 	1    5750 3050
 	1    0    0    -1  
 $EndComp
@@ -281,13 +280,12 @@ AR Path="/5CE9535C/5CEC8AB8" Ref="R26"  Part="1"
 F 0 "R26" V 6730 4300 50  0000 C CNN
 F 1 "100M" V 6657 4301 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6580 4300 30  0001 C CNN
-F 3 "" H 6730 4300 60  0001 C CNN
+F 3 "https://docs-emea.rs-online.com/webdocs/0fcd/0900766b80fcdbbc.pdf" H 6730 4300 60  0001 C CNN
 F 4 "RS" V 6730 4300 50  0001 C CNN "Supplier"
-F 5 "294-5062" V 6730 4300 50  0001 C CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/smd-widerstande/2945062/" V 6730 4300 50  0001 C CNN "Supplier Link"
-F 7 "" V 6730 4300 50  0001 C CNN "Manufacturer"
-F 8 "" V 6730 4300 50  0001 C CNN "Manufacturer Part Number"
-F 9 "" V 6730 4300 50  0001 C CNN "Manufacturer Link"
+F 5 "2945062" V 6730 4300 50  0001 C CNN "Supplier Part Number"
+F 6 "https://www.rsonline-privat.de/Products/ProductDetail/TE-Connectivity-RH73-SMD-Widerstand-100M-10-0805-2012M-2945062" V 6730 4300 50  0001 C CNN "Supplier Link"
+F 7 "TE Connectivity" V 6730 4300 50  0001 C CNN "Manufacturer"
+F 8 "RH73H2A100MKTN" V 6730 4300 50  0001 C CNN "Manufacturer Part Number"
 	1    6650 4300
 	1    0    0    -1  
 $EndComp
@@ -327,13 +325,12 @@ AR Path="/5CE9535C/5CEC8ACB" Ref="R9"  Part="1"
 F 0 "R9" V 6000 2800 50  0000 C CNN
 F 1 "180" V 6107 2801 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6030 2800 30  0001 C CNN
-F 3 "" H 6000 2800 60  0001 C CNN
-F 4 "RS" V 6000 2800 50  0001 C CNN "Supplier"
-F 5 "679-0942" V 6000 2800 50  0001 C CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/smd-widerstande/6790942/" V 6000 2800 50  0001 C CNN "Supplier Link"
-F 7 "Vishay/Dale" V 6000 2800 50  0001 C CNN "Manufacturer"
-F 8 "CRCW0805180RFKEA" V 6000 2800 50  0001 C CNN "Manufacturer Part Number"
-F 9 "http://www.vishay.com/resistors-fixed/list/product-20011/" V 6000 2800 50  0001 C CNN "Manufacturer Link"
+F 3 "https://docs-emea.rs-online.com/webdocs/0fcd/0900766b80fcdb72.pdf" H 6000 2800 60  0001 C CNN
+F 4 "Reichelt" V 6000 2800 50  0001 C CNN "Supplier"
+F 5 "SMD-0805 180" V 6000 2800 50  0001 C CNN "Supplier Part Number"
+F 6 "https://www.reichelt.de/smd-widerstand-0805-180-ohm-125-mw-1-smd-0805-180-p32877.html?&trstct=pol_0&nbc=1" V 6000 2800 50  0001 C CNN "Supplier Link"
+F 7 "YAGEO" V 6000 2800 50  0001 C CNN "Manufacturer"
+F 8 "RC0805FR-07180RL" V 6000 2800 50  0001 C CNN "Manufacturer Part Number"
 	1    6100 2800
 	0    1    1    0   
 $EndComp
@@ -352,12 +349,12 @@ AR Path="/5CE9535C/5CEC8AD6" Ref="C16"  Part="1"
 F 0 "C16" H 6500 3150 50  0000 L CNN
 F 1 "100n" H 6500 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6488 2900 30  0001 C CNN
-F 3 "" H 6500 3150 60  0001 C CNN
-F 4 "RS" H 2800 4850 60  0001 C CNN "Supplier"
-F 5 "170-0041" H 2800 4850 60  0001 C CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/keramik-vielschichtkondensatoren/1700041/" H 2800 4850 60  0001 C CNN "Supplier Link"
-F 7 "" H 2800 4850 60  0001 C CNN "Manufacturer"
-F 8 "" H 2800 4850 60  0001 C CNN "Manufacturer Part Number"
+F 3 "https://docs-emea.rs-online.com/webdocs/0eb3/0900766b80eb3145.pdf" H 6500 3150 60  0001 C CNN
+F 4 "Reichelt" H 2800 4850 60  0001 C CNN "Supplier"
+F 5 "X7R-G0805 100N" H 2800 4850 60  0001 C CNN "Supplier Part Number"
+F 6 "https://www.reichelt.de/smd-vielschicht-keramikkondensator-100n-10-x7r-g0805-100n-p31879.html?&trstct=pol_1&nbc=1" H 2800 4850 60  0001 C CNN "Supplier Link"
+F 7 "YAGEO" H 2800 4850 60  0001 C CNN "Manufacturer"
+F 8 "CC0805KRX7R9BB104" H 2800 4850 60  0001 C CNN "Manufacturer Part Number"
 	1    6450 3050
 	1    0    0    -1  
 $EndComp
@@ -436,9 +433,11 @@ F 0 "Q4" H 7141 4096 50  0000 L CNN
 F 1 "BC547" H 7141 4005 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7150 3975 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 6950 4050 50  0001 L CNN
-F 4 "RS" H 7141 4096 50  0001 L CNN "Supplier"
-F 5 "166-2988" H 7141 4096 50  0001 L CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/bipolare-transistoren/1662988/" H 7141 4096 50  0001 L CNN "Supplier Link"
+F 4 "Reichelt" H 7141 4096 50  0001 L CNN "Supplier"
+F 5 "BC 547B DIO" H 7141 4096 50  0001 L CNN "Supplier Part Number"
+F 6 "https://www.reichelt.de/bipolartransistor-npn-45v-0-1a-0-5w-to-92-bc-547b-dio-p219082.html?&trstct=pos_1&nbc=1" H 7141 4096 50  0001 L CNN "Supplier Link"
+F 7 "DIOTEC" H 7141 4096 50  0001 L CNN "Manufacturer"
+F 8 "BC547B" H 7141 4096 50  0001 L CNN "Manufacturer Part Number"
 	1    6950 4050
 	1    0    0    -1  
 $EndComp
@@ -457,13 +456,12 @@ AR Path="/5CE9535C/5CEC8B2A" Ref="R25"  Part="1"
 F 0 "R25" V 6480 4050 50  0000 C CNN
 F 1 "1k" V 6407 4051 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6330 4050 30  0001 C CNN
-F 3 "" H 6480 4050 60  0001 C CNN
-F 4 "RS" V 6480 4050 50  0001 C CNN "Supplier"
-F 5 "804-6449" V 6480 4050 50  0001 C CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/smd-widerstande/8046449/" V 6480 4050 50  0001 C CNN "Supplier Link"
-F 7 "" V 6480 4050 50  0001 C CNN "Manufacturer"
-F 8 "" V 6480 4050 50  0001 C CNN "Manufacturer Part Number"
-F 9 "" V 6480 4050 50  0001 C CNN "Manufacturer Link"
+F 3 "https://docs-emea.rs-online.com/webdocs/13af/0900766b813aff0c.pdf" H 6480 4050 60  0001 C CNN
+F 4 "Reichelt" V 6480 4050 50  0001 C CNN "Supplier"
+F 5 "SMD-0805 1,00K" V 6480 4050 50  0001 C CNN "Supplier Part Number"
+F 6 "https://www.reichelt.de/smd-widerstand-0805-1-0-kohm-125-mw-1-smd-0805-1-00k-p32886.html?&trstct=pol_0&nbc=1" V 6480 4050 50  0001 C CNN "Supplier Link"
+F 7 "YAGEO" V 6480 4050 50  0001 C CNN "Manufacturer"
+F 8 "RC0805FR-071KL" V 6480 4050 50  0001 C CNN "Manufacturer Part Number"
 	1    6400 4050
 	0    1    1    0   
 $EndComp

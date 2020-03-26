@@ -23,9 +23,11 @@ F 0 "Q1" H 4341 3146 50  0000 L CNN
 F 1 "BC547" H 4341 3055 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4350 3025 50  0001 L CIN
 F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 4150 3100 50  0001 L CNN
-F 4 "RS" H 4341 3146 50  0001 L CNN "Supplier"
-F 5 "166-2988" H 4341 3146 50  0001 L CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/bipolare-transistoren/1662988/" H 4341 3146 50  0001 L CNN "Supplier Link"
+F 4 "Reichelt" H 4341 3146 50  0001 L CNN "Supplier"
+F 5 "BC 547B DIO" H 4341 3146 50  0001 L CNN "Supplier Part Number"
+F 6 "https://www.reichelt.de/bipolartransistor-npn-45v-0-1a-0-5w-to-92-bc-547b-dio-p219082.html?&trstct=pos_1&nbc=1" H 4341 3146 50  0001 L CNN "Supplier Link"
+F 7 "DIOTEC" H 4341 3146 50  0001 L CNN "Manufacturer"
+F 8 "BC547B" H 4341 3146 50  0001 L CNN "Manufacturer Part Number"
 	1    4150 3100
 	1    0    0    -1  
 $EndComp
@@ -40,8 +42,8 @@ F 1 "LED" V 4197 2483 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 4250 2600 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/SML-210PTT86-Rohm-datasheet-12523978.pdf" H 4250 2600 50  0001 C CNN
 F 4 "RS" V 4288 2483 50  0001 R CNN "Supplier"
-F 5 "700-7890" V 4288 2483 50  0001 R CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/leds-sichtbares-licht/7007890/" V 4288 2483 50  0001 R CNN "Supplier Link"
+F 5 "7007890" V 4288 2483 50  0001 R CNN "Supplier Part Number"
+F 6 "https://www.rsonline-privat.de/Products/ProductDetail/ROHM-SML-21-SMD-LED-grun-2-2-V-rechteckige-Linse-2012-0805-7007890" V 4288 2483 50  0001 R CNN "Supplier Link"
 F 7 "ROHM" V 4288 2483 50  0001 R CNN "Manufacturer"
 F 8 "SML-210PTT86" V 4288 2483 50  0001 R CNN "Manufacturer Part Number"
 	1    4250 2600
@@ -71,10 +73,12 @@ AR Path="/5C8EFAFF/5C8ECB18" Ref="R15"  Part="1"
 F 0 "R13" H 4320 3546 50  0000 L CNN
 F 1 "0" H 4320 3455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4180 3500 50  0001 C CNN
-F 3 "" H 4250 3500 50  0001 C CNN
-F 4 "RS" H 4320 3546 50  0001 L CNN "Supplier"
-F 5 "679-0800" H 4320 3546 50  0001 L CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/smd-widerstande/6790800/" H 4320 3546 50  0001 L CNN "Supplier Link"
+F 3 "https://docs-emea.rs-online.com/webdocs/13f1/0900766b813f17c1.pdf" H 4250 3500 50  0001 C CNN
+F 4 "Reichelt" H 4320 3546 50  0001 L CNN "Supplier"
+F 5 "RND 0805 1 0" H 4320 3546 50  0001 L CNN "Supplier Part Number"
+F 6 "https://www.reichelt.de/smd-widerstand-0805-0-0-ohm-125-mw-rnd-0805-1-0-p212707.html?&nbc=1" H 4320 3546 50  0001 L CNN "Supplier Link"
+F 7 "RND COMPONENTS" H 4320 3546 50  0001 L CNN "Manufacturer"
+F 8 "RND 1550805S8F0000T5E" H 4320 3546 50  0001 L CNN "Manufacturer Part Number"
 	1    4250 3500
 	1    0    0    -1  
 $EndComp
@@ -91,10 +95,12 @@ AR Path="/5C8EFAFF/5C8ECBDB" Ref="R14"  Part="1"
 F 0 "R12" V 3493 3100 50  0000 C CNN
 F 1 "1k" V 3584 3100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3630 3100 50  0001 C CNN
-F 3 "" H 3700 3100 50  0001 C CNN
-F 4 "RS" V 3493 3100 50  0001 C CNN "Supplier"
-F 5 "804-6449" V 3493 3100 50  0001 C CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/smd-widerstande/8046449/" V 3493 3100 50  0001 C CNN "Supplier Link"
+F 3 "https://docs-emea.rs-online.com/webdocs/13af/0900766b813aff0c.pdf" H 3700 3100 50  0001 C CNN
+F 4 "Reichelt" V 3493 3100 50  0001 C CNN "Supplier"
+F 5 "SMD-0805 1,00K" V 3493 3100 50  0001 C CNN "Supplier Part Number"
+F 6 "https://www.reichelt.de/smd-widerstand-0805-1-0-kohm-125-mw-1-smd-0805-1-00k-p32886.html?&trstct=pol_0&nbc=1" V 3493 3100 50  0001 C CNN "Supplier Link"
+F 7 "YAGEO" V 3493 3100 50  0001 C CNN "Manufacturer"
+F 8 "RC0805FR-071KL" V 3493 3100 50  0001 C CNN "Manufacturer Part Number"
 	1    3700 3100
 	0    1    1    0   
 $EndComp
@@ -115,12 +121,12 @@ AR Path="/5C8EFAFF/5C8ECCDD" Ref="C9"  Part="1"
 F 0 "C7" V 4248 1400 50  0000 C CNN
 F 1 "100n" V 4339 1400 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4538 1250 50  0001 C CNN
-F 3 "" H 4500 1400 50  0001 C CNN
-F 4 "RS" V 4248 1400 50  0001 C CNN "Supplier"
-F 5 "170-0041" V 4248 1400 50  0001 C CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/keramik-vielschichtkondensatoren/1700041/" V 4248 1400 50  0001 C CNN "Supplier Link"
-F 7 "" V 4248 1400 50  0001 C CNN "Manufacturer"
-F 8 "" V 4248 1400 50  0001 C CNN "Manufacturer Part Number"
+F 3 "https://docs-emea.rs-online.com/webdocs/0eb3/0900766b80eb3145.pdf" H 4500 1400 50  0001 C CNN
+F 4 "Reichelt" V 4248 1400 50  0001 C CNN "Supplier"
+F 5 "X7R-G0805 100N" V 4248 1400 50  0001 C CNN "Supplier Part Number"
+F 6 "https://www.reichelt.de/smd-vielschicht-keramikkondensator-100n-10-x7r-g0805-100n-p31879.html?&trstct=pol_1&nbc=1" V 4248 1400 50  0001 C CNN "Supplier Link"
+F 7 "YAGEO" V 4248 1400 50  0001 C CNN "Manufacturer"
+F 8 "CC0805KRX7R9BB104" V 4248 1400 50  0001 C CNN "Manufacturer Part Number"
 	1    4500 1400
 	0    1    1    0   
 $EndComp
@@ -155,10 +161,12 @@ AR Path="/5C8EFAFF/5C8ECE43" Ref="C8"  Part="1"
 F 0 "C5" H 3285 3354 50  0000 R CNN
 F 1 "10u" H 3285 3445 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3438 3250 50  0001 C CNN
-F 3 "" H 3400 3400 50  0001 C CNN
-F 4 "RS" H 3285 3354 50  0001 R CNN "Supplier"
-F 5 "144-9030" H 3285 3354 50  0001 R CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/keramik-vielschichtkondensatoren/1449030/" H 3285 3354 50  0001 R CNN "Supplier Link"
+F 3 "https://docs-emea.rs-online.com/webdocs/15fb/0900766b815fb3af.pdf" H 3400 3400 50  0001 C CNN
+F 4 "Reichelt" H 3285 3354 50  0001 R CNN "Supplier"
+F 5 "X5R-G0805 10/16" H 3285 3354 50  0001 R CNN "Supplier Part Number"
+F 6 "https://www.reichelt.de/smd-vielschichtkondensator-g0805-10-f-16v-x5r-g0805-10-16-p89734.html?&trstct=pol_0&nbc=1" H 3285 3354 50  0001 R CNN "Supplier Link"
+F 7 "MURATA" H 3285 3354 50  0001 R CNN "Manufacturer"
+F 8 "GRM21BR61C106KE15L" H 3285 3354 50  0001 R CNN "Manufacturer Part Number"
 	1    3400 3400
 	-1   0    0    1   
 $EndComp
@@ -193,8 +201,8 @@ F 1 "LED" V 4197 2083 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 4250 2200 50  0001 C CNN
 F 3 "http://datasheet.octopart.com/SML-210PTT86-Rohm-datasheet-12523978.pdf" H 4250 2200 50  0001 C CNN
 F 4 "RS" V 4288 2083 50  0001 R CNN "Supplier"
-F 5 "700-7890" V 4288 2083 50  0001 R CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/leds-sichtbares-licht/7007890/" V 4288 2083 50  0001 R CNN "Supplier Link"
+F 5 "7007890" V 4288 2083 50  0001 R CNN "Supplier Part Number"
+F 6 "https://www.rsonline-privat.de/Products/ProductDetail/ROHM-SML-21-SMD-LED-grun-2-2-V-rechteckige-Linse-2012-0805-7007890" V 4288 2083 50  0001 R CNN "Supplier Link"
 F 7 "ROHM" V 4288 2083 50  0001 R CNN "Manufacturer"
 F 8 "SML-210PTT86" V 4288 2083 50  0001 R CNN "Manufacturer Part Number"
 	1    4250 2200
@@ -209,10 +217,12 @@ AR Path="/5C8EFAFF/5CD998D9" Ref="R24"  Part="1"
 F 0 "R23" V 4043 1800 50  0000 C CNN
 F 1 "1k" V 4134 1800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4180 1800 50  0001 C CNN
-F 3 "" H 4250 1800 50  0001 C CNN
-F 4 "RS" V 4043 1800 50  0001 C CNN "Supplier"
-F 5 "804-6449" V 4043 1800 50  0001 C CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/smd-widerstande/8046449/" V 4043 1800 50  0001 C CNN "Supplier Link"
+F 3 "https://docs-emea.rs-online.com/webdocs/13af/0900766b813aff0c.pdf" H 4250 1800 50  0001 C CNN
+F 4 "Reichelt" V 4043 1800 50  0001 C CNN "Supplier"
+F 5 "SMD-0805 1,00K" V 4043 1800 50  0001 C CNN "Supplier Part Number"
+F 6 "https://www.reichelt.de/smd-widerstand-0805-1-0-kohm-125-mw-1-smd-0805-1-00k-p32886.html?&trstct=pol_0&nbc=1" V 4043 1800 50  0001 C CNN "Supplier Link"
+F 7 "YAGEO" V 4043 1800 50  0001 C CNN "Manufacturer"
+F 8 "RC0805FR-071KL" V 4043 1800 50  0001 C CNN "Manufacturer Part Number"
 	1    4250 1800
 	-1   0    0    1   
 $EndComp

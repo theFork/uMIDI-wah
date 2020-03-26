@@ -20,10 +20,12 @@ P 3250 2400
 F 0 "R2" V 3043 2400 50  0000 C CNN
 F 1 "1k" V 3134 2400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3180 2400 50  0001 C CNN
-F 3 "" H 3250 2400 50  0001 C CNN
-F 4 "RS" V 3043 2400 50  0001 C CNN "Supplier"
-F 5 "804-6449" V 3043 2400 50  0001 C CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/smd-widerstande/8046449/" V 3043 2400 50  0001 C CNN "Supplier Link"
+F 3 "https://docs-emea.rs-online.com/webdocs/13af/0900766b813aff0c.pdf" H 3250 2400 50  0001 C CNN
+F 4 "Reichelt" V 3043 2400 50  0001 C CNN "Supplier"
+F 5 "SMD-0805 1,00K" V 3043 2400 50  0001 C CNN "Supplier Part Number"
+F 6 "https://www.reichelt.de/smd-widerstand-0805-1-0-kohm-125-mw-1-smd-0805-1-00k-p32886.html?&trstct=pol_0&nbc=1" V 3043 2400 50  0001 C CNN "Supplier Link"
+F 7 "YAGEO" V 3043 2400 50  0001 C CNN "Manufacturer"
+F 8 "RC0805FR-071KL" V 3043 2400 50  0001 C CNN "Manufacturer Part Number"
 	1    3250 2400
 	0    1    1    0   
 $EndComp
@@ -34,10 +36,12 @@ P 3250 3100
 F 0 "R1" V 3457 3100 50  0000 C CNN
 F 1 "100k" V 3366 3100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3180 3100 50  0001 C CNN
-F 3 "" H 3250 3100 50  0001 C CNN
-F 4 "RS" V 3457 3100 50  0001 C CNN "Supplier"
-F 5 "804-6607" V 3457 3100 50  0001 C CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/smd-widerstande/8046607/" V 3457 3100 50  0001 C CNN "Supplier Link"
+F 3 "https://docs-emea.rs-online.com/webdocs/0dd0/0900766b80dd0f79.pdf" H 3250 3100 50  0001 C CNN
+F 4 "Reichelt" V 3457 3100 50  0001 C CNN "Supplier"
+F 5 "SMD-0805 100K" V 3457 3100 50  0001 C CNN "Supplier Part Number"
+F 6 "https://www.reichelt.de/smd-widerstand-0805-100-kohm-125-mw-1-smd-0805-100k-p32910.html?&nbc=1" V 3457 3100 50  0001 C CNN "Supplier Link"
+F 7 "YAGEO" V 3457 3100 50  0001 C CNN "Manufacturer"
+F 8 "RC0805FR-07100KL" V 3457 3100 50  0001 C CNN "Manufacturer Part Number"
 	1    3250 3100
 	0    1    -1   0   
 $EndComp
@@ -48,10 +52,12 @@ P 3700 3900
 F 0 "R4" H 3770 3946 50  0000 L CNN
 F 1 "1k" H 3770 3855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3630 3900 50  0001 C CNN
-F 3 "" H 3700 3900 50  0001 C CNN
-F 4 "RS" H 3770 3946 50  0001 L CNN "Supplier"
-F 5 "804-6449" H 3770 3946 50  0001 L CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/smd-widerstande/8046449/" H 3770 3946 50  0001 L CNN "Supplier Link"
+F 3 "https://docs-emea.rs-online.com/webdocs/13af/0900766b813aff0c.pdf" H 3700 3900 50  0001 C CNN
+F 4 "Reichelt" H 3770 3946 50  0001 L CNN "Supplier"
+F 5 "SMD-0805 1,00K" H 3770 3946 50  0001 L CNN "Supplier Part Number"
+F 6 "https://www.reichelt.de/smd-widerstand-0805-1-0-kohm-125-mw-1-smd-0805-1-00k-p32886.html?&trstct=pol_0&nbc=1" H 3770 3946 50  0001 L CNN "Supplier Link"
+F 7 "YAGEO" H 3770 3946 50  0001 L CNN "Manufacturer"
+F 8 "RC0805FR-071KL" H 3770 3946 50  0001 L CNN "Manufacturer Part Number"
 	1    3700 3900
 	1    0    0    -1  
 $EndComp
@@ -62,10 +68,12 @@ P 6150 4250
 F 0 "R8" V 6357 4250 50  0000 C CNN
 F 1 "100k" V 6266 4250 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6080 4250 50  0001 C CNN
-F 3 "" H 6150 4250 50  0001 C CNN
-F 4 "RS" V 6357 4250 50  0001 C CNN "Supplier"
-F 5 "804-6607" V 6357 4250 50  0001 C CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/smd-widerstande/8046607/" V 6357 4250 50  0001 C CNN "Supplier Link"
+F 3 "https://docs-emea.rs-online.com/webdocs/0dd0/0900766b80dd0f79.pdf" H 6150 4250 50  0001 C CNN
+F 4 "Reichelt" V 6357 4250 50  0001 C CNN "Supplier"
+F 5 "SMD-0805 100K" V 6357 4250 50  0001 C CNN "Supplier Part Number"
+F 6 "https://www.reichelt.de/smd-widerstand-0805-100-kohm-125-mw-1-smd-0805-100k-p32910.html?&nbc=1" V 6357 4250 50  0001 C CNN "Supplier Link"
+F 7 "YAGEO" V 6357 4250 50  0001 C CNN "Manufacturer"
+F 8 "RC0805FR-07100KL" V 6357 4250 50  0001 C CNN "Manufacturer Part Number"
 	1    6150 4250
 	0    1    -1   0   
 $EndComp
@@ -87,10 +95,12 @@ P 4150 2400
 F 0 "R3" V 3943 2400 50  0000 C CNN
 F 1 "100k" V 4034 2400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4080 2400 50  0001 C CNN
-F 3 "" H 4150 2400 50  0001 C CNN
-F 4 "RS" V 3943 2400 50  0001 C CNN "Supplier"
-F 5 "804-6607" V 3943 2400 50  0001 C CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/smd-widerstande/8046607/" V 3943 2400 50  0001 C CNN "Supplier Link"
+F 3 "https://docs-emea.rs-online.com/webdocs/0dd0/0900766b80dd0f79.pdf" H 4150 2400 50  0001 C CNN
+F 4 "Reichelt" V 3943 2400 50  0001 C CNN "Supplier"
+F 5 "SMD-0805 100K" V 3943 2400 50  0001 C CNN "Supplier Part Number"
+F 6 "https://www.reichelt.de/smd-widerstand-0805-100-kohm-125-mw-1-smd-0805-100k-p32910.html?&nbc=1" V 3943 2400 50  0001 C CNN "Supplier Link"
+F 7 "YAGEO" V 3943 2400 50  0001 C CNN "Manufacturer"
+F 8 "RC0805FR-07100KL" V 3943 2400 50  0001 C CNN "Manufacturer Part Number"
 	1    4150 2400
 	0    1    1    0   
 $EndComp
@@ -101,10 +111,12 @@ P 7050 3000
 F 0 "C6" V 6798 3000 50  0000 C CNN
 F 1 "22u" V 6889 3000 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7088 2850 50  0001 C CNN
-F 3 "" H 7050 3000 50  0001 C CNN
+F 3 "https://docs-emea.rs-online.com/webdocs/13d1/0900766b813d110b.pdf" H 7050 3000 50  0001 C CNN
 F 4 "RS" V 6798 3000 50  0001 C CNN "Supplier"
-F 5 "169-2721" V 6798 3000 50  0001 C CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/keramik-vielschichtkondensatoren/1692721/" V 6798 3000 50  0001 C CNN "Supplier Link"
+F 5 "7883023" V 6798 3000 50  0001 C CNN "Supplier Part Number"
+F 6 "https://www.rsonline-privat.de/Products/ProductDetail/TDK-C-SMD-MLCC-Vielschicht-Keramikkondensator-X5R-22-F-10-16V-dc-Gehause-0805-2012M-7883023" V 6798 3000 50  0001 C CNN "Supplier Link"
+F 7 "TDK" V 6798 3000 50  0001 C CNN "Manufacturer"
+F 8 "C2012X5R1C226K125AC" V 6798 3000 50  0001 C CNN "Manufacturer Part Number"
 	1    7050 3000
 	0    1    1    0   
 $EndComp
@@ -116,9 +128,11 @@ F 0 "C4" V 3998 4350 50  0000 C CNN
 F 1 "33n" V 4089 4350 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4288 4200 50  0001 C CNN
 F 3 "" H 4250 4350 50  0001 C CNN
-F 4 "RS" V 3998 4350 50  0001 C CNN "Supplier"
-F 5 "169-6231" V 3998 4350 50  0001 C CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/keramik-vielschichtkondensatoren/1696231/" V 3998 4350 50  0001 C CNN "Supplier Link"
+F 4 "Reichelt" V 3998 4350 50  0001 C CNN "Supplier"
+F 5 "KEM X7R0805 33N" V 3998 4350 50  0001 C CNN "Supplier Part Number"
+F 6 "https://www.reichelt.de/vielschicht-kerko-33nf-50v-125-c-kem-x7r0805-33n-p207070.html?&trstct=pol_3&nbc=1" V 3998 4350 50  0001 C CNN "Supplier Link"
+F 7 "KEMET" V 3998 4350 50  0001 C CNN "Manufacturer"
+F 8 "C0805C333K5RAC7025" V 3998 4350 50  0001 C CNN "Manufacturer Part Number"
 	1    4250 4350
 	0    1    1    0   
 $EndComp
@@ -141,11 +155,11 @@ F 0 "IC1" H 4200 2633 50  0000 C CNN
 F 1 "Opamp_Dual_Generic" H 4200 2724 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 4200 3000 50  0001 C CNN
 F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24928095&ppid=1973&sid=370&sig=0c34f3f" H 4200 3000 50  0001 C CNN
-F 4 "RS" H 4200 2633 50  0001 C CNN "Supplier"
-F 5 "https://de.rs-online.com/web/p/operationsverstarker/0304239/" H 4200 2633 50  0001 C CNN "Supplier Link"
-F 6 "TI" H 4200 2633 50  0001 C CNN "Manufacturer"
-F 7 "TL072CP" H 4200 2633 50  0001 C CNN "Manufacturer Part Number"
-F 8 "304-239" H 4200 2633 50  0001 C CNN "Supplier Part Number"
+F 4 "Reichelt" H 4200 2633 50  0001 C CNN "Supplier"
+F 5 "TL 072 DIP" H 4200 2633 50  0001 C CNN "Supplier Part Number"
+F 6 "https://www.reichelt.de/operationsverstaerker-2-fach-dip-8-tl-072-dip-p21556.html?&trstct=pos_0&nbc=1" H 4200 2633 50  0001 C CNN "Supplier Link"
+F 7 "TI" H 4200 2633 50  0001 C CNN "Manufacturer"
+F 8 "TL072CP" H 4200 2633 50  0001 C CNN "Manufacturer Part Number"
 	1    4200 3000
 	1    0    0    1   
 $EndComp
@@ -157,11 +171,11 @@ F 0 "IC1" H 5200 3983 50  0000 C CNN
 F 1 "Opamp_Dual_Generic" H 5200 4074 50  0000 C CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 5200 4350 50  0001 C CNN
 F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24928095&ppid=1973&sid=370&sig=0c34f3f" H 5200 4350 50  0001 C CNN
-F 4 "RS" H 5200 3983 50  0001 C CNN "Supplier"
-F 5 "https://de.rs-online.com/web/p/operationsverstarker/0304239/" H 5200 3983 50  0001 C CNN "Supplier Link"
+F 4 "Reichelt" H 5200 3983 50  0001 C CNN "Supplier"
+F 5 "https://www.reichelt.de/operationsverstaerker-2-fach-dip-8-tl-072-dip-p21556.html?&trstct=pos_0&nbc=1" H 5200 3983 50  0001 C CNN "Supplier Link"
 F 6 "TI" H 5200 3983 50  0001 C CNN "Manufacturer"
 F 7 "TL072CP" H 5200 3983 50  0001 C CNN "Manufacturer Part Number"
-F 8 "304-239" H 5200 3983 50  0001 C CNN "Supplier Part Number"
+F 8 "TL 072 DIP" H 5200 3983 50  0001 C CNN "Supplier Part Number"
 	2    5200 4350
 	-1   0    0    1   
 $EndComp
@@ -173,11 +187,11 @@ F 0 "IC1" H 4508 6746 50  0000 L CNN
 F 1 "Opamp_Dual_Generic" H 4508 6655 50  0000 L CNN
 F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 4550 6700 50  0001 C CNN
 F 3 "https://octopart.com/click/track?ct=datasheets&hlid=24928095&ppid=1973&sid=370&sig=0c34f3f" H 4550 6700 50  0001 C CNN
-F 4 "RS" H 4508 6746 50  0001 L CNN "Supplier"
-F 5 "https://de.rs-online.com/web/p/operationsverstarker/0304239/" H 4508 6746 50  0001 L CNN "Supplier Link"
+F 4 "Reichelt" H 4508 6746 50  0001 L CNN "Supplier"
+F 5 "https://www.reichelt.de/operationsverstaerker-2-fach-dip-8-tl-072-dip-p21556.html?&trstct=pos_0&nbc=1" H 4508 6746 50  0001 L CNN "Supplier Link"
 F 6 "TI" H 4508 6746 50  0001 L CNN "Manufacturer"
 F 7 "TL072CP" H 4508 6746 50  0001 L CNN "Manufacturer Part Number"
-F 8 "304-239" H 4508 6746 50  0001 L CNN "Supplier Part Number"
+F 8 "TL 072 DIP" H 4508 6746 50  0001 L CNN "Supplier Part Number"
 	3    4550 6700
 	1    0    0    -1  
 $EndComp
@@ -257,9 +271,9 @@ F 1 "AudioJack3_Switch" H 2804 1301 50  0000 C CNN
 F 2 "umidi-wah:AudioJack 6.3mm Stereo" H 2800 950 50  0001 C CNN
 F 3 "https://docs-emea.rs-online.com/webdocs/14b5/0900766b814b516f.pdf" H 2800 950 50  0001 C CNN
 F 4 "RS" H 2804 1392 50  0001 C CNN "Supplier"
-F 5 "913-1037" H 2804 1392 50  0001 C CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/klinkenstecker/9131037/" H 2804 1392 50  0001 C CNN "Supplier Link"
-F 7 "RS" H 2804 1392 50  0001 C CNN "Manufacturer"
+F 5 "9131037" H 2804 1392 50  0001 C CNN "Supplier Part Number"
+F 6 "https://www.rsonline-privat.de/Products/ProductDetail/Klinkenstecker-6-35-mm-Loten-Leiterplattenmontage-3-polig-Schwarz-9131037" H 2804 1392 50  0001 C CNN "Supplier Link"
+F 7 "RS PRO" H 2804 1392 50  0001 C CNN "Manufacturer"
 F 8 "-" H 2804 1392 50  0001 C CNN "Manufacturer Part Number"
 	1    2800 950 
 	1    0    0    -1  
@@ -273,8 +287,8 @@ F 1 "NORPS-12" H 2970 4955 50  0000 L CNN
 F 2 "umidi-wah:LDR reverse mount" V 3075 5000 50  0001 C CNN
 F 3 "https://docs-emea.rs-online.com/webdocs/1566/0900766b8156674b.pdf" H 2900 4950 50  0001 C CNN
 F 4 "RS" H 2970 5046 50  0001 L CNN "Supplier"
-F 5 "914-6714" H 2970 5046 50  0001 L CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/fotowiderstande-ldr/9146714/" H 2970 5046 50  0001 L CNN "Supplier Link"
+F 5 "9146714" H 2970 5046 50  0001 L CNN "Supplier Part Number"
+F 6 "https://www.rsonline-privat.de/Products/ProductDetail/Luna-Optoelectronics-NORPS-12-Fotowiderstand-R-hell-dunkel-5-4-k-1M-TO18-9146714" H 2970 5046 50  0001 L CNN "Supplier Link"
 F 7 "Luna" H 2970 5046 50  0001 L CNN "Manufacturer"
 F 8 "NORPS-12" H 2970 5046 50  0001 L CNN "Manufacturer Part Number"
 	1    2900 5000
@@ -289,8 +303,8 @@ F 1 "NORPS-12" H 6412 4955 50  0000 R CNN
 F 2 "umidi-wah:LDR reverse mount" V 6775 5000 50  0001 C CNN
 F 3 "https://docs-emea.rs-online.com/webdocs/1566/0900766b8156674b.pdf" H 6600 4950 50  0001 C CNN
 F 4 "RS" H 6412 5046 50  0001 R CNN "Supplier"
-F 5 "914-6714" H 6412 5046 50  0001 R CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/fotowiderstande-ldr/9146714/" H 6412 5046 50  0001 R CNN "Supplier Link"
+F 5 "9146714" H 6412 5046 50  0001 R CNN "Supplier Part Number"
+F 6 "https://www.rsonline-privat.de/Products/ProductDetail/Luna-Optoelectronics-NORPS-12-Fotowiderstand-R-hell-dunkel-5-4-k-1M-TO18-9146714" H 6412 5046 50  0001 R CNN "Supplier Link"
 F 7 "Luna" H 6412 5046 50  0001 R CNN "Manufacturer"
 F 8 "NORPS-12" H 6412 5046 50  0001 R CNN "Manufacturer Part Number"
 	1    6600 5000
@@ -310,10 +324,12 @@ P 2750 3100
 F 0 "C1" V 2498 3100 50  0000 C CNN
 F 1 "22u" V 2589 3100 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2788 2950 50  0001 C CNN
-F 3 "" H 2750 3100 50  0001 C CNN
+F 3 "https://docs-emea.rs-online.com/webdocs/13d1/0900766b813d110b.pdf" H 2750 3100 50  0001 C CNN
 F 4 "RS" V 2498 3100 50  0001 C CNN "Supplier"
-F 5 "169-2721" V 2498 3100 50  0001 C CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/keramik-vielschichtkondensatoren/1692721/" V 2498 3100 50  0001 C CNN "Supplier Link"
+F 5 "7883023" V 2498 3100 50  0001 C CNN "Supplier Part Number"
+F 6 "https://www.rsonline-privat.de/Products/ProductDetail/TDK-C-SMD-MLCC-Vielschicht-Keramikkondensator-X5R-22-F-10-16V-dc-Gehause-0805-2012M-7883023" V 2498 3100 50  0001 C CNN "Supplier Link"
+F 7 "TDK" V 2498 3100 50  0001 C CNN "Manufacturer"
+F 8 "C2012X5R1C226K125AC" V 2498 3100 50  0001 C CNN "Manufacturer Part Number"
 	1    2750 3100
 	0    1    1    0   
 $EndComp
@@ -326,9 +342,9 @@ F 1 "AudioJack3_Switch" H 6167 880 50  0000 R CNN
 F 2 "umidi-wah:AudioJack 6.3mm Stereo" H 6400 950 50  0001 C CNN
 F 3 "https://docs-emea.rs-online.com/webdocs/14b5/0900766b814b516f.pdf" H 6400 950 50  0001 C CNN
 F 4 "RS" H 6167 971 50  0001 R CNN "Supplier"
-F 5 "913-1037" H 6167 971 50  0001 R CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/klinkenstecker/9131037/" H 6167 971 50  0001 R CNN "Supplier Link"
-F 7 "RS" H 6167 971 50  0001 R CNN "Manufacturer"
+F 5 "9131037" H 6167 971 50  0001 R CNN "Supplier Part Number"
+F 6 "https://www.rsonline-privat.de/Products/ProductDetail/Klinkenstecker-6-35-mm-Loten-Leiterplattenmontage-3-polig-Schwarz-9131037" H 6167 971 50  0001 R CNN "Supplier Link"
+F 7 "RS PRO" H 6167 971 50  0001 R CNN "Manufacturer"
 F 8 "-" H 6167 971 50  0001 R CNN "Manufacturer Part Number"
 	1    6400 950 
 	-1   0    0    -1  
@@ -340,12 +356,12 @@ P 3250 1450
 F 0 "R10" V 3043 1450 50  0000 C CNN
 F 1 "100M" V 3134 1450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 3180 1450 50  0001 C CNN
-F 3 "" H 3250 1450 50  0001 C CNN
+F 3 "https://docs-emea.rs-online.com/webdocs/0fcd/0900766b80fcdbbc.pdf" H 3250 1450 50  0001 C CNN
 F 4 "RS" V 3043 1450 50  0001 C CNN "Supplier"
-F 5 "294-5062" V 3043 1450 50  0001 C CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/smd-widerstande/2945062/" V 3043 1450 50  0001 C CNN "Supplier Link"
-F 7 "" V 3043 1450 50  0001 C CNN "Manufacturer"
-F 8 "" V 3043 1450 50  0001 C CNN "Manufacturer Part Number"
+F 5 "2945062" V 3043 1450 50  0001 C CNN "Supplier Part Number"
+F 6 "https://www.rsonline-privat.de/Products/ProductDetail/TE-Connectivity-RH73-SMD-Widerstand-100M-10-0805-2012M-2945062" V 3043 1450 50  0001 C CNN "Supplier Link"
+F 7 "TE Connectivity" V 3043 1450 50  0001 C CNN "Manufacturer"
+F 8 "RH73H2A100MKTN" V 3043 1450 50  0001 C CNN "Manufacturer Part Number"
 	1    3250 1450
 	0    1    1    0   
 $EndComp
@@ -425,8 +441,8 @@ F 1 "470k" V 5500 3650 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Vishay_T7-YA_Single_Vertical" H 5250 3450 50  0001 C CNN
 F 3 "https://docs-emea.rs-online.com/webdocs/0021/0900766b8002111f.pdf" H 5250 3450 50  0001 C CNN
 F 4 "RS" V 5550 3650 50  0001 R CNN "Supplier"
-F 5 "374-6844" V 5550 3650 50  0001 R CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/abgleichwiderstande/3746844/" V 5550 3650 50  0001 R CNN "Supplier Link"
+F 5 "3746844" V 5550 3650 50  0001 R CNN "Supplier Part Number"
+F 6 "https://www.rsonline-privat.de/Products/ProductDetail/Vishay-T7-1-Gang-THT-Trimmer-Potentiometer-470k-10-0-13W-3746844" V 5550 3650 50  0001 R CNN "Supplier Link"
 F 7 "Vishay" V 5550 3650 50  0001 R CNN "Manufacturer"
 F 8 "T7YA474MT20" V 5550 3650 50  0001 R CNN "Manufacturer Part Number"
 	1    5250 3450
@@ -460,8 +476,8 @@ F 1 "470k" V 7800 3450 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Vishay_T7-YA_Single_Vertical" H 7550 3250 50  0001 C CNN
 F 3 "https://docs-emea.rs-online.com/webdocs/0021/0900766b8002111f.pdf" H 7550 3250 50  0001 C CNN
 F 4 "RS" V 7850 3450 50  0001 R CNN "Supplier"
-F 5 "374-6844" V 7850 3450 50  0001 R CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/abgleichwiderstande/3746844/" V 7850 3450 50  0001 R CNN "Supplier Link"
+F 5 "3746844" V 7850 3450 50  0001 R CNN "Supplier Part Number"
+F 6 "https://www.rsonline-privat.de/Products/ProductDetail/Vishay-T7-1-Gang-THT-Trimmer-Potentiometer-470k-10-0-13W-3746844" V 7850 3450 50  0001 R CNN "Supplier Link"
 F 7 "Vishay" V 7850 3450 50  0001 R CNN "Manufacturer"
 F 8 "T7YA474MT20" V 7850 3450 50  0001 R CNN "Manufacturer Part Number"
 	1    7550 3250
@@ -495,12 +511,12 @@ P 6350 1600
 F 0 "R11" V 6143 1600 50  0000 C CNN
 F 1 "100M" V 6234 1600 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6280 1600 50  0001 C CNN
-F 3 "" H 6350 1600 50  0001 C CNN
+F 3 "https://docs-emea.rs-online.com/webdocs/0fcd/0900766b80fcdbbc.pdf" H 6350 1600 50  0001 C CNN
 F 4 "RS" V 6143 1600 50  0001 C CNN "Supplier"
-F 5 "294-5062" V 6143 1600 50  0001 C CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/smd-widerstande/2945062/" V 6143 1600 50  0001 C CNN "Supplier Link"
-F 7 "" V 6143 1600 50  0001 C CNN "Manufacturer"
-F 8 "" V 6143 1600 50  0001 C CNN "Manufacturer Part Number"
+F 5 "2945062" V 6143 1600 50  0001 C CNN "Supplier Part Number"
+F 6 "https://www.rsonline-privat.de/Products/ProductDetail/TE-Connectivity-RH73-SMD-Widerstand-100M-10-0805-2012M-2945062" V 6143 1600 50  0001 C CNN "Supplier Link"
+F 7 "TE Connectivity" V 6143 1600 50  0001 C CNN "Manufacturer"
+F 8 "RH73H2A100MKTN" V 6143 1600 50  0001 C CNN "Manufacturer Part Number"
 	1    6350 1600
 	0    1    1    0   
 $EndComp
@@ -534,8 +550,8 @@ F 1 "470k" V 6550 3750 50  0000 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Vishay_T7-YA_Single_Vertical" H 6300 3550 50  0001 C CNN
 F 3 "https://docs-emea.rs-online.com/webdocs/0021/0900766b8002111f.pdf" H 6300 3550 50  0001 C CNN
 F 4 "RS" V 6600 3750 50  0001 R CNN "Supplier"
-F 5 "374-6844" V 6600 3750 50  0001 R CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/abgleichwiderstande/3746844/" V 6600 3750 50  0001 R CNN "Supplier Link"
+F 5 "3746844" V 6600 3750 50  0001 R CNN "Supplier Part Number"
+F 6 "https://www.rsonline-privat.de/Products/ProductDetail/Vishay-T7-1-Gang-THT-Trimmer-Potentiometer-470k-10-0-13W-3746844" V 6600 3750 50  0001 R CNN "Supplier Link"
 F 7 "Vishay" V 6600 3750 50  0001 R CNN "Manufacturer"
 F 8 "T7YA474MT20" V 6600 3750 50  0001 R CNN "Manufacturer Part Number"
 	1    6300 3550
@@ -569,12 +585,12 @@ P 4050 6750
 F 0 "C3" V 3798 6750 50  0000 C CNN
 F 1 "100n" V 3889 6750 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4088 6600 50  0001 C CNN
-F 3 "" H 4050 6750 50  0001 C CNN
-F 4 "RS" V 3798 6750 50  0001 C CNN "Supplier"
-F 5 "170-0041" V 3798 6750 50  0001 C CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/keramik-vielschichtkondensatoren/1700041/" V 3798 6750 50  0001 C CNN "Supplier Link"
-F 7 "" V 3798 6750 50  0001 C CNN "Manufacturer"
-F 8 "" V 3798 6750 50  0001 C CNN "Manufacturer Part Number"
+F 3 "https://docs-emea.rs-online.com/webdocs/0eb3/0900766b80eb3145.pdf" H 4050 6750 50  0001 C CNN
+F 4 "Reichelt" V 3798 6750 50  0001 C CNN "Supplier"
+F 5 "X7R-G0805 100N" V 3798 6750 50  0001 C CNN "Supplier Part Number"
+F 6 "https://www.reichelt.de/smd-vielschicht-keramikkondensator-100n-10-x7r-g0805-100n-p31879.html?&trstct=pol_1&nbc=1" V 3798 6750 50  0001 C CNN "Supplier Link"
+F 7 "YAGEO" V 3798 6750 50  0001 C CNN "Manufacturer"
+F 8 "CC0805KRX7R9BB104" V 3798 6750 50  0001 C CNN "Manufacturer Part Number"
 	1    4050 6750
 	-1   0    0    1   
 $EndComp
@@ -723,10 +739,12 @@ P 5450 6400
 F 0 "R21" V 5657 6400 50  0000 C CNN
 F 1 "100k" V 5566 6400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5380 6400 50  0001 C CNN
-F 3 "" H 5450 6400 50  0001 C CNN
-F 4 "RS" V 5657 6400 50  0001 C CNN "Supplier"
-F 5 "804-6607" V 5657 6400 50  0001 C CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/smd-widerstande/8046607/" V 5657 6400 50  0001 C CNN "Supplier Link"
+F 3 "https://docs-emea.rs-online.com/webdocs/0dd0/0900766b80dd0f79.pdf" H 5450 6400 50  0001 C CNN
+F 4 "Reichelt" V 5657 6400 50  0001 C CNN "Supplier"
+F 5 "SMD-0805 100K" V 5657 6400 50  0001 C CNN "Supplier Part Number"
+F 6 "https://www.reichelt.de/smd-widerstand-0805-100-kohm-125-mw-1-smd-0805-100k-p32910.html?&nbc=1" V 5657 6400 50  0001 C CNN "Supplier Link"
+F 7 "YAGEO" V 5657 6400 50  0001 C CNN "Manufacturer"
+F 8 "RC0805FR-07100KL" V 5657 6400 50  0001 C CNN "Manufacturer Part Number"
 	1    5450 6400
 	1    0    0    1   
 $EndComp
@@ -737,10 +755,12 @@ P 5450 7100
 F 0 "R22" V 5657 7100 50  0000 C CNN
 F 1 "100k" V 5566 7100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5380 7100 50  0001 C CNN
-F 3 "" H 5450 7100 50  0001 C CNN
-F 4 "RS" V 5657 7100 50  0001 C CNN "Supplier"
-F 5 "804-6607" V 5657 7100 50  0001 C CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/smd-widerstande/8046607/" V 5657 7100 50  0001 C CNN "Supplier Link"
+F 3 "https://docs-emea.rs-online.com/webdocs/0dd0/0900766b80dd0f79.pdf" H 5450 7100 50  0001 C CNN
+F 4 "Reichelt" V 5657 7100 50  0001 C CNN "Supplier"
+F 5 "SMD-0805 100K" V 5657 7100 50  0001 C CNN "Supplier Part Number"
+F 6 "https://www.reichelt.de/smd-widerstand-0805-100-kohm-125-mw-1-smd-0805-100k-p32910.html?&nbc=1" V 5657 7100 50  0001 C CNN "Supplier Link"
+F 7 "YAGEO" V 5657 7100 50  0001 C CNN "Manufacturer"
+F 8 "RC0805FR-07100KL" V 5657 7100 50  0001 C CNN "Manufacturer Part Number"
 	1    5450 7100
 	1    0    0    1   
 $EndComp
@@ -752,9 +772,11 @@ F 0 "C2" H 3468 6796 50  0000 L CNN
 F 1 "100u, 50V" H 3468 6705 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_6.3x9.9" H 3388 6600 50  0001 C CNN
 F 3 "https://docs-emea.rs-online.com/webdocs/0f49/0900766b80f4973e.pdf" H 3350 6750 50  0001 C CNN
-F 4 "RS" H 3350 6750 50  0001 C CNN "Supplier"
-F 5 " 729-6309" H 3350 6750 50  0001 C CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/aluminium-elektrolytkondensatoren/7296309/" H 3350 6750 50  0000 C CNN "Supplier Link"
+F 4 "Reichelt" H 3468 6796 50  0001 L CNN "Supplier"
+F 5 "FT-V 100U 50" H 3468 6796 50  0001 L CNN "Supplier Part Number"
+F 6 "https://www.reichelt.de/elko-smd-100-uf-50-v-105-c-ft-v-100u-50-p200156.html?&nbc=1" H 3468 6796 50  0001 L CNN "Supplier Link"
+F 7 "Panasonic" H 3468 6796 50  0001 L CNN "Manufacturer"
+F 8 "EEEFTH101XAP" H 3468 6796 50  0001 L CNN "Manufacturer Part Number"
 	1    3350 6750
 	1    0    0    -1  
 $EndComp
@@ -765,10 +787,12 @@ P 5900 7100
 F 0 "C12" V 5648 7100 50  0000 C CNN
 F 1 "22u" V 5739 7100 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5938 6950 50  0001 C CNN
-F 3 "" H 5900 7100 50  0001 C CNN
+F 3 "https://docs-emea.rs-online.com/webdocs/13d1/0900766b813d110b.pdf" H 5900 7100 50  0001 C CNN
 F 4 "RS" V 5648 7100 50  0001 C CNN "Supplier"
-F 5 "169-2721" V 5648 7100 50  0001 C CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/keramik-vielschichtkondensatoren/1692721/" V 5648 7100 50  0001 C CNN "Supplier Link"
+F 5 "7883023" V 5648 7100 50  0001 C CNN "Supplier Part Number"
+F 6 "https://www.rsonline-privat.de/Products/ProductDetail/TDK-C-SMD-MLCC-Vielschicht-Keramikkondensator-X5R-22-F-10-16V-dc-Gehause-0805-2012M-7883023" V 5648 7100 50  0001 C CNN "Supplier Link"
+F 7 "TDK" V 5648 7100 50  0001 C CNN "Manufacturer"
+F 8 "C2012X5R1C226K125AC" V 5648 7100 50  0001 C CNN "Manufacturer Part Number"
 	1    5900 7100
 	-1   0    0    1   
 $EndComp
@@ -838,8 +862,8 @@ F 1 "L78L09_SOT89" H 9600 2851 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-89-3" H 9600 2900 50  0001 C CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf" H 9600 2650 50  0001 C CNN
 F 4 "RS" H 9600 2942 50  0001 C CNN "Supplier"
-F 5 "686-9467" H 9600 2942 50  0001 C CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/spannungs-linearregler/6869467/" H 9600 2942 50  0001 C CNN "Supplier Link"
+F 5 "6869467" H 9600 2942 50  0001 C CNN "Supplier Part Number"
+F 6 "https://www.rsonline-privat.de/Products/ProductDetail/L78L09ACUTR-Single-Ausgang-Positiv-Spannungsregler-Fest-9-V-100mA-SOT-89-3-Pin-6869467" H 9600 2942 50  0001 C CNN "Supplier Link"
 F 7 "STM" H 9600 2942 50  0001 C CNN "Manufacturer"
 F 8 "L78L09ACUTR" H 9600 2942 50  0001 C CNN "Manufacturer Part Number"
 	1    9600 2700
@@ -852,12 +876,12 @@ P 10000 2950
 F 0 "C14" V 9748 2950 50  0000 C CNN
 F 1 "100n" V 9839 2950 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10038 2800 50  0001 C CNN
-F 3 "" H 10000 2950 50  0001 C CNN
-F 4 "RS" V 9748 2950 50  0001 C CNN "Supplier"
-F 5 "170-0041" V 9748 2950 50  0001 C CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/keramik-vielschichtkondensatoren/1700041/" V 9748 2950 50  0001 C CNN "Supplier Link"
-F 7 "" V 9748 2950 50  0001 C CNN "Manufacturer"
-F 8 "" V 9748 2950 50  0001 C CNN "Manufacturer Part Number"
+F 3 "https://docs-emea.rs-online.com/webdocs/0eb3/0900766b80eb3145.pdf" H 10000 2950 50  0001 C CNN
+F 4 "Reichelt" V 9748 2950 50  0001 C CNN "Supplier"
+F 5 "X7R-G0805 100N" V 9748 2950 50  0001 C CNN "Supplier Part Number"
+F 6 "https://www.reichelt.de/smd-vielschicht-keramikkondensator-100n-10-x7r-g0805-100n-p31879.html?&trstct=pol_1&nbc=1" V 9748 2950 50  0001 C CNN "Supplier Link"
+F 7 "YAGEO" V 9748 2950 50  0001 C CNN "Manufacturer"
+F 8 "CC0805KRX7R9BB104" V 9748 2950 50  0001 C CNN "Manufacturer Part Number"
 	1    10000 2950
 	-1   0    0    1   
 $EndComp
@@ -868,12 +892,12 @@ P 9200 2950
 F 0 "C13" V 8948 2950 50  0000 C CNN
 F 1 "100n" V 9039 2950 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9238 2800 50  0001 C CNN
-F 3 "" H 9200 2950 50  0001 C CNN
-F 4 "RS" V 8948 2950 50  0001 C CNN "Supplier"
-F 5 "170-0041" V 8948 2950 50  0001 C CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/keramik-vielschichtkondensatoren/1700041/" V 8948 2950 50  0001 C CNN "Supplier Link"
-F 7 "" V 8948 2950 50  0001 C CNN "Manufacturer"
-F 8 "" V 8948 2950 50  0001 C CNN "Manufacturer Part Number"
+F 3 "https://docs-emea.rs-online.com/webdocs/0eb3/0900766b80eb3145.pdf" H 9200 2950 50  0001 C CNN
+F 4 "Reichelt" V 8948 2950 50  0001 C CNN "Supplier"
+F 5 "X7R-G0805 100N" V 8948 2950 50  0001 C CNN "Supplier Part Number"
+F 6 "https://www.reichelt.de/smd-vielschicht-keramikkondensator-100n-10-x7r-g0805-100n-p31879.html?&trstct=pol_1&nbc=1" V 8948 2950 50  0001 C CNN "Supplier Link"
+F 7 "YAGEO" V 8948 2950 50  0001 C CNN "Manufacturer"
+F 8 "CC0805KRX7R9BB104" V 8948 2950 50  0001 C CNN "Manufacturer Part Number"
 	1    9200 2950
 	-1   0    0    1   
 $EndComp
@@ -931,11 +955,11 @@ F 0 "X4" H 10430 1142 50  0000 L CNN
 F 1 "Conn_01x10" H 10430 1051 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 10350 1150 50  0001 C CNN
 F 3 "https://de.rs-online.com/web/p/leiterplatten-header/1216784/" H 10350 1150 50  0001 C CNN
-F 4 "RS" H 10350 1150 50  0001 C CNN "Supplier"
-F 5 "121-6784" H 10350 1150 50  0001 C CNN "Supplier Part Number"
-F 6 "https://de.rs-online.com/web/p/leiterplatten-header/1216784/" H 10350 1150 50  0001 C CNN "Supplier Link"
-F 7 "Wuerth" H 10350 1150 50  0001 C CNN "Manufacturer"
-F 8 "61201021621" H 10350 1150 50  0001 C CNN "Manufacturer Part Number"
+F 4 "RS" H 10430 1142 50  0001 L CNN "Supplier"
+F 5 "7718354" H 10430 1142 50  0001 L CNN "Supplier Part Number"
+F 6 "https://www.rsonline-privat.de/Products/ProductDetail/Wurth-WR-BHD-Leiterplatten-Stiftleiste-gerade-10-polig-2-reihig-Raster-2-54mm-Lotanschluss-3A-7718354" H 10430 1142 50  0001 L CNN "Supplier Link"
+F 7 "Wurth Elektronik" H 10430 1142 50  0001 L CNN "Manufacturer"
+F 8 "61201021621" H 10430 1142 50  0001 L CNN "Manufacturer Part Number"
 	1    10350 1150
 	1    0    0    -1  
 $EndComp
