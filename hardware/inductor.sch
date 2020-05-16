@@ -380,27 +380,6 @@ $EndComp
 Wire Wire Line
 	6450 2900 6450 2800
 Connection ~ 6450 2800
-$Comp
-L power:+9V #PWR?
-U 1 1 5CEC8AEA
-P 5500 2750
-AR Path="/56223A3E/5CEC8AEA" Ref="#PWR?"  Part="1" 
-AR Path="/56223A52/54E9BE9F/5CEC8AEA" Ref="#PWR?"  Part="1" 
-AR Path="/56223A60/54E9BE9F/5CEC8AEA" Ref="#PWR?"  Part="1" 
-AR Path="/56223A6E/54E9BE9F/5CEC8AEA" Ref="#PWR?"  Part="1" 
-AR Path="/56223A7C/54E9BE9F/5CEC8AEA" Ref="#PWR?"  Part="1" 
-AR Path="/56223A90/54E9BE9F/5CEC8AEA" Ref="#PWR?"  Part="1" 
-AR Path="/5CD91DFE/5CEC8AEA" Ref="#PWR?"  Part="1" 
-AR Path="/5CE9535C/5CEC8AEA" Ref="#PWR0106"  Part="1" 
-F 0 "#PWR0106" H 5500 2600 60  0001 C CNN
-F 1 "+9V" H 5500 2890 60  0000 C CNN
-F 2 "" H 5500 2750 60  0000 C CNN
-F 3 "" H 5500 2750 60  0000 C CNN
-	1    5500 2750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5500 2750 5500 2800
 Wire Wire Line
 	5750 3250 5750 3200
 Wire Wire Line
@@ -482,4 +461,6 @@ Wire Wire Line
 	4250 3500 4250 3600
 Wire Wire Line
 	4500 3500 4500 3600
+Text HLabel 5500 2800 0    50   Input ~ 0
++9V
 $EndSCHEMATC

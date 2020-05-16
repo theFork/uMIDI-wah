@@ -411,26 +411,6 @@ F 3 "" H 4450 4500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+9V #PWR042
-U 1 1 54E940D4
-P 6350 2950
-AR Path="/56223A3E/54E940D4" Ref="#PWR042"  Part="1" 
-AR Path="/56223A52/54E9BE9F/54E940D4" Ref="#PWR049"  Part="1" 
-AR Path="/56223A60/54E9BE9F/54E940D4" Ref="#PWR056"  Part="1" 
-AR Path="/56223A6E/54E9BE9F/54E940D4" Ref="#PWR063"  Part="1" 
-AR Path="/56223A7C/54E9BE9F/54E940D4" Ref="#PWR070"  Part="1" 
-AR Path="/56223A90/54E9BE9F/54E940D4" Ref="#PWR077"  Part="1" 
-AR Path="/5CD91DFE/54E940D4" Ref="#PWR020"  Part="1" 
-F 0 "#PWR020" H 6350 2800 60  0001 C CNN
-F 1 "+9V" H 6350 3090 60  0000 C CNN
-F 2 "" H 6350 2950 60  0000 C CNN
-F 3 "" H 6350 2950 60  0000 C CNN
-	1    6350 2950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6350 2950 6350 3000
-$Comp
 L uMIDI-wah-rescue:R-uMIDI-switcher-rescue R3
 U 1 1 55F44BB0
 P 4450 4150
@@ -488,14 +468,6 @@ Wire Wire Line
 	7500 4700 7500 4650
 Text Label 4300 3900 0    60   ~ 0
 bypass
-Text Label 3150 3800 0    60   ~ 0
-loop_in
-Text Label 5450 3800 0    60   ~ 0
-loop_out
-Text Label 4200 3600 1    60   ~ 0
-fx_send
-Text Label 4700 3600 1    60   ~ 0
-fx_return
 Text Label 7350 3000 0    60   ~ 0
 relais_p
 Text Label 7900 4000 1    60   ~ 0
@@ -571,4 +543,6 @@ Wire Wire Line
 	7500 4250 7600 4250
 Wire Wire Line
 	6650 4250 7100 4250
+Text HLabel 6350 3000 0    50   Input ~ 0
++9V
 $EndSCHEMATC

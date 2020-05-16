@@ -614,7 +614,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 6100 4450 6100
 Text Label 1000 4750 0    50   ~ 0
-LED_Supply
++9V
 Wire Wire Line
 	1000 4750 1600 4750
 Wire Wire Line
@@ -626,11 +626,11 @@ Wire Wire Line
 Wire Wire Line
 	8050 4800 8600 4800
 Text Label 8200 4800 0    50   ~ 0
-LED_Supply
++9V
 Text Label 8200 5050 0    50   ~ 0
 PWM_Wah
 Text Label 10250 2700 0    50   ~ 0
-LED_Supply
++9V
 $Comp
 L power:GND #PWR06
 U 1 1 5CD38D2A
@@ -689,6 +689,7 @@ F3 "Loop_Out" O R 5650 1150 50
 F4 "FX_Send" O L 4000 1850 50 
 F5 "FX_Return" I R 5650 1850 50 
 F6 "Ctrl" I L 4000 1500 50 
+F7 "+9V" I R 5650 1500 50 
 $EndSheet
 Wire Wire Line
 	4000 1850 2350 1850
@@ -977,6 +978,7 @@ F1 "inductor.sch" 50
 F2 "Hot" I T 3900 4700 50 
 F3 "Cold" I B 3900 5300 50 
 F4 "Ctrl" I T 4050 4700 50 
+F5 "+9V" I B 4050 5300 50 
 $EndSheet
 Wire Wire Line
 	2900 5650 3900 5650
@@ -1006,4 +1008,12 @@ Wire Wire Line
 	10000 1450 10000 950 
 Connection ~ 10000 1450
 Connection ~ 10000 950 
+Text Label 4050 5450 0    50   ~ 0
++9V
+Wire Wire Line
+	4050 5450 4050 5300
+Text Label 5800 1500 0    50   ~ 0
++9V
+Wire Wire Line
+	5800 1500 5650 1500
 $EndSCHEMATC
