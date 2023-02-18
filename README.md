@@ -1,12 +1,10 @@
 # uMIDI-wah
 
-A simple optical guitar wah circuit.
+An optical guitar wah circuit based on the weeping demon circuit
 
 * Uses [uMIDI](https://github.com/theFork/uMIDI) for control, MIDI and USB communication
 * Optical wah control using a PWM
-* True bypass with relay and status LED
-* Requires single 9V voltage supply
-* Single layer PCB (50 x 24 mm)
-* Detailed information on the circuit:
-  * http://diy.smallbearelec.com/Projects/ISeeWah/ISeeWah.html
-  * http://geofex.com/Article_Folders/wahpedl/wahped.htm
+
+
+## Ressources
+Many of this is based on the work of Chet Gnegy: https://ccrma.stanford.edu/~chet/projects/weepingdemon.html
