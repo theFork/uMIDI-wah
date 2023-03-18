@@ -22,6 +22,9 @@
       )
     )
     (symbol "uMIDI_1_1"
+      (text "Power/Midi" (at 0 -17.78 0)
+        (effects (font (size 1.27 1.27)))
+      )
       (pin power_in line (at -17.78 11.43 0) (length 7.62)
         (name "5..9V" (effects (font (size 1.524 1.524))))
         (number "1" (effects (font (size 1.524 1.524))))
@@ -64,6 +67,9 @@
       )
     )
     (symbol "uMIDI_2_1"
+      (text "GPIO1" (at 0 -17.78 0)
+        (effects (font (size 1.27 1.27)))
+      )
       (pin power_out line (at -17.78 11.43 0) (length 7.62)
         (name "VGPIO" (effects (font (size 1.524 1.524))))
         (number "11" (effects (font (size 1.524 1.524))))
@@ -106,6 +112,9 @@
       )
     )
     (symbol "uMIDI_3_1"
+      (text "GPIO2" (at 0 -17.78 0)
+        (effects (font (size 1.27 1.27)))
+      )
       (pin power_out line (at -17.78 11.43 0) (length 7.62)
         (name "VGPIO" (effects (font (size 1.524 1.524))))
         (number "21" (effects (font (size 1.524 1.524))))
@@ -148,6 +157,9 @@
       )
     )
     (symbol "uMIDI_4_1"
+      (text "GPIO3" (at 0 -17.78 0)
+        (effects (font (size 1.27 1.27)))
+      )
       (pin power_out line (at -17.78 11.43 0) (length 7.62)
         (name "VGPIO" (effects (font (size 1.524 1.524))))
         (number "31" (effects (font (size 1.524 1.524))))
