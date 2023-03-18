@@ -1,1 +1,5 @@
 *.zip
+
+# kicad cache and backup files
+*.bak
+fp-info-cache
