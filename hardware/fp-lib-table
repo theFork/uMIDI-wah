@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "uMidi-wah")(type "KiCad")(uri "${KIPRJMOD}/uMidi-wah.pretty")(options "")(descr ""))
+)

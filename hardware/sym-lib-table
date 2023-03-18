@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "umidi-wah")(type "KiCad")(uri "${KIPRJMOD}/umidi-wah.kicad_sym")(options "")(descr ""))
+)
