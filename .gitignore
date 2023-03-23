@@ -3,3 +3,6 @@
 # kicad cache and backup files
 *.bak
 fp-info-cache
+
+# kicad local settings
+*.kicad_prl
