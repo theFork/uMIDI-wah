@@ -2007,9 +2007,6 @@
     (pin "2" (uuid ba4bde56-2542-4d17-b565-12293c00d148))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "C8") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "C8") (unit 1)
         )
@@ -2039,9 +2036,6 @@
     (pin "2" (uuid 5d87f6a1-09ff-403e-92a9-69b7016a3ed8))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "R37") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "R37") (unit 1)
         )
@@ -2071,9 +2065,6 @@
     (pin "2" (uuid 0538b063-b1ca-4044-bc48-255e960fd4f9))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "C7") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "C7") (unit 1)
         )
@@ -2084,7 +2075,7 @@
   (symbol (lib_id "power:+9V") (at 57.785 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 082171e5-472a-43d6-bcff-45796eca1f3a)
-    (property "Reference" "#PWR0129" (at 57.785 85.09 0)
+    (property "Reference" "#PWR05" (at 57.785 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+9V" (at 60.325 76.835 90)
@@ -2099,9 +2090,6 @@
     (pin "1" (uuid 9de3a90b-01fb-4656-8cb6-8356b5b2e4ba))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "#PWR0129") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "#PWR05") (unit 1)
         )
@@ -2112,7 +2100,7 @@
   (symbol (lib_id "power:+9V") (at 71.12 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0855b331-93cf-4f18-837f-e0c42d7dbc78)
-    (property "Reference" "#PWR0118" (at 71.12 167.64 0)
+    (property "Reference" "#PWR017" (at 71.12 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+9V" (at 71.12 158.75 0)
@@ -2127,9 +2115,6 @@
     (pin "1" (uuid 58a21ba7-faf8-4285-8e5f-1df7bee42887))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "#PWR0118") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "#PWR017") (unit 1)
         )
@@ -2159,9 +2144,6 @@
     (pin "2" (uuid 8a170db4-48a3-4e39-b433-3de13257bfcd))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "R3") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "R3") (unit 1)
         )
@@ -2172,7 +2154,7 @@
   (symbol (lib_id "power:GND") (at 242.57 79.375 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0a5262c1-04ec-4379-907a-4addfe4efcec)
-    (property "Reference" "#PWR0109" (at 242.57 85.725 0)
+    (property "Reference" "#PWR015" (at 242.57 85.725 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 242.57 84.455 0)
@@ -2187,9 +2169,6 @@
     (pin "1" (uuid 46014584-8887-4324-ad17-62936e878fca))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "#PWR0109") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "#PWR015") (unit 1)
         )
@@ -2231,9 +2210,6 @@
     (pin "2" (uuid 0e14b64c-f350-46fd-854c-265aeacd660b))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "R26") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "R26") (unit 1)
         )
@@ -2263,9 +2239,6 @@
     (pin "2" (uuid 76d74447-a855-427f-a3eb-37364b933e53))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "C3") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "C3") (unit 1)
         )
@@ -2295,9 +2268,6 @@
     (pin "2" (uuid 37ae60da-3210-4c30-b97d-5c5597267865))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "R16") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "R16") (unit 1)
         )
@@ -2333,9 +2303,6 @@
     (pin "2" (uuid a99930ba-0030-41c8-b41b-f0e9a1ee80be))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "C2") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "C2") (unit 1)
         )
@@ -2346,7 +2313,7 @@
   (symbol (lib_id "Device:R") (at 104.14 95.25 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1bea6f69-f53a-4327-8809-1b1422e57857)
-    (property "Reference" "R12" (at 104.14 88.9 90)
+    (property "Reference" "R11" (at 104.14 88.9 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47k" (at 104.14 91.44 90)
@@ -2365,9 +2332,6 @@
     (pin "2" (uuid 9e40a94f-a663-4e35-a695-2407e208170e))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "R12") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "R11") (unit 1)
         )
@@ -2403,9 +2367,6 @@
     (pin "2" (uuid 63c81acf-29d8-44b7-8dc6-e87babd3491d))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "C12") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "C12") (unit 1)
         )
@@ -2416,7 +2377,7 @@
   (symbol (lib_id "power:GND") (at 127 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2bca32c9-7964-4a1a-abe9-fe62fe7261ba)
-    (property "Reference" "#PWR0125" (at 127 144.78 0)
+    (property "Reference" "#PWR010" (at 127 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 127 143.51 0)
@@ -2431,9 +2392,6 @@
     (pin "1" (uuid 89e5343f-9d4b-4ff0-be0f-00cb526b08c7))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "#PWR0125") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "#PWR010") (unit 1)
         )
@@ -2444,7 +2402,7 @@
   (symbol (lib_id "power:GND") (at 190.5 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2bdb885d-7c64-454b-960e-a6b7d87779a4)
-    (property "Reference" "#PWR0106" (at 190.5 105.41 0)
+    (property "Reference" "#PWR013" (at 190.5 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 190.5 104.14 0)
@@ -2459,9 +2417,6 @@
     (pin "1" (uuid 3d192e7d-3a8d-4576-8da0-985c1667c370))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "#PWR0106") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "#PWR013") (unit 1)
         )
@@ -2472,7 +2427,7 @@
   (symbol (lib_id "power:GND") (at 51.435 120.015 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2c0a1f40-13ed-4a07-9af9-72cac76852a0)
-    (property "Reference" "#PWR0115" (at 51.435 126.365 0)
+    (property "Reference" "#PWR04" (at 51.435 126.365 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 51.435 125.095 0)
@@ -2487,9 +2442,6 @@
     (pin "1" (uuid c75efd7c-165d-4f0b-9c09-8b3ed2f55751))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "#PWR0115") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "#PWR04") (unit 1)
         )
@@ -2500,7 +2452,7 @@
   (symbol (lib_id "power:GND") (at 57.785 104.775 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2ff9afdc-db29-40f6-a400-98e307a7303e)
-    (property "Reference" "#PWR0130" (at 57.785 111.125 0)
+    (property "Reference" "#PWR06" (at 57.785 111.125 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 57.785 109.855 0)
@@ -2515,9 +2467,6 @@
     (pin "1" (uuid c7c2a747-6506-452f-b280-8adad2a92c69))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "#PWR0130") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "#PWR06") (unit 1)
         )
@@ -2557,9 +2506,6 @@
     (pin "3" (uuid 366235d7-f0cf-4deb-8f8d-444004d696ea))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "Q1") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "Q1") (unit 1)
         )
@@ -2570,7 +2516,7 @@
   (symbol (lib_id "power:GND") (at 153.67 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3bc984bc-4564-4be6-bb58-79458c7a201f)
-    (property "Reference" "#PWR0126" (at 153.67 139.7 0)
+    (property "Reference" "#PWR012" (at 153.67 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 153.67 138.43 0)
@@ -2585,9 +2531,6 @@
     (pin "1" (uuid e60e3248-6e3b-49be-9e49-fd111f342f7c))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "#PWR0126") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "#PWR012") (unit 1)
         )
@@ -2632,9 +2575,6 @@
     (pin "8" (uuid 16867995-6ad2-4ceb-b319-2cf5e701b542))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "U4") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "U4") (unit 1)
         )
@@ -2673,9 +2613,6 @@
     (pin "2" (uuid 48d356cf-4398-4ac4-96f4-1cb7ed56a131))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "R22") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "R22") (unit 1)
         )
@@ -2705,9 +2642,6 @@
     (pin "2" (uuid 2d73854a-d45c-49e0-a747-bfb42e74d430))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "C16") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "C16") (unit 1)
         )
@@ -2737,9 +2671,6 @@
     (pin "2" (uuid cfe64f9c-e091-424f-ac28-552b9cae258f))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "R6") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "R6") (unit 1)
         )
@@ -2769,9 +2700,6 @@
     (pin "2" (uuid 694de143-2bfd-4df4-8ed5-a66da614e769))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "C1") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "C1") (unit 1)
         )
@@ -2801,9 +2729,6 @@
     (pin "2" (uuid a0858eb0-a057-4f18-b40e-abcdb8d20dc9))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "R30") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "R30") (unit 1)
         )
@@ -2833,9 +2758,6 @@
     (pin "2" (uuid 3c817364-5b94-4bfa-b1ee-dd91864e247b))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "R34") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "R34") (unit 1)
         )
@@ -2846,7 +2768,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 120.65 66.04 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5773e150-f150-4c97-8024-9f719afed17d)
-    (property "Reference" "RV5" (at 115.57 57.15 90)
+    (property "Reference" "RV1" (at 115.57 57.15 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100k, Anti-Log" (at 120.65 59.69 90)
@@ -2878,9 +2800,6 @@
     (pin "3" (uuid 927b81c4-061e-4cbb-9252-b66bc9e6cfb0))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "RV5") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "RV1") (unit 1)
         )
@@ -2891,7 +2810,7 @@
   (symbol (lib_id "power:GND") (at 219.075 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 598fc78d-cc62-4f80-a6f9-a0b5bdd0891d)
-    (property "Reference" "#PWR0119" (at 219.075 151.13 0)
+    (property "Reference" "#PWR027" (at 219.075 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 219.075 149.86 0)
@@ -2906,9 +2825,6 @@
     (pin "1" (uuid 03866a01-79bc-4d6d-895d-31e4b6650ae0))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "#PWR0119") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "#PWR027") (unit 1)
         )
@@ -2938,9 +2854,6 @@
     (pin "2" (uuid b8a0dd80-def1-4edb-8405-0d2b3df73619))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "C15") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "C15") (unit 1)
         )
@@ -2970,9 +2883,6 @@
     (pin "2" (uuid 910609a5-82d8-43db-b822-c791902af266))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "R7") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "R7") (unit 1)
         )
@@ -2983,7 +2893,7 @@
   (symbol (lib_id "Device:R") (at 140.97 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6274c02e-7679-4372-97ba-679f295b9a8e)
-    (property "Reference" "R21" (at 142.24 71.12 0)
+    (property "Reference" "R20" (at 142.24 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470k" (at 142.24 73.66 0)
@@ -3002,9 +2912,6 @@
     (pin "2" (uuid 573ce10a-9bcc-4db7-b4a4-b646dfe91e42))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "R21") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "R20") (unit 1)
         )
@@ -3034,9 +2941,6 @@
     (pin "2" (uuid 7f7ee4e6-c19a-4e57-a799-2807c6b9d4d6))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "R15") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "R15") (unit 1)
         )
@@ -3066,9 +2970,6 @@
     (pin "2" (uuid 57621e56-49bf-4291-8b2c-41b2118a3b47))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "R10") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "R10") (unit 1)
         )
@@ -3113,9 +3014,6 @@
     (pin "8" (uuid 1c6864f9-7d74-48c3-ae23-21a0c0476fea))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "U5") (unit 2)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "U5") (unit 2)
         )
@@ -3145,9 +3043,6 @@
     (pin "2" (uuid 537d96c2-c7b2-4cab-9e92-b7f77461b825))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "C13") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "C13") (unit 1)
         )
@@ -3158,7 +3053,7 @@
   (symbol (lib_id "power:+9V") (at 32.385 109.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6dc598d7-8f89-48b9-a9d4-8b87569c5909)
-    (property "Reference" "#PWR0113" (at 36.195 109.22 0)
+    (property "Reference" "#PWR03" (at 36.195 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+9V" (at 27.94 106.68 90)
@@ -3173,9 +3068,6 @@
     (pin "1" (uuid a2c5b071-0bb6-40c7-b32c-9115e8fb26ee))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "#PWR0113") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "#PWR03") (unit 1)
         )
@@ -3186,7 +3078,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 154.94 48.26 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6dc7c941-b44d-4e85-85d8-c13e7cc00296)
-    (property "Reference" "RV5" (at 153.67 39.37 90)
+    (property "Reference" "RV3" (at 153.67 39.37 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10k, Lin" (at 156.21 41.91 90)
@@ -3221,9 +3113,6 @@
     (pin "3" (uuid 3e9aa405-88c1-4a93-840f-e74782592597))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "RV5") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "RV3") (unit 1)
         )
@@ -3234,7 +3123,7 @@
   (symbol (lib_id "Device:R") (at 105.41 128.27 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7578a16d-c615-48f9-8c5f-4afb14636993)
-    (property "Reference" "R11" (at 105.41 121.92 90)
+    (property "Reference" "R12" (at 105.41 121.92 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "68" (at 105.41 124.46 90)
@@ -3253,9 +3142,6 @@
     (pin "2" (uuid 5f5a9d75-04ae-404e-9b71-4a67d988af47))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "R11") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "R12") (unit 1)
         )
@@ -3295,9 +3181,6 @@
     (pin "3" (uuid 253eeddd-5b8a-47fb-a012-616229819a40))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "Q2") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "Q2") (unit 1)
         )
@@ -3308,7 +3191,7 @@
   (symbol (lib_id "power:+9V") (at 242.57 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7bff6c8e-4dd6-455e-9566-b1ee318afa52)
-    (property "Reference" "#PWR0111" (at 242.57 59.69 0)
+    (property "Reference" "#PWR014" (at 242.57 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+9V" (at 245.11 51.435 90)
@@ -3323,9 +3206,6 @@
     (pin "1" (uuid 3987b125-8e0d-4b68-a187-a6995fca68d4))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "#PWR0111") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "#PWR014") (unit 1)
         )
@@ -3355,9 +3235,6 @@
     (pin "2" (uuid f3a042ee-87ce-4228-bee8-6818f3e0d060))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "R4") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "R4") (unit 1)
         )
@@ -3387,9 +3264,6 @@
     (pin "2" (uuid 1ecd9f24-28dd-4486-ab80-8f1797064581))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "R23") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "R23") (unit 1)
         )
@@ -3463,7 +3337,7 @@
   (symbol (lib_id "Device:Opamp_Dual") (at 56.515 173.99 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 827f14ec-3db4-4f83-8fda-1de74dd0f006)
-    (property "Reference" "U2" (at 55.245 172.7199 0)
+    (property "Reference" "U5" (at 55.245 172.7199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "NJM4558D" (at 55.245 175.2599 0)
@@ -3497,9 +3371,6 @@
     (pin "8" (uuid 1ecdce95-f93d-4af8-a44b-e58bc97ba474))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "U2") (unit 3)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "U5") (unit 3)
         )
@@ -3529,9 +3400,6 @@
     (pin "2" (uuid 9ffbf96c-93e8-4049-8fde-823aaf96aeb0))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "R2") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "R2") (unit 1)
         )
@@ -3542,7 +3410,7 @@
   (symbol (lib_id "power:GND") (at 111.76 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 884bb21c-e775-4da1-87f7-cb7d7955d984)
-    (property "Reference" "#PWR0128" (at 111.76 144.78 0)
+    (property "Reference" "#PWR08" (at 111.76 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 111.76 143.51 0)
@@ -3557,9 +3425,6 @@
     (pin "1" (uuid 0a255b44-81dd-47cd-b1a4-ee453d12b82f))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "#PWR0128") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "#PWR08") (unit 1)
         )
@@ -3570,7 +3435,7 @@
   (symbol (lib_id "Device:R_Trim") (at 140.97 92.71 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 89fc8cba-f1dd-4733-a4df-4d815170da2e)
-    (property "Reference" "R20" (at 140.97 86.36 90)
+    (property "Reference" "R21" (at 140.97 86.36 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "500k" (at 140.97 88.9 90)
@@ -3601,9 +3466,6 @@
     (pin "2" (uuid 2508a0d3-cfac-42af-b7b0-f3860accdf5e))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "R20") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "R21") (unit 1)
         )
@@ -3614,7 +3476,7 @@
   (symbol (lib_id "power:GND") (at 87.63 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8a1433b4-27c0-42ee-9663-6b2cbedf6458)
-    (property "Reference" "#PWR0112" (at 87.63 77.47 0)
+    (property "Reference" "#PWR07" (at 87.63 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 87.63 76.2 0)
@@ -3629,9 +3491,6 @@
     (pin "1" (uuid 432b7511-e0a8-4b89-aca6-75a07dae7fc4))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "#PWR0112") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "#PWR07") (unit 1)
         )
@@ -3661,9 +3520,6 @@
     (pin "2" (uuid 89e52127-6265-40d7-ac6b-bd36c4cb05b8))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "R13") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "R13") (unit 1)
         )
@@ -3674,7 +3530,7 @@
   (symbol (lib_id "power:GND") (at 269.24 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 90f8ce01-5cdd-4b9b-ad18-8d71853c1cc3)
-    (property "Reference" "#PWR0110" (at 269.24 86.36 0)
+    (property "Reference" "#PWR016" (at 269.24 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 269.24 85.09 0)
@@ -3689,9 +3545,6 @@
     (pin "1" (uuid cf5dd0d3-f5ba-4fb0-a7ca-66606b70668e))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "#PWR0110") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "#PWR016") (unit 1)
         )
@@ -3702,7 +3555,7 @@
   (symbol (lib_id "power:GND") (at 119.38 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9268dfca-7c95-4bfb-82d6-3bafa3112975)
-    (property "Reference" "#PWR0124" (at 119.38 144.78 0)
+    (property "Reference" "#PWR09" (at 119.38 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 119.38 143.51 0)
@@ -3717,9 +3570,6 @@
     (pin "1" (uuid 1f47b274-7e52-4794-b7f9-963d3a906cf1))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "#PWR0124") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "#PWR09") (unit 1)
         )
@@ -3749,9 +3599,6 @@
     (pin "2" (uuid 61a1cb8b-11d6-4ced-b480-d68f5ba32362))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "R1") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "R1") (unit 1)
         )
@@ -3762,7 +3609,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 171.45 92.71 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9953ad2c-2221-4428-aeca-b6c5966c570a)
-    (property "Reference" "RV5" (at 167.64 81.28 90)
+    (property "Reference" "RV4" (at 167.64 81.28 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "50k, Anti-Log" (at 172.72 83.82 90)
@@ -3797,9 +3644,6 @@
     (pin "3" (uuid 0a01081c-3b73-4024-94c0-6de0db5f995f))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "RV5") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "RV4") (unit 1)
         )
@@ -3835,9 +3679,6 @@
     (pin "2" (uuid ac69aa6d-e491-409d-963b-c42aa2639013))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "C17") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "C17") (unit 1)
         )
@@ -3848,7 +3689,7 @@
   (symbol (lib_id "Device:R") (at 133.35 66.04 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a011b9bf-6989-4b77-975d-ba2a36edd645)
-    (property "Reference" "R18" (at 133.35 59.69 90)
+    (property "Reference" "R17" (at 133.35 59.69 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5.1k" (at 133.35 62.23 90)
@@ -3867,9 +3708,6 @@
     (pin "2" (uuid bd2efe51-408d-401d-b0b0-574abb6a55c7))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "R18") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "R17") (unit 1)
         )
@@ -3880,7 +3718,7 @@
   (symbol (lib_id "Device:Opamp_Dual") (at 33.655 173.99 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b1a48569-0d99-441f-8a73-bedd6122a0c6)
-    (property "Reference" "U1" (at 32.385 172.7199 0)
+    (property "Reference" "U4" (at 32.385 172.7199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "NJM4558D" (at 32.385 175.2599 0)
@@ -3914,9 +3752,6 @@
     (pin "8" (uuid 8cb9744b-9d33-4bb0-8150-9db0a88cd4ea))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "U1") (unit 3)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "U4") (unit 3)
         )
@@ -3949,9 +3784,6 @@
     (pin "2" (uuid 90b99ca2-b666-40a4-b5bc-facd3dbca075))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "D2") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "D2") (unit 1)
         )
@@ -3962,7 +3794,7 @@
   (symbol (lib_id "power:GND") (at 71.12 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b6c9e916-a50d-4d1c-a9d0-2d241ca4a577)
-    (property "Reference" "#PWR0117" (at 71.12 190.5 0)
+    (property "Reference" "#PWR018" (at 71.12 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 71.12 189.23 0)
@@ -3977,9 +3809,6 @@
     (pin "1" (uuid 10480620-4519-41bb-8304-1300ceeba564))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "#PWR0117") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "#PWR018") (unit 1)
         )
@@ -4024,9 +3853,6 @@
     (pin "8" (uuid a4623f36-0a8d-4bb9-a216-a6c854b82a4a))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "U4") (unit 2)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "U4") (unit 2)
         )
@@ -4065,9 +3891,6 @@
     (pin "2" (uuid c4016f98-fb4c-4341-9d01-64171839e702))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "C20") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "C20") (unit 1)
         )
@@ -4097,9 +3920,6 @@
     (pin "2" (uuid 134b4c6f-9883-416c-a575-bc1f61840c68))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "R19") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "R19") (unit 1)
         )
@@ -4110,7 +3930,7 @@
   (symbol (lib_id "Device:R") (at 134.62 128.27 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c54b1402-d2a8-404e-ad45-0bbe4050a218)
-    (property "Reference" "R17" (at 134.62 121.92 90)
+    (property "Reference" "R18" (at 134.62 121.92 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "68" (at 134.62 124.46 90)
@@ -4129,9 +3949,6 @@
     (pin "2" (uuid e02e6811-bdde-433d-85fe-583ba0466582))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "R17") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "R18") (unit 1)
         )
@@ -4161,9 +3978,6 @@
     (pin "2" (uuid 8ae21cf4-2536-4727-af05-d4c2404698da))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "C6") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "C6") (unit 1)
         )
@@ -4237,9 +4051,6 @@
     (pin "2" (uuid a4666fe5-7bbc-47d7-853d-44a8e411f299))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "C22") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "C22") (unit 1)
         )
@@ -4269,9 +4080,6 @@
     (pin "2" (uuid 1233a571-cc9e-4a24-a4f5-ee7340d1cdbd))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "R5") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "R5") (unit 1)
         )
@@ -4282,7 +4090,7 @@
   (symbol (lib_id "power:GND") (at 140.97 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d63db1d0-823f-4ab0-9146-6c42b13102da)
-    (property "Reference" "#PWR0127" (at 140.97 83.82 0)
+    (property "Reference" "#PWR011" (at 140.97 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 140.97 82.55 0)
@@ -4297,9 +4105,6 @@
     (pin "1" (uuid 267880f6-faa4-42c5-a830-8a70549ed7a7))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "#PWR0127") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "#PWR011") (unit 1)
         )
@@ -4310,7 +4115,7 @@
   (symbol (lib_id "Device:R_Potentiometer") (at 121.92 110.49 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d812de32-0398-4b27-9327-235527743bd5)
-    (property "Reference" "RV5" (at 113.03 113.03 90)
+    (property "Reference" "RV2" (at 113.03 113.03 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "250k, Log" (at 115.57 115.57 90)
@@ -4342,9 +4147,6 @@
     (pin "3" (uuid 32d9cd8b-82d1-4016-a18d-bef41ac62499))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "RV5") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "RV2") (unit 1)
         )
@@ -4374,9 +4176,6 @@
     (pin "2" (uuid 60e28434-3ba4-4983-8e39-f0afae13987b))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "R24") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "R24") (unit 1)
         )
@@ -4406,9 +4205,6 @@
     (pin "2" (uuid cac51964-c72f-4c03-b129-ed8c8fc99b5f))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "D3") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "D3") (unit 1)
         )
@@ -4438,9 +4234,6 @@
     (pin "2" (uuid 06629515-7390-470c-97b8-1b836a78a13e))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "R36") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "R36") (unit 1)
         )
@@ -4470,9 +4263,6 @@
     (pin "2" (uuid aa236c94-7022-4282-b6dd-e14578483bd7))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "R27") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "R27") (unit 1)
         )
@@ -4517,9 +4307,6 @@
     (pin "8" (uuid ecdea862-dcb7-4c61-8e42-78f02c7b393e))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "U5") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "U5") (unit 1)
         )
@@ -4558,9 +4345,6 @@
     (pin "2" (uuid dd8b9ab7-5dfa-49d1-be4e-caca11a95e4d))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "C14") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "C14") (unit 1)
         )
@@ -4590,9 +4374,6 @@
     (pin "2" (uuid d805b14d-241a-4862-8df6-1aadf7726646))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "R33") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "R33") (unit 1)
         )
@@ -4622,9 +4403,6 @@
     (pin "2" (uuid 88a4feee-5af3-40b7-a7a5-647b127551a3))
     (instances
       (project "umidi-wah"
-        (path "/8f66db7e-cf06-4b3a-905e-a75646e85499"
-          (reference "R14") (unit 1)
-        )
         (path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
           (reference "R14") (unit 1)
         )
