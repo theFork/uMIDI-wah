@@ -6,7 +6,7 @@ An optical guitar wah circuit based on the weeping demon circuit
 * Optical wah control using a PWM
 
 ## EDA
-* Requires KiCad 7.x.x
+* Requires KiCad 8.x.x
 
 ## Ressources
 Many of this is based on the work of Chet Gnegy: https://ccrma.stanford.edu/~chet/projects/weepingdemon.html
