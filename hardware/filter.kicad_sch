@@ -4669,17 +4669,6 @@
 		)
 		(uuid "2d108036-f57f-40ed-8c89-300f1306b0ca")
 	)
-	(label "filter_out"
-		(at 195.58 63.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "375a64fd-93e1-4d1d-a82d-902cfcf4998f")
-	)
 	(label "rv4_1"
 		(at 166.37 87.63 0)
 		(fields_autoplaced yes)
@@ -4790,7 +4779,18 @@
 		)
 		(uuid "c09f0148-53b6-4fad-b2b8-5128b9ac511c")
 	)
-	(label "filter_out"
+	(label "rv3_3"
+		(at 162.56 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d0144f4d-c92a-426f-afaa-790358880eb8")
+	)
+	(label "rv3_3"
 		(at 228.6 133.985 0)
 		(fields_autoplaced yes)
 		(effects
