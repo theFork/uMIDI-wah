@@ -2966,6 +2966,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 78.74) (xy 140.97 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eda2dca-427c-44e8-b070-65712e49afa4")
+	)
+	(wire
+		(pts
 			(xy 147.32 128.27) (xy 153.67 128.27)
 		)
 		(stroke
@@ -3436,7 +3446,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 76.2) (xy 140.97 77.47)
+			(xy 140.97 76.2) (xy 140.97 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4880,6 +4890,28 @@
 		(uuid "6ca905bc-3734-4649-bc8c-360c443e0149")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 78.74 115.2705 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "vmid"
+		(shape input)
+		(at 138.43 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "843ba92e-776e-4fe6-96cc-a448496b96ac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.0301 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10663,72 +10695,6 @@
 			(project "umidi-wah"
 				(path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 140.97 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d63db1d0-823f-4ab0-9146-6c42b13102da")
-		(property "Reference" "#PWR011"
-			(at 140.97 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 140.97 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 140.97 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "267880f6-faa4-42c5-a830-8a70549ed7a7")
-		)
-		(instances
-			(project "umidi-wah"
-				(path "/8f66db7e-cf06-4b3a-905e-a75646e85499/159ecef9-3b03-4128-8fe9-708b096478c0"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
